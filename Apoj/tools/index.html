@@ -309,63 +309,182 @@
       color: var(--gold-primary);
     }
 
-    /* Media Player Bar */
-    .media-player-box {
-      background: #0C101A;
-      border: 1px solid #28334E;
-      border-radius: 10px;
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .audio-status-badge {
+    /* Waveform & Slicer Wrapper */
+    .waveform-panel-header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      font-size: 12px;
-      color: var(--text-muted);
+      margin-bottom: 8px;
     }
 
-    .timeline-container {
+    .waveform-editor-wrapper {
       position: relative;
-      height: 38px;
-      background: #141B2D;
+      width: 100%;
+      height: 170px;
+      background: #060911;
       border-radius: 8px;
-      overflow: hidden;
       border: 1px solid var(--border-color);
-      display: flex;
-    }
-
-    .timeline-seg-block {
-      height: 100%;
-      border-right: 2px solid #0A0D14;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 11px;
-      font-weight: 800;
-      color: #FFFFFF;
-      transition: all 0.2s;
-      cursor: pointer;
+      overflow: hidden;
       user-select: none;
     }
-    .timeline-seg-block:hover {
+
+    #waveformCanvas {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    /* Stripe Overlay */
+    .stripe-layer {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      display: flex;
+    }
+
+    .segment-stripe {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      pointer-events: auto;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 6px 8px;
+      transition: background 0.15s ease;
+      border-top: 3px solid;
+    }
+    .segment-stripe:hover {
       filter: brightness(1.25);
+    }
+    .segment-stripe.active-stripe {
+      box-shadow: inset 0 0 20px rgba(0, 229, 255, 0.4);
+    }
+
+    .stripe-badge {
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(4px);
+      align-self: flex-start;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .stripe-subtext {
+      font-size: 10px;
+      color: rgba(255, 255, 255, 0.85);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+      margin-bottom: 4px;
+    }
+
+    /* Draggable Vertical Divider Handles */
+    .divider-layer {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .divider-handle {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 28px;
+      transform: translateX(-50%);
+      pointer-events: auto;
+      cursor: ew-resize;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 10;
+      user-select: none;
+    }
+
+    .divider-pill {
+      background: #FFD54F;
+      color: #0A0D14;
+      font-size: 10px;
+      font-weight: 800;
+      padding: 2px 6px;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+      white-space: nowrap;
+      margin-top: 2px;
+      transition: transform 0.1s;
+    }
+    .divider-handle:hover .divider-pill,
+    .divider-handle.dragging .divider-pill {
+      transform: scale(1.15);
+      background: #00E5FF;
+      color: #000;
+    }
+
+    .divider-line {
+      width: 3px;
+      flex: 1;
+      background: #FFD54F;
+      box-shadow: 0 0 8px rgba(255, 213, 79, 0.6);
+      opacity: 0.85;
+      transition: background 0.1s;
+    }
+    .divider-handle:hover .divider-line,
+    .divider-handle.dragging .divider-line {
+      background: #00E5FF;
+      box-shadow: 0 0 12px #00E5FF;
+      width: 4px;
+      opacity: 1;
+    }
+
+    /* Live Animated Playhead Line */
+    .playhead-line {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #FFFFFF;
+      box-shadow: 0 0 8px #FFFFFF, 0 0 16px #00E5FF;
+      pointer-events: none;
+      z-index: 20;
+      display: none;
+      transform: translateX(-50%);
+    }
+
+    .btn-purple {
+      background: linear-gradient(135deg, #7C4DFF, #651FFF);
+      color: white;
+    }
+    .btn-purple:hover {
+      box-shadow: 0 0 16px rgba(124, 77, 255, 0.4);
     }
 
     /* Video player box */
     .video-preview-wrapper {
-      max-width: 440px;
-      border-radius: 10px;
+      width: 380px;
+      border-radius: 8px;
       overflow: hidden;
       border: 1px solid var(--border-color);
       background: #000;
+      flex-shrink: 0;
     }
     .video-preview-wrapper video {
       width: 100%;
-      height: 240px;
+      height: 214px;
       display: block;
       object-fit: cover;
     }
@@ -374,12 +493,12 @@
     .playing-indicator {
       display: none;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
       background: linear-gradient(90deg, rgba(0, 229, 255, 0.2), rgba(0, 230, 118, 0.2));
       border: 1px solid var(--neon-cyan);
-      padding: 6px 14px;
-      border-radius: 8px;
-      font-size: 12px;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 11px;
       font-weight: 700;
       color: var(--neon-cyan);
     }
@@ -391,12 +510,26 @@
       right: 24px;
       background: #00E676;
       color: #0A0D14;
-      padding: 12px 24px;
+      padding: 10px 20px;
       border-radius: 8px;
       font-weight: 800;
+      font-size: 13px;
       box-shadow: 0 8px 24px rgba(0,0,0,0.5);
       display: none;
       z-index: 1000;
+    }
+
+    .spinner {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-radius: 50%;
+      border-top-color: #fff;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
     }
   </style>
 </head>
@@ -406,15 +539,15 @@
     <div class="brand">
       <span class="brand-logo">📼</span>
       <div>
-        <div class="brand-title">АПОЖ — РЕДАКТОР ПЕСЕН И ВИКТОРИНЫ</div>
-        <div class="brand-subtitle">Реальное воспроизведение WAV/MP4, нарезка сегментов и ноты AutoTune</div>
+        <div class="brand-title">АПОЖ — РЕДАКТОР ПЕСЕН, КЛИПОВ И ВИЗУАЛЬНОЙ НАРЕЗКИ</div>
+        <div class="brand-subtitle">Визуальная нарезка полосками на вейвформе, загрузка HD-клипов и ноты AutoTune</div>
       </div>
     </div>
     <div class="header-actions">
       <div class="stats-badge">Всего песен: <span id="statsCount">0</span></div>
       <div class="stats-badge">Одобрено: <span id="statsApproved" style="color: #00E676;">0</span></div>
       <button class="btn btn-secondary" onclick="syncAll()">🔄 Синхронизировать</button>
-      <button class="btn btn-primary" onclick="saveAll()">💾 Сохранить в базу</button>
+      <button class="btn btn-primary" onclick="saveAll()">💾 Сохранить базу</button>
     </div>
   </header>
 
@@ -422,9 +555,11 @@
     <!-- Sidebar -->
     <div class="sidebar">
       <div class="search-box">
-        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Поиск по названию или артисту..." oninput="filterSongs()">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Поиск по названию или исполнителю..." oninput="filterSongs()">
         <select id="categoryFilter" class="filter-select" onchange="filterSongs()">
           <option value="all">Все категории</option>
+          <option value="approved_only">✅ Только одобренные</option>
+          <option value="draft_only">⚠️ Только черновики (не одобрены)</option>
           <option value="soviet">🎬 Советская классика</option>
           <option value="rock">🎸 Русский рок</option>
           <option value="pop">🎤 Поп & Караоке</option>
@@ -439,48 +574,105 @@
 
     <!-- Main Content -->
     <div class="editor-content" id="editorContent">
-      <!-- Media Player and Controls Panel -->
+
+      <!-- YouTube Downloader Box -->
+      <div class="panel" style="border: 1px solid #7C4DFF;">
+        <div class="panel-title" style="color: #B388FF;">
+          <span>⬇️ Загрузчик клипа и аудио с YouTube (yt-dlp + FFmpeg HD 720p)</span>
+          <span style="font-size: 11px; font-weight: normal; color: var(--text-muted);">Автоматически скачивает MP4 клип и WAV аудио 44.1 кГц</span>
+        </div>
+        <div class="grid-4" style="grid-template-columns: 2fr 110px 110px auto; align-items: flex-end; gap: 10px;">
+          <div class="form-group">
+            <label class="form-label">Ссылка YouTube или Поисковый запрос</label>
+            <input type="text" id="ytSearchInput" class="form-control" placeholder="URL видео или название песни на YouTube...">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Старт в видео (с)</label>
+            <input type="number" step="0.5" id="ytStartTime" class="form-control" value="0.0">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Длина (с)</label>
+            <input type="number" step="0.5" id="ytDuration" class="form-control" value="15.0">
+          </div>
+          <button class="btn btn-purple" id="ytDownloadBtn" onclick="downloadYouTubeClip()" style="height: 34px;">
+            ⬇️ Скачать клип и WAV
+          </button>
+        </div>
+        <div id="ytDownloadStatus" style="font-size: 11px; color: var(--neon-cyan); margin-top: 8px; display: none;"></div>
+      </div>
+
+      <!-- Waveform Visual Slicer Panel -->
       <div class="panel">
-        <div class="panel-title">🎧 Медиапроигрыватель и Контроль трека</div>
-        
-        <div class="media-player-box">
-          <div class="audio-status-badge">
-            <span id="audioStatusText">⏳ Загрузка аудио...</span>
-            <div id="playingIndicator" class="playing-indicator">▶ Воспроизведение</div>
+        <div class="waveform-panel-header">
+          <div class="panel-title" style="margin-bottom: 0;">
+            ✂️ Интерактивная нарезка на вейвформе (Полосы фрагментов)
           </div>
-
-          <!-- Interactive Segments Timeline -->
-          <div class="timeline-container" id="timelineBar"></div>
-
-          <!-- Player Controls -->
-          <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
-            <button class="btn btn-primary" onclick="playFullTrack(false)">▶ Слушать весь трек (Прямо)</button>
-            <button class="btn btn-secondary" style="border-color: #FF1744; color: #FF80AB;" onclick="playFullTrack(true)">🔄 Слушать трек НАОБОРОТ (АПОЖ)</button>
-            <button class="btn btn-secondary" style="border-color: #FFD54F; color: #FFD54F;" onclick="playMelodyNotes()">🎹 Мелодия нот (Piano AutoTune)</button>
-            <button class="btn btn-danger" onclick="stopAudio()">⏹ Стоп</button>
-          </div>
+          <div id="playingIndicator" class="playing-indicator">▶ Воспроизведение</div>
         </div>
 
-        <!-- Video Preview Section -->
-        <div style="margin-top: 14px; display: flex; gap: 20px; align-items: flex-start;">
+        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
+          <span>💡 <b>Управление:</b> Тяните желтые полоски <b>||</b> влево/вправо для изменения границ. Двойной клик на вейвформе — добавить разрез. Клик на полосу — слушать часть.</span>
+          <span id="audioStatusText" style="color: var(--neon-cyan); font-weight: 700;">⏳ Загрузка аудио...</span>
+        </div>
+
+        <!-- Waveform Wrapper with Canvas, Stripes, Dividers & Playhead -->
+        <div class="waveform-editor-wrapper" id="waveformWrapper">
+          <canvas id="waveformCanvas" width="1200" height="170"></canvas>
+          <div id="stripeOverlay" class="stripe-layer"></div>
+          <div id="dividerOverlay" class="divider-layer"></div>
+          <div id="playheadLine" class="playhead-line"></div>
+        </div>
+
+        <!-- Controls Toolbar -->
+        <div style="margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between;">
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; align-items: center;">
+            <button class="btn btn-primary" onclick="playFullTrack(false)">▶ Слушать трек</button>
+            <button class="btn btn-secondary" style="border-color: #FF1744; color: #FF80AB;" onclick="playFullTrack(true)">🔄 Трек НАОБОРОТ (АПОЖ)</button>
+            <button class="btn btn-secondary" style="border-color: #FFD54F; color: #FFD54F;" onclick="playMelodyNotes()">🎹 Ноты мелодии</button>
+            <button class="btn btn-danger" onclick="stopAudio()">⏹ Стоп</button>
+          </div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; align-items: center;">
+            <button class="btn btn-purple" onclick="smartVADAutoSlice(4)">🧠 Умный VAD (4 части)</button>
+            <button class="btn btn-secondary" onclick="autoSlice(3)">3 части</button>
+            <button class="btn btn-secondary" onclick="autoSlice(4)">4 части</button>
+            <button class="btn btn-secondary" onclick="autoSlice(5)">5 частей</button>
+            <button class="btn btn-secondary" onclick="autoSlice(6)">6 частей</button>
+            <button class="btn btn-secondary" style="border-color: var(--neon-cyan); color: var(--neon-cyan);" onclick="addSegment()">+ Добавить разрез</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segment Details Table List -->
+      <div class="panel">
+        <div class="panel-title">
+          <span>📋 Таблица фрагментов (Слова & Тонкая подстройка)</span>
+        </div>
+        <div class="segment-list" id="segmentList"></div>
+      </div>
+
+      <!-- Video Preview Player & Info -->
+      <div class="panel">
+        <div class="panel-title">🎬 Финальный видеоклип (Предпросмотр MP4 для Android TV)</div>
+        <div style="display: flex; gap: 18px; align-items: flex-start;">
           <div class="video-preview-wrapper">
             <video id="videoClipPlayer" controls preload="metadata">
               Ваш браузер не поддерживает HTML5 видео.
             </video>
           </div>
           <div style="flex: 1; display: flex; flex-direction: column; gap: 8px;">
-            <div style="font-size: 13px; font-weight: 700; color: var(--gold-primary);">🎬 Финальный видеоклип</div>
+            <div style="font-size: 13px; font-weight: 700; color: var(--gold-primary);">Видеоролик правильного ответа</div>
             <div style="font-size: 12px; color: var(--text-muted); line-height: 1.5;">
-              Клип проигрывается на Android TV после отгадывания трека. В плеере слева доступен предпросмотр реального MP4 видеоролика.
+              Этот видеоклип показывается игрокам на экране ТВ в финале раунда после того, как песня была угадана (или время вышло).
             </div>
             <div id="videoMetaText" style="font-size: 11px; color: var(--neon-cyan); margin-top: 4px;"></div>
           </div>
         </div>
       </div>
 
+      <!-- Song Metadata Form -->
       <div class="panel">
-        <div class="panel-title">📝 Основная информация о треке</div>
-        <div class="grid-2" style="margin-bottom: 12px;">
+        <div class="panel-title">📝 Основные данные песни</div>
+        <div class="grid-2" style="margin-bottom: 10px;">
           <div class="form-group">
             <label class="form-label">Название песни</label>
             <input type="text" id="editTitle" class="form-control" oninput="updateCurrentSong()">
@@ -490,7 +682,7 @@
             <input type="text" id="editArtist" class="form-control" oninput="updateCurrentSong()">
           </div>
         </div>
-        <div class="grid-4" style="margin-bottom: 12px;">
+        <div class="grid-4" style="margin-bottom: 10px;">
           <div class="form-group">
             <label class="form-label">ID (уникальный)</label>
             <input type="text" id="editId" class="form-control" oninput="updateCurrentSong()">
@@ -521,44 +713,29 @@
         </div>
         <div class="grid-2">
           <div class="form-group">
-            <label class="form-label">URL Аудиофайла (MP3 / WAV)</label>
+            <label class="form-label">URL Аудиофайла (WAV / MP3)</label>
             <input type="text" id="editAudioUrl" class="form-control" oninput="updateCurrentSong()">
           </div>
           <div class="form-group">
-            <label class="form-label">URL Видеоклипа (MP4 / YouTube ID)</label>
+            <label class="form-label">URL Видеоклипа (MP4)</label>
             <input type="text" id="editClipUrl" class="form-control" oninput="updateCurrentSong()">
           </div>
         </div>
         <div style="margin-top: 14px; display: flex; align-items: center; justify-content: space-between;">
-          <label style="display: flex; align-items: center; gap: 8px; font-weight: 700; cursor: pointer;">
-            <input type="checkbox" id="editIsApproved" onchange="updateCurrentSong()" style="width: 18px; height: 18px; accent-color: #00E676;">
-            ✅ Песня проверена и одобрена (Approved)
+          <label style="display: flex; align-items: center; gap: 8px; font-weight: 700; cursor: pointer; color: #00E676;">
+            <input type="checkbox" id="editIsApproved" onchange="updateCurrentSong()" style="width: 18px; height: 18px; accent-color: #00E676; cursor: pointer;">
+            ✅ Песня проверена и одобрена для игры
           </label>
           <button class="btn btn-danger" onclick="deleteCurrentSong()">🗑 Удалить песню</button>
         </div>
       </div>
 
-      <!-- Segment Slicer -->
-      <div class="panel">
-        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;">
-          <div class="panel-title" style="margin-bottom: 0;">✂️ Нарезка на части для игры (3–6 сегментов)</div>
-          <div style="display: flex; gap: 8px;">
-            <button class="btn btn-secondary" onclick="autoSlice(3)">3 части</button>
-            <button class="btn btn-secondary" onclick="autoSlice(4)">4 части</button>
-            <button class="btn btn-secondary" onclick="autoSlice(5)">5 частей</button>
-            <button class="btn btn-secondary" onclick="autoSlice(6)">6 частей</button>
-            <button class="btn btn-primary" onclick="addSegment()">+ Добавить часть</button>
-          </div>
-        </div>
-
-        <div class="segment-list" id="segmentList"></div>
-      </div>
-
       <!-- Quiz Choices -->
       <div class="panel">
         <div class="panel-title">🎯 Варианты ответов для викторины (1 правильный)</div>
-        <div id="optionsList" style="display: flex; flex-direction: column; gap: 10px;"></div>
+        <div id="optionsList" style="display: flex; flex-direction: column; gap: 8px;"></div>
       </div>
+
     </div>
   </div>
 
@@ -572,10 +749,20 @@
     let currentAudioSource = null;
     let isPlaying = false;
     let activeNotesTimeouts = [];
+    let playheadAnimId = null;
+    let playheadStartAudioTime = 0;
+    let playheadDuration = 0;
+    let playheadStartSec = 0;
+    let playheadEndSec = 0;
+    let playheadReversed = false;
+
+    // Dragging state for waveform divider lines
+    let isDraggingDivider = false;
+    let draggedDividerIdx = -1;
     const audioCache = new Map();
 
     const SEGMENT_COLORS = [
-      '#00E5FF', '#FF1744', '#FFD54F', '#00E676', '#7C4DFF', '#FF9100'
+      '#00E5FF', '#FF1744', '#FFD54F', '#00E676', '#9C27B0', '#FF9100'
     ];
 
     async function loadSongs() {
@@ -603,7 +790,10 @@
         if (song.isApproved) approvedCount++;
 
         const matchesSearch = (song.title || '').toLowerCase().includes(search) || (song.artist || '').toLowerCase().includes(search);
-        const matchesCat = cat === 'all' || song.category === cat;
+        let matchesCat = true;
+        if (cat === 'approved_only') matchesCat = !!song.isApproved;
+        else if (cat === 'draft_only') matchesCat = !song.isApproved;
+        else if (cat !== 'all') matchesCat = (song.category === cat);
 
         if (!matchesSearch || !matchesCat) return;
 
@@ -624,7 +814,9 @@
       });
 
       document.getElementById('statsCount').textContent = songs.length;
-      document.getElementById('statsApproved').textContent = approvedCount;
+      const appEl = document.getElementById('statsApproved');
+      appEl.textContent = approvedCount;
+      appEl.style.color = approvedCount > 0 ? '#00E676' : '#FFB300';
     }
 
     async function selectSong(index) {
@@ -643,6 +835,12 @@
       document.getElementById('editClipUrl').value = song.clipUrl || '';
       document.getElementById('editIsApproved').checked = !!song.isApproved;
 
+      // Update YouTube downloader preset
+      const ytInput = document.getElementById('ytSearchInput');
+      if (ytInput) {
+        ytInput.value = `${song.title} ${song.artist}`.trim();
+      }
+
       // Update Video Clip
       const videoEl = document.getElementById('videoClipPlayer');
       const videoMetaEl = document.getElementById('videoMetaText');
@@ -653,11 +851,9 @@
       }
 
       renderSegments();
-      renderTimeline();
       renderOptions();
       renderSongList();
 
-      // Load Real Song Audio
       await loadSongAudio(song);
     }
 
@@ -668,13 +864,14 @@
       if (audioCache.has(song.id)) {
         currentAudioBuffer = audioCache.get(song.id);
         if (statusEl) {
-          statusEl.innerHTML = `🟢 Аудио готово: <b>${song.id}.wav</b> (${currentAudioBuffer.duration.toFixed(1)} сек, ${(currentAudioBuffer.sampleRate / 1000).toFixed(1)} кГц)`;
+          statusEl.innerHTML = `🟢 <b>${song.id}.wav</b> (${currentAudioBuffer.duration.toFixed(1)}с)`;
         }
-        renderTimeline();
+        drawWaveform();
+        renderWaveformOverlays();
         return currentAudioBuffer;
       }
 
-      if (statusEl) statusEl.innerHTML = `⏳ Загрузка реального аудио <b>${song.id}.wav</b>...`;
+      if (statusEl) statusEl.innerHTML = `⏳ Загрузка <b>${song.id}.wav</b>...`;
 
       const candidateUrls = [
         `/audio/${song.id}.wav`,
@@ -696,9 +893,10 @@
           if (songs[currentSongIndex] && songs[currentSongIndex].id === song.id) {
             currentAudioBuffer = decoded;
             if (statusEl) {
-              statusEl.innerHTML = `🟢 Аудио готово: <b>${song.id}.wav</b> (${decoded.duration.toFixed(1)} сек, ${(decoded.sampleRate / 1000).toFixed(1)} кГц)`;
+              statusEl.innerHTML = `🟢 <b>${song.id}.wav</b> (${decoded.duration.toFixed(1)}с, ${(decoded.sampleRate / 1000).toFixed(1)} кГц)`;
             }
-            renderTimeline();
+            drawWaveform();
+            renderWaveformOverlays();
           }
           return decoded;
         } catch (e) {
@@ -707,37 +905,299 @@
       }
 
       if (statusEl) {
-        statusEl.innerHTML = `⚠️ Аудиофайл не найден на сервере (/audio/${song.id}.wav)`;
+        statusEl.innerHTML = `⚠️ Аудио /audio/${song.id}.wav не найдено (скачайте через блок выше)`;
       }
       currentAudioBuffer = null;
+      drawWaveform();
+      renderWaveformOverlays();
       return null;
     }
 
-    function renderTimeline() {
-      const container = document.getElementById('timelineBar');
+    function getTotalDuration() {
       const song = songs[currentSongIndex];
-      if (!container || !song || !song.segments) return;
+      if (currentAudioBuffer) return currentAudioBuffer.duration;
+      if (song && song.durationSec) return song.durationSec;
+      if (song && song.segments && song.segments.length > 0) {
+        return song.segments[song.segments.length - 1].endSec || 15.0;
+      }
+      return 15.0;
+    }
 
-      container.innerHTML = '';
-      const totalDur = song.durationSec || (currentAudioBuffer ? currentAudioBuffer.duration : 15.0);
+    /* WAVEFORM DRAWING */
+    function drawWaveform() {
+      const canvas = document.getElementById('waveformCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      const w = canvas.width;
+      const h = canvas.height;
+      ctx.clearRect(0, 0, w, h);
 
-      song.segments.forEach((seg, idx) => {
-        const segDur = Math.max(0.1, (seg.endSec || 0) - (seg.startSec || 0));
-        const pct = (segDur / totalDur) * 100;
-        const color = SEGMENT_COLORS[idx % SEGMENT_COLORS.length];
+      const totalDur = getTotalDuration();
 
-        const block = document.createElement('div');
-        block.className = 'timeline-seg-block';
-        block.style.width = `${pct}%`;
-        block.style.background = color + '44';
-        block.style.borderTop = `3px solid ${color}`;
-        block.title = `Часть ${idx + 1}: ${seg.startSec}s - ${seg.endSec}s (${seg.lyricsSnippet || ''})`;
-        block.innerHTML = `<span>Ч${idx + 1} (${segDur.toFixed(1)}с)</span>`;
-        block.onclick = () => playSegmentPreview(seg.startSec, seg.endSec, false, idx);
-        container.appendChild(block);
+      ctx.fillStyle = '#070B14';
+      ctx.fillRect(0, 0, w, h);
+
+      ctx.strokeStyle = '#182238';
+      ctx.lineWidth = 1;
+      for (let sec = 0; sec <= totalDur; sec += 1) {
+        const x = (sec / totalDur) * w;
+        ctx.beginPath();
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, h);
+        ctx.stroke();
+
+        if (sec % 2 === 0 || totalDur <= 10) {
+          ctx.fillStyle = '#65789A';
+          ctx.font = '14px Montserrat, sans-serif';
+          ctx.fillText(`${sec}s`, x + 4, 18);
+        }
+      }
+
+      if (currentAudioBuffer) {
+        const data = currentAudioBuffer.getChannelData(0);
+        const step = Math.ceil(data.length / w);
+        const amp = (h / 2.3);
+        const midY = h / 2;
+
+        const grad = ctx.createLinearGradient(0, 0, 0, h);
+        grad.addColorStop(0, '#00E5FF');
+        grad.addColorStop(0.5, '#00B0FF');
+        grad.addColorStop(1, '#00E5FF');
+        ctx.fillStyle = grad;
+
+        for (let i = 0; i < w; i++) {
+          let min = 1.0;
+          let max = -1.0;
+          for (let j = 0; j < step; j++) {
+            const datum = data[(i * step) + j];
+            if (datum < min) min = datum;
+            if (datum > max) max = datum;
+          }
+          const y1 = midY + min * amp;
+          const y2 = Math.max(y1 + 1.5, midY + max * amp);
+          ctx.fillRect(i, y1, 1.2, y2 - y1);
+        }
+      }
+    }
+
+    /* WAVEFORM INTERACTIVE STRIPES & DRAGGABLE DIVIDERS */
+    function renderWaveformOverlays() {
+      const stripeOverlay = document.getElementById('stripeOverlay');
+      const dividerOverlay = document.getElementById('dividerOverlay');
+      const song = songs[currentSongIndex];
+      if (!stripeOverlay || !dividerOverlay || !song || !song.segments || song.segments.length === 0) return;
+
+      stripeOverlay.innerHTML = '';
+      dividerOverlay.innerHTML = '';
+
+      const totalDur = getTotalDuration();
+
+      // Render colored translucent segment bands
+      song.segments.forEach((seg, sIdx) => {
+        const x1Pct = (seg.startSec / totalDur) * 100;
+        const x2Pct = (seg.endSec / totalDur) * 100;
+        const widthPct = Math.max(0.5, x2Pct - x1Pct);
+        const color = SEGMENT_COLORS[sIdx % SEGMENT_COLORS.length];
+        const segDur = Math.max(0, seg.endSec - seg.startSec);
+
+        const stripeEl = document.createElement('div');
+        stripeEl.className = 'segment-stripe';
+        stripeEl.id = `stripe-seg-${sIdx}`;
+        stripeEl.style.left = `${x1Pct}%`;
+        stripeEl.style.width = `${widthPct}%`;
+        stripeEl.style.background = `${color}28`;
+        stripeEl.style.borderColor = color;
+        stripeEl.title = `Часть ${sIdx + 1}: ${seg.startSec.toFixed(2)}с - ${seg.endSec.toFixed(2)}с. Клик — воспроизвести`;
+
+        stripeEl.innerHTML = `
+          <div class="stripe-badge" style="color: ${color}; border: 1px solid ${color};">
+            <span>Ч${sIdx + 1}</span>
+            <span style="color: #fff; font-size: 10px;">(${segDur.toFixed(1)}с)</span>
+          </div>
+          <div class="stripe-subtext">${seg.lyricsSnippet || ''}</div>
+        `;
+
+        stripeEl.onclick = (e) => {
+          if (isDraggingDivider) return;
+          playSegmentPreview(seg.startSec, seg.endSec, false, sIdx);
+        };
+
+        stripeOverlay.appendChild(stripeEl);
+      });
+
+      // Render Draggable Divider Handles
+      const cutTimes = [];
+      cutTimes.push({ time: song.segments[0].startSec, type: 'start', idx: 0 });
+      for (let i = 1; i < song.segments.length; i++) {
+        cutTimes.push({ time: song.segments[i].startSec, type: 'inner', idx: i });
+      }
+      cutTimes.push({ time: song.segments[song.segments.length - 1].endSec, type: 'end', idx: song.segments.length });
+
+      cutTimes.forEach(cut => {
+        const xPct = (cut.time / totalDur) * 100;
+        const handle = document.createElement('div');
+        handle.className = 'divider-handle';
+        handle.style.left = `${xPct}%`;
+        handle.dataset.idx = cut.idx;
+        handle.dataset.type = cut.type;
+
+        let label = '||';
+        if (cut.type === 'start') label = '[▶';
+        else if (cut.type === 'end') label = '◀]';
+
+        handle.innerHTML = `
+          <div class="divider-pill">${label} ${cut.time.toFixed(2)}s</div>
+          <div class="divider-line"></div>
+        `;
+
+        handle.oncontextmenu = (e) => {
+          e.preventDefault();
+          if (cut.type === 'inner') {
+            removeCutPoint(cut.idx);
+          }
+        };
+
+        handle.onmousedown = (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          startDraggingDivider(cut.idx, cut.type, e);
+        };
+
+        dividerOverlay.appendChild(handle);
       });
     }
 
+    function startDraggingDivider(dividerIdx, dividerType, e) {
+      isDraggingDivider = true;
+      draggedDividerIdx = dividerIdx;
+
+      const wrapper = document.getElementById('waveformWrapper');
+      const rect = wrapper.getBoundingClientRect();
+      const song = songs[currentSongIndex];
+      const totalDur = getTotalDuration();
+
+      const onMouseMove = (moveEvt) => {
+        if (!isDraggingDivider) return;
+        const mouseX = moveEvt.clientX - rect.left;
+        let newSec = (mouseX / rect.width) * totalDur;
+        newSec = Math.max(0, Math.min(totalDur, newSec));
+        newSec = +newSec.toFixed(2);
+
+        const segs = song.segments;
+        if (dividerType === 'start') {
+          const maxSec = (segs[0].endSec || 3.0) - 0.3;
+          newSec = Math.min(maxSec, newSec);
+          segs[0].startSec = newSec;
+        } else if (dividerType === 'end') {
+          const minSec = (segs[segs.length - 1].startSec || 0) + 0.3;
+          newSec = Math.max(minSec, newSec);
+          segs[segs.length - 1].endSec = newSec;
+        } else {
+          const minSec = segs[dividerIdx - 1].startSec + 0.3;
+          const maxSec = segs[dividerIdx].endSec - 0.3;
+          newSec = Math.max(minSec, Math.min(maxSec, newSec));
+          segs[dividerIdx - 1].endSec = newSec;
+          segs[dividerIdx].startSec = newSec;
+        }
+
+        renderWaveformOverlays();
+        renderSegmentsQuick();
+      };
+
+      const onMouseUp = () => {
+        isDraggingDivider = false;
+        draggedDividerIdx = -1;
+        window.removeEventListener('mousemove', onMouseMove);
+        window.removeEventListener('mouseup', onMouseUp);
+        renderSegments();
+      };
+
+      window.addEventListener('mousemove', onMouseMove);
+      window.addEventListener('mouseup', onMouseUp);
+    }
+
+    const wfWrapper = document.getElementById('waveformWrapper');
+    if (wfWrapper) {
+      wfWrapper.ondblclick = (e) => {
+        if (e.target.closest('.divider-handle')) return;
+        const rect = wfWrapper.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left;
+        const totalDur = getTotalDuration();
+        const clickedSec = +((mouseX / rect.width) * totalDur).toFixed(2);
+        insertCutPoint(clickedSec);
+      };
+    }
+
+    function insertCutPoint(cutTime) {
+      const song = songs[currentSongIndex];
+      if (!song || !song.segments) return;
+
+      const segs = song.segments;
+      let targetIdx = -1;
+      for (let i = 0; i < segs.length; i++) {
+        if (cutTime > segs[i].startSec + 0.3 && cutTime < segs[i].endSec - 0.3) {
+          targetIdx = i;
+          break;
+        }
+      }
+
+      if (targetIdx === -1) {
+        showToast('⚠️ Разрез должен быть не ближе 0.3с к соседним границам');
+        return;
+      }
+
+      const orig = segs[targetIdx];
+      const newSeg1 = {
+        id: orig.id,
+        startSec: orig.startSec,
+        endSec: cutTime,
+        label: `Часть ${targetIdx + 1}`,
+        lyricsSnippet: orig.lyricsSnippet ? orig.lyricsSnippet.slice(0, Math.ceil(orig.lyricsSnippet.length / 2)) : ''
+      };
+      const newSeg2 = {
+        id: orig.id + 1,
+        startSec: cutTime,
+        endSec: orig.endSec,
+        label: `Часть ${targetIdx + 2}`,
+        lyricsSnippet: orig.lyricsSnippet ? orig.lyricsSnippet.slice(Math.ceil(orig.lyricsSnippet.length / 2)) : ''
+      };
+
+      segs.splice(targetIdx, 1, newSeg1, newSeg2);
+      segs.forEach((s, i) => {
+        s.id = i + 1;
+        s.label = `Часть ${i + 1}`;
+      });
+
+      renderSegments();
+      renderWaveformOverlays();
+      showToast(`✂️ Разрез добавлен на ${cutTime.toFixed(2)}с`);
+    }
+
+    function removeCutPoint(idx) {
+      const song = songs[currentSongIndex];
+      if (!song || !song.segments || song.segments.length <= 1) return;
+      const segs = song.segments;
+
+      if (idx > 0 && idx < segs.length) {
+        const merged = {
+          id: segs[idx - 1].id,
+          startSec: segs[idx - 1].startSec,
+          endSec: segs[idx].endSec,
+          label: `Часть ${idx}`,
+          lyricsSnippet: `${segs[idx - 1].lyricsSnippet || ''} ${segs[idx].lyricsSnippet || ''}`.trim()
+        };
+        segs.splice(idx - 1, 2, merged);
+        segs.forEach((s, i) => {
+          s.id = i + 1;
+          s.label = `Часть ${i + 1}`;
+        });
+        renderSegments();
+        renderWaveformOverlays();
+        showToast(`✕ Разрез удален, части объединены`);
+      }
+    }
+
+    /* SEGMENT TABLE RENDERING */
     function renderSegments() {
       const list = document.getElementById('segmentList');
       const song = songs[currentSongIndex];
@@ -751,22 +1211,52 @@
         item.innerHTML = `
           <div class="segment-num">${sIdx + 1}</div>
           <div>
-            <input type="text" class="form-control" value="${seg.lyricsSnippet || ''}" placeholder="Текст подсказки / слова..." oninput="updateSegment(${sIdx}, 'lyricsSnippet', this.value)">
+            <input type="text" class="form-control" value="${seg.lyricsSnippet || ''}" placeholder="Текст подсказки / слова..." oninput="updateSegment(${sIdx}, 'lyricsSnippet', this.value); renderWaveformOverlays();">
           </div>
           <div>
-            <input type="number" step="0.05" class="form-control" value="${seg.startSec || 0}" placeholder="Старт (с)" oninput="updateSegment(${sIdx}, 'startSec', parseFloat(this.value)); renderTimeline();">
+            <div style="display: flex; align-items: center; gap: 4px;">
+              <button class="btn btn-secondary" onclick="nudgeSegment(${sIdx}, 'startSec', -0.1)" style="padding: 2px 6px; font-size: 10px;">-0.1</button>
+              <input type="number" step="0.05" id="seg-start-${sIdx}" class="form-control" style="flex: 1; min-width: 60px; text-align: center;" value="${seg.startSec || 0}" placeholder="Старт" oninput="updateSegment(${sIdx}, 'startSec', parseFloat(this.value)); renderWaveformOverlays();">
+              <button class="btn btn-secondary" onclick="nudgeSegment(${sIdx}, 'startSec', 0.1)" style="padding: 2px 6px; font-size: 10px;">+0.1</button>
+            </div>
           </div>
           <div>
-            <input type="number" step="0.05" class="form-control" value="${seg.endSec || 0}" placeholder="Конец (с)" oninput="updateSegment(${sIdx}, 'endSec', parseFloat(this.value)); renderTimeline();">
+            <div style="display: flex; align-items: center; gap: 4px;">
+              <button class="btn btn-secondary" onclick="nudgeSegment(${sIdx}, 'endSec', -0.1)" style="padding: 2px 6px; font-size: 10px;">-0.1</button>
+              <input type="number" step="0.05" id="seg-end-${sIdx}" class="form-control" style="flex: 1; min-width: 60px; text-align: center;" value="${seg.endSec || 0}" placeholder="Конец" oninput="updateSegment(${sIdx}, 'endSec', parseFloat(this.value)); renderWaveformOverlays();">
+              <button class="btn btn-secondary" onclick="nudgeSegment(${sIdx}, 'endSec', 0.1)" style="padding: 2px 6px; font-size: 10px;">+0.1</button>
+            </div>
           </div>
-          <div style="display: flex; gap: 6px;">
-            <button class="btn btn-secondary" style="padding: 6px 12px;" onclick="playSegmentPreview(${seg.startSec}, ${seg.endSec}, false, ${sIdx})">▶ Прямо</button>
-            <button class="btn btn-primary" style="padding: 6px 12px;" onclick="playSegmentPreview(${seg.startSec}, ${seg.endSec}, true, ${sIdx})">🔄 Реверс</button>
-            <button class="btn btn-danger" style="padding: 6px 8px;" onclick="removeSegment(${sIdx})">✕</button>
+          <div style="display: flex; gap: 4px;">
+            <button class="btn btn-secondary" style="padding: 5px 10px;" onclick="playSegmentPreview(${seg.startSec}, ${seg.endSec}, false, ${sIdx})">▶</button>
+            <button class="btn btn-primary" style="padding: 5px 10px;" onclick="playSegmentPreview(${seg.startSec}, ${seg.endSec}, true, ${sIdx})">🔄</button>
+            <button class="btn btn-danger" style="padding: 5px 8px;" onclick="removeSegment(${sIdx})">✕</button>
           </div>
         `;
         list.appendChild(item);
       });
+    }
+
+    function renderSegmentsQuick() {
+      const song = songs[currentSongIndex];
+      if (!song || !song.segments) return;
+      song.segments.forEach((seg, sIdx) => {
+        const startInput = document.getElementById(`seg-start-${sIdx}`);
+        const endInput = document.getElementById(`seg-end-${sIdx}`);
+        if (startInput) startInput.value = seg.startSec.toFixed(2);
+        if (endInput) endInput.value = seg.endSec.toFixed(2);
+      });
+    }
+
+    function nudgeSegment(sIdx, field, delta) {
+      const song = songs[currentSongIndex];
+      if (song && song.segments && song.segments[sIdx]) {
+        let val = (song.segments[sIdx][field] || 0) + delta;
+        val = Math.max(0, +val.toFixed(2));
+        song.segments[sIdx][field] = val;
+        renderSegments();
+        renderWaveformOverlays();
+      }
     }
 
     function renderOptions() {
@@ -777,9 +1267,9 @@
       list.innerHTML = '';
       song.options.forEach((opt, oIdx) => {
         const item = document.createElement('div');
-        item.style = 'display: flex; align-items: center; gap: 12px;';
+        item.style = 'display: flex; align-items: center; gap: 10px;';
         item.innerHTML = `
-          <input type="radio" name="correctChoice" ${opt.isCorrect ? 'checked' : ''} onchange="setCorrectOption(${oIdx})" style="width: 20px; height: 20px; accent-color: #00E676; cursor: pointer;">
+          <input type="radio" name="correctChoice" ${opt.isCorrect ? 'checked' : ''} onchange="setCorrectOption(${oIdx})" style="width: 18px; height: 18px; accent-color: #00E676; cursor: pointer;">
           <input type="text" class="form-control" style="flex: 1;" value="${opt.text || ''}" placeholder="Вариант ответа ${oIdx + 1}..." oninput="updateOption(${oIdx}, this.value)">
         `;
         list.appendChild(item);
@@ -825,7 +1315,7 @@
     function autoSlice(count) {
       const song = songs[currentSongIndex];
       if (!song) return;
-      const duration = song.durationSec || (currentAudioBuffer ? currentAudioBuffer.duration : 15.0);
+      const duration = getTotalDuration();
       const step = +(duration / count).toFixed(2);
       const segs = [];
       for (let i = 0; i < count; i++) {
@@ -834,12 +1324,119 @@
           startSec: +(i * step).toFixed(2),
           endSec: +((i + 1) * step).toFixed(2),
           label: `Часть ${i + 1}`,
-          lyricsSnippet: `Фрагмент ${i + 1}...`
+          lyricsSnippet: song.segments && song.segments[i] ? song.segments[i].lyricsSnippet : `Фрагмент ${i + 1}...`
         });
       }
       song.segments = segs;
       renderSegments();
-      renderTimeline();
+      renderWaveformOverlays();
+      showToast(`✂️ Разрезано на ${count} равных частей`);
+    }
+
+    function smartVADAutoSlice(count = 4) {
+      const song = songs[currentSongIndex];
+      if (!song || !currentAudioBuffer) {
+        autoSlice(count);
+        return;
+      }
+
+      const rate = currentAudioBuffer.sampleRate;
+      const data = currentAudioBuffer.getChannelData(0);
+      const totalDur = currentAudioBuffer.duration;
+
+      const frameLen = Math.floor(rate * 0.05);
+      const hopLen = Math.floor(rate * 0.025);
+      const numFrames = Math.floor((data.length - frameLen) / hopLen);
+      const energies = [];
+      const times = [];
+
+      let maxE = 0.00001;
+      for (let i = 0; i < numFrames; i++) {
+        let sumSq = 0;
+        const offset = i * hopLen;
+        for (let j = 0; j < frameLen; j++) {
+          const s = data[offset + j];
+          sumSq += s * s;
+        }
+        const rms = Math.sqrt(sumSq / frameLen);
+        energies.push(rms);
+        times.push(offset / rate);
+        if (rms > maxE) maxE = rms;
+      }
+
+      const smooth = [];
+      for (let i = 0; i < energies.length; i++) {
+        let sum = 0, cnt = 0;
+        for (let k = -2; k <= 2; k++) {
+          if (i + k >= 0 && i + k < energies.length) {
+            sum += energies[i + k] / maxE;
+            cnt++;
+          }
+        }
+        smooth.push(sum / cnt);
+      }
+
+      let vocalStart = 0.0;
+      for (let i = 0; i < smooth.length; i++) {
+        if (smooth[i] >= 0.08 && times[i] >= 0.15) {
+          vocalStart = Math.max(0.0, +(times[i] - 0.08).toFixed(2));
+          break;
+        }
+      }
+
+      let vocalEnd = totalDur;
+      for (let i = smooth.length - 1; i >= 0; i--) {
+        if (smooth[i] >= 0.08 && times[i] <= totalDur - 0.15) {
+          vocalEnd = Math.min(totalDur, +(times[i] + 0.12).toFixed(2));
+          break;
+        }
+      }
+
+      const vocalSpan = vocalEnd - vocalStart;
+      const idealStep = vocalSpan / count;
+      const cutPoints = [vocalStart];
+
+      for (let segI = 1; segI < count; segI++) {
+        const targetTime = vocalStart + segI * idealStep;
+        let bestTime = targetTime;
+        let bestScore = 999999;
+
+        for (let i = 0; i < times.length; i++) {
+          const t = times[i];
+          if (t >= targetTime - 0.85 && t <= targetTime + 0.85) {
+            const devPenalty = Math.abs(t - targetTime) / 1.5;
+            const score = smooth[i] + devPenalty * 0.35;
+            if (score < bestScore) {
+              bestScore = score;
+              bestTime = t;
+            }
+          }
+        }
+        cutPoints.push(+bestTime.toFixed(2));
+      }
+      cutPoints.push(vocalEnd);
+
+      for (let i = 1; i < cutPoints.length; i++) {
+        if (cutPoints[i] <= cutPoints[i-1] + 1.2) {
+          cutPoints[i] = +(cutPoints[i-1] + 1.5).toFixed(2);
+        }
+      }
+      cutPoints[cutPoints.length - 1] = Math.min(totalDur, cutPoints[cutPoints.length - 1]);
+
+      const segs = [];
+      for (let i = 0; i < count; i++) {
+        segs.push({
+          id: i + 1,
+          startSec: cutPoints[i],
+          endSec: cutPoints[i + 1],
+          label: `Часть ${i + 1}`,
+          lyricsSnippet: song.segments && song.segments[i] ? song.segments[i].lyricsSnippet : `Фрагмент ${i + 1}...`
+        });
+      }
+      song.segments = segs;
+      renderSegments();
+      renderWaveformOverlays();
+      showToast('🧠 Умная нарезка по вокалу применена!');
     }
 
     function addSegment() {
@@ -847,24 +1444,30 @@
       if (!song) return;
       if (!song.segments) song.segments = [];
       const len = song.segments.length;
+      const totalDur = getTotalDuration();
       const lastEnd = len > 0 ? song.segments[len - 1].endSec : 0.0;
+      const newEnd = Math.min(totalDur, +(lastEnd + 3.0).toFixed(2));
       song.segments.push({
         id: len + 1,
         startSec: lastEnd,
-        endSec: +(lastEnd + 3.5).toFixed(2),
+        endSec: newEnd,
         label: `Часть ${len + 1}`,
         lyricsSnippet: `Новый фрагмент ${len + 1}...`
       });
       renderSegments();
-      renderTimeline();
+      renderWaveformOverlays();
     }
 
     function removeSegment(idx) {
       const song = songs[currentSongIndex];
       if (song && song.segments) {
         song.segments.splice(idx, 1);
+        song.segments.forEach((s, i) => {
+          s.id = i + 1;
+          s.label = `Часть ${i + 1}`;
+        });
         renderSegments();
-        renderTimeline();
+        renderWaveformOverlays();
       }
     }
 
@@ -913,6 +1516,75 @@
       renderSongList();
     }
 
+    /* YOUTUBE CLIP & AUDIO DOWNLOADER */
+    async function downloadYouTubeClip() {
+      const song = songs[currentSongIndex];
+      if (!song) return;
+
+      const queryInput = document.getElementById('ytSearchInput');
+      const startInput = document.getElementById('ytStartTime');
+      const durInput = document.getElementById('ytDuration');
+      const statusEl = document.getElementById('ytDownloadStatus');
+      const btn = document.getElementById('ytDownloadBtn');
+
+      const urlOrQuery = queryInput.value.trim();
+      const startTime = parseFloat(startInput.value) || 0.0;
+      const duration = parseFloat(durInput.value) || 15.0;
+
+      if (!urlOrQuery) {
+        alert('Введите ссылку YouTube или поисковый запрос!');
+        return;
+      }
+
+      btn.disabled = true;
+      btn.innerHTML = `<span class="spinner"></span> Скачивание...`;
+      statusEl.style.display = 'block';
+      statusEl.style.color = 'var(--neon-cyan)';
+      statusEl.innerHTML = `⏳ Загрузка видео 720p и извлечение WAV аудио через yt-dlp/ffmpeg... Пожалуйста, подождите.`;
+
+      try {
+        const res = await fetch('/api/download_clip', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            songId: song.id,
+            url: urlOrQuery,
+            startTime: startTime,
+            duration: duration
+          })
+        });
+
+        const data = await res.json();
+        if (res.ok && data.status === 'success') {
+          statusEl.style.color = '#00E676';
+          statusEl.innerHTML = `✅ <b>Успешно!</b> ${data.message}`;
+          showToast('🎬 Клип и аудио успешно скачаны!');
+
+          audioCache.delete(song.id);
+          song.durationSec = duration;
+          song.audioUrl = data.audioUrl;
+          song.clipUrl = data.clipUrl;
+
+          const videoEl = document.getElementById('videoClipPlayer');
+          if (videoEl) {
+            videoEl.src = `/clips/${song.id}.mp4?t=${Date.now()}`;
+            videoEl.load();
+          }
+
+          await loadSongAudio(song);
+        } else {
+          statusEl.style.color = '#FF1744';
+          statusEl.innerHTML = `❌ Ошибка: ${data.error || 'Не удалось скачать видео'}`;
+        }
+      } catch (err) {
+        statusEl.style.color = '#FF1744';
+        statusEl.innerHTML = `❌ Ошибка запроса: ${err.message}`;
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = `⬇️ Скачать клип и WAV`;
+      }
+    }
+
     async function saveAll() {
       try {
         const res = await fetch('/api/save', {
@@ -949,12 +1621,48 @@
         try { currentAudioSource.stop(); } catch(e){}
         currentAudioSource = null;
       }
+      if (playheadAnimId) {
+        cancelAnimationFrame(playheadAnimId);
+        playheadAnimId = null;
+      }
+      const playheadEl = document.getElementById('playheadLine');
+      if (playheadEl) playheadEl.style.display = 'none';
+
       activeNotesTimeouts.forEach(t => clearTimeout(t));
       activeNotesTimeouts = [];
       isPlaying = false;
       document.querySelectorAll('.segment-item').forEach(el => el.classList.remove('playing'));
+      document.querySelectorAll('.segment-stripe').forEach(el => el.classList.remove('active-stripe'));
       const indicator = document.getElementById('playingIndicator');
       if (indicator) indicator.style.display = 'none';
+    }
+
+    /* PLAYBACK & LIVE PLAYHEAD ANIMATION */
+    function updatePlayheadAnimation() {
+      if (!isPlaying || !audioCtx) return;
+      const elapsed = audioCtx.currentTime - playheadStartAudioTime;
+      const progress = Math.min(1.0, elapsed / playheadDuration);
+      const totalDur = getTotalDuration();
+
+      let currentSec;
+      if (playheadReversed) {
+        currentSec = playheadEndSec - progress * (playheadEndSec - playheadStartSec);
+      } else {
+        currentSec = playheadStartSec + progress * (playheadEndSec - playheadStartSec);
+      }
+
+      const playheadEl = document.getElementById('playheadLine');
+      if (playheadEl) {
+        const xPct = (currentSec / totalDur) * 100;
+        playheadEl.style.left = `${xPct}%`;
+        playheadEl.style.display = 'block';
+      }
+
+      if (progress < 1.0) {
+        playheadAnimId = requestAnimationFrame(updatePlayheadAnimation);
+      } else {
+        if (playheadEl) playheadEl.style.display = 'none';
+      }
     }
 
     async function playSegmentPreview(start, end, reversed, sIdx) {
@@ -1002,19 +1710,28 @@
       currentAudioSource = source;
       isPlaying = true;
 
-      const itemEl = document.getElementById(`seg-item-${sIdx}`);
-      if (itemEl) itemEl.classList.add('playing');
+      playheadStartAudioTime = audioCtx.currentTime;
+      playheadDuration = sliceBuf.duration;
+      playheadStartSec = start;
+      playheadEndSec = end;
+      playheadReversed = reversed;
+      playheadAnimId = requestAnimationFrame(updatePlayheadAnimation);
+
+      if (sIdx >= 0) {
+        const itemEl = document.getElementById(`seg-item-${sIdx}`);
+        if (itemEl) itemEl.classList.add('playing');
+        const stripeEl = document.getElementById(`stripe-seg-${sIdx}`);
+        if (stripeEl) stripeEl.classList.add('active-stripe');
+      }
+
       const indicator = document.getElementById('playingIndicator');
       if (indicator) {
         indicator.style.display = 'flex';
-        indicator.textContent = `▶ Воспроизведение ${reversed ? 'РЕВЕРС' : 'ПРЯМО'}: ${sIdx >= 0 ? 'Часть ' + (sIdx + 1) : 'Весь трек'} (${start.toFixed(1)}с - ${end.toFixed(1)}с)`;
+        indicator.textContent = `▶ Воспроизведение ${reversed ? 'РЕВЕРС (АПОЖ)' : 'ПРЯМО'}: ${sIdx >= 0 ? 'Часть ' + (sIdx + 1) : 'Весь трек'} (${start.toFixed(1)}с - ${end.toFixed(1)}с)`;
       }
 
       source.onended = () => {
-        if (itemEl) itemEl.classList.remove('playing');
-        if (indicator) indicator.style.display = 'none';
-        isPlaying = false;
-        currentAudioSource = null;
+        stopAudio();
       };
 
       source.start();
@@ -1023,10 +1740,11 @@
     async function playFullTrack(reversed = false) {
       const song = songs[currentSongIndex];
       if (!song) return;
-      const dur = song.durationSec || (currentAudioBuffer ? currentAudioBuffer.duration : 15.0);
+      const dur = getTotalDuration();
       playSegmentPreview(0, dur, reversed, -1);
     }
 
+    /* SYNTHESIZER MELODY NOTES */
     function midiToFreq(midi) {
       return 440 * Math.pow(2, (midi - 69) / 12);
     }
@@ -1040,7 +1758,6 @@
 
     function playPianoNote(freq, startTime, duration = 0.35) {
       if (!audioCtx) return;
-      // High quality multi-harmonic Piano Timbre
       const harmonics = [
         { mult: 1.0, gain: 0.65, decay: 1.0 },
         { mult: 2.0, gain: 0.28, decay: 1.4 },
@@ -1057,7 +1774,6 @@
         osc.type = 'triangle';
         osc.frequency.setValueAtTime(freq * h.mult, startTime);
         
-        // Attack & Exponential Release
         g.gain.setValueAtTime(0.0001, startTime);
         g.gain.exponentialRampToValueAtTime(h.gain * 0.7, startTime + 0.015);
         g.gain.exponentialRampToValueAtTime(0.0001, startTime + duration * h.decay);
@@ -1106,6 +1822,15 @@
       }, totalTime);
       activeNotesTimeouts.push(endT);
     }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') return;
+      if (e.code === 'Space') {
+        e.preventDefault();
+        if (isPlaying) stopAudio();
+        else playFullTrack(false);
+      }
+    });
 
     loadSongs();
   </script>

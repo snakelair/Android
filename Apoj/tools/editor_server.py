@@ -2,6 +2,8 @@
 import os
 import json
 import sys
+import time
+import re
 import webbrowser
 import socket
 from http.server import HTTPServer, SimpleHTTPRequestHandler
@@ -206,6 +208,110 @@ class ApojEditorHandler(SimpleHTTPRequestHandler):
                 self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.end_headers()
                 self.wfile.write(json.dumps({"status": "error", "error": str(e)}).encode('utf-8'))
+
+        elif parsed.path == '/api/download_clip':
+            length = int(self.headers.get('Content-Length', 0))
+            data = self.rfile.read(length)
+            try:
+                import imageio_ffmpeg
+                import subprocess
+
+                body = json.loads(data.decode('utf-8'))
+                song_id = body.get('songId', 'song_' + str(int(time.time())))
+                query_or_url = body.get('url', '').strip()
+                start_time = float(body.get('startTime', 0.0))
+                duration = float(body.get('duration', 15.0))
+
+                if not query_or_url:
+                    raise ValueError("Не указан URL или поисковый запрос YouTube.")
+
+                ffmpeg = imageio_ffmpeg.get_ffmpeg_exe()
+                temp_dir = os.path.join(BASE_DIR, 'temp_downloads')
+                os.makedirs(temp_dir, exist_ok=True)
+                temp_video = os.path.join(temp_dir, f"{song_id}_raw.mp4")
+
+                target = query_or_url
+                if not target.startswith('http://') and not target.startswith('https://'):
+                    target = f"ytsearch1:{target}"
+
+                print(f"[ApojEditor] Downloading video/audio from: {target} for song: {song_id}...")
+                cmd_ytdlp = [
+                    'yt-dlp',
+                    '--format', 'bestvideo[ext=mp4][height<=720]+bestaudio[ext=m4a]/best[ext=mp4]/best',
+                    '--merge-output-format', 'mp4',
+                    '-o', temp_video,
+                    '--no-playlist',
+                    '--force-overwrites',
+                    target
+                ]
+                subprocess.run(cmd_ytdlp, check=True, timeout=120)
+
+                # Process 15s HD video clip (720p, h264)
+                target_clip_assets = os.path.join(ASSETS_CLIPS, f"{song_id}.mp4")
+                target_clip_repo = os.path.join(REPO_CLIPS, f"{song_id}.mp4")
+                os.makedirs(os.path.dirname(target_clip_assets), exist_ok=True)
+                os.makedirs(os.path.dirname(target_clip_repo), exist_ok=True)
+
+                cmd_clip = [
+                    ffmpeg, '-y',
+                    '-ss', str(start_time),
+                    '-i', temp_video,
+                    '-t', str(duration),
+                    '-vf', 'scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2,setsar=1',
+                    '-c:v', 'libx264', '-preset', 'fast', '-crf', '22',
+                    '-c:a', 'aac', '-b:a', '192k',
+                    target_clip_assets
+                ]
+                subprocess.run(cmd_clip, check=True)
+                if os.path.exists(os.path.dirname(target_clip_repo)):
+                    shutil.copy2(target_clip_assets, target_clip_repo)
+
+                # Process and normalize audio WAV (44.1kHz mono, -14 LUFS)
+                target_audio_assets = os.path.join(ASSETS_AUDIO, f"{song_id}.wav")
+                target_audio_repo = os.path.join(REPO_AUDIO, f"{song_id}.wav")
+                os.makedirs(os.path.dirname(target_audio_assets), exist_ok=True)
+                os.makedirs(os.path.dirname(target_audio_repo), exist_ok=True)
+
+                cmd_audio = [
+                    ffmpeg, '-y',
+                    '-ss', str(start_time),
+                    '-i', temp_video,
+                    '-t', str(duration),
+                    '-vn',
+                    '-af', 'loudnorm=I=-14:LRA=11:TP=-1.5',
+                    '-ac', '1',
+                    '-ar', '44100',
+                    target_audio_assets
+                ]
+                subprocess.run(cmd_audio, check=True)
+                if os.path.exists(os.path.dirname(target_audio_repo)):
+                    shutil.copy2(target_audio_assets, target_audio_repo)
+
+                if os.path.exists(temp_video):
+                    try: os.remove(temp_video)
+                    except Exception: pass
+
+                response = {
+                    "status": "success",
+                    "message": f"Видеоклип и аудио для '{song_id}' успешно скачаны и нормализованы!",
+                    "clipUrl": f"/clips/{song_id}.mp4",
+                    "audioUrl": f"/audio/{song_id}.wav",
+                    "durationSec": duration
+                }
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps(response, ensure_ascii=False).encode('utf-8'))
+                print(f"[ApojEditor] Successfully downloaded & processed clip for {song_id}")
+            except Exception as e:
+                print(f"[ApojEditor] Error downloading clip: {e}")
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "error", "error": str(e)}).encode('utf-8'))
+
         else:
             self.send_response(404)
             self.end_headers()
