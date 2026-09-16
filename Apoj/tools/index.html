@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎵 АПОЖ — Редактор каталога песен и нарезки фрагментов</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0A0D14;
+      --bg-card: #141A29;
+      --bg-card-hover: #1C2438;
+      --bg-input: #0F1420;
+      --neon-cyan: #00E5FF;
+      --neon-pink: #FF1744;
+      --gold-primary: #FFD54F;
+      --correct-green: #00E676;
+      --text-white: #FFFFFF;
+      --text-muted: #8E9BAE;
+      --border-color: #242E47;
+      --border-active: #00E5FF;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background: var(--bg-dark);
+      color: var(--text-white);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    header {
+      background: #0E121E;
+      border-bottom: 1px solid var(--border-color);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-logo {
+      font-size: 28px;
+    }
+
+    .brand-title {
+      font-size: 20px;
+      font-weight: 900;
+      background: linear-gradient(90deg, var(--neon-cyan), var(--gold-primary), var(--neon-pink));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 0.5px;
+    }
+
+    .brand-subtitle {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .stats-badge {
+      background: #182033;
+      border: 1px solid var(--border-color);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+    .stats-badge span {
+      color: var(--neon-cyan);
+    }
+
+    .btn {
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #00E5FF, #00B0FF);
+      color: #0A0D14;
+    }
+    .btn-primary:hover {
+      box-shadow: 0 0 16px rgba(0, 229, 255, 0.4);
+      transform: translateY(-1px);
+    }
+    .btn-success {
+      background: linear-gradient(135deg, #00E676, #00C853);
+      color: #0A0D14;
+    }
+    .btn-secondary {
+      background: #1C2438;
+      color: var(--text-white);
+      border: 1px solid var(--border-color);
+    }
+    .btn-secondary:hover {
+      background: #25314D;
+    }
+    .btn-danger {
+      background: #FF5252;
+      color: white;
+    }
+
+    .main-layout {
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* Left Sidebar */
+    .sidebar {
+      background: #0E121E;
+      border-right: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .search-box {
+      padding: 14px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .search-input, .filter-select {
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      color: white;
+      padding: 8px 12px;
+      font-size: 13px;
+      outline: none;
+    }
+    .search-input:focus, .filter-select:focus {
+      border-color: var(--neon-cyan);
+    }
+
+    .song-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .song-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .song-card:hover {
+      background: var(--bg-card-hover);
+      border-color: #3D4D75;
+    }
+    .song-card.active {
+      background: #182238;
+      border-color: var(--neon-cyan);
+      box-shadow: 0 0 12px rgba(0, 229, 255, 0.2);
+    }
+
+    .song-card-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-white);
+      margin-bottom: 4px;
+    }
+    .song-card-artist {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+    .song-card-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 11px;
+    }
+    .badge {
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 10px;
+      font-weight: 700;
+    }
+    .badge-approved { background: rgba(0, 230, 118, 0.15); color: #00E676; border: 1px solid rgba(0, 230, 118, 0.3); }
+    .badge-draft { background: rgba(255, 179, 0, 0.15); color: #FFB300; border: 1px solid rgba(255, 179, 0, 0.3); }
+
+    /* Main Editor Area */
+    .editor-content {
+      padding: 24px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 18px;
+    }
+    .panel-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--neon-cyan);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .form-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+    .form-control {
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 9px 12px;
+      color: white;
+      font-size: 13px;
+      outline: none;
+    }
+    .form-control:focus {
+      border-color: var(--neon-cyan);
+    }
+
+    /* Segment Card */
+    .segment-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .segment-item {
+      background: #101624;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 12px 16px;
+      display: grid;
+      grid-template-columns: 40px 1fr 120px 120px auto;
+      align-items: center;
+      gap: 12px;
+    }
+    .segment-item.playing {
+      border-color: var(--neon-cyan);
+      background: #16243D;
+      box-shadow: 0 0 16px rgba(0, 229, 255, 0.3);
+    }
+    .segment-num {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: #1C2438;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      color: var(--gold-primary);
+    }
+
+    /* Media Player Bar */
+    .media-player-box {
+      background: #0C101A;
+      border: 1px solid #28334E;
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .audio-status-badge {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .timeline-container {
+      position: relative;
+      height: 38px;
+      background: #141B2D;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      display: flex;
+    }
+
+    .timeline-seg-block {
+      height: 100%;
+      border-right: 2px solid #0A0D14;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 800;
+      color: #FFFFFF;
+      transition: all 0.2s;
+      cursor: pointer;
+      user-select: none;
+    }
+    .timeline-seg-block:hover {
+      filter: brightness(1.25);
+    }
+
+    /* Video player box */
+    .video-preview-wrapper {
+      max-width: 440px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      background: #000;
+    }
+    .video-preview-wrapper video {
+      width: 100%;
+      height: 240px;
+      display: block;
+      object-fit: cover;
+    }
+
+    /* Playing indicator notification */
+    .playing-indicator {
+      display: none;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(90deg, rgba(0, 229, 255, 0.2), rgba(0, 230, 118, 0.2));
+      border: 1px solid var(--neon-cyan);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--neon-cyan);
+    }
+
+    /* Toast notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #00E676;
+      color: #0A0D14;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 800;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+      display: none;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <span class="brand-logo">📼</span>
+      <div>
+        <div class="brand-title">АПОЖ — РЕДАКТОР ПЕСЕН И ВИКТОРИНЫ</div>
+        <div class="brand-subtitle">Реальное воспроизведение WAV/MP4, нарезка сегментов и ноты AutoTune</div>
+      </div>
+    </div>
+    <div class="header-actions">
+      <div class="stats-badge">Всего песен: <span id="statsCount">0</span></div>
+      <div class="stats-badge">Одобрено: <span id="statsApproved" style="color: #00E676;">0</span></div>
+      <button class="btn btn-secondary" onclick="syncAll()">🔄 Синхронизировать</button>
+      <button class="btn btn-primary" onclick="saveAll()">💾 Сохранить в базу</button>
+    </div>
+  </header>
+
+  <div class="main-layout">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="search-box">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Поиск по названию или артисту..." oninput="filterSongs()">
+        <select id="categoryFilter" class="filter-select" onchange="filterSongs()">
+          <option value="all">Все категории</option>
+          <option value="soviet">🎬 Советская классика</option>
+          <option value="rock">🎸 Русский рок</option>
+          <option value="pop">🎤 Поп & Караоке</option>
+          <option value="kids">👶 Детские & Мультфильмы</option>
+          <option value="world">🌍 Мировые хиты</option>
+          <option value="memes">🚀 Мемы и ТВ</option>
+        </select>
+        <button class="btn btn-secondary" style="width: 100%; justify-content: center;" onclick="addNewSong()">+ Добавить новую песню</button>
+      </div>
+      <div class="song-list" id="songList"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="editor-content" id="editorContent">
+      <!-- Media Player and Controls Panel -->
+      <div class="panel">
+        <div class="panel-title">🎧 Медиапроигрыватель и Контроль трека</div>
+        
+        <div class="media-player-box">
+          <div class="audio-status-badge">
+            <span id="audioStatusText">⏳ Загрузка аудио...</span>
+            <div id="playingIndicator" class="playing-indicator">▶ Воспроизведение</div>
+          </div>
+
+          <!-- Interactive Segments Timeline -->
+          <div class="timeline-container" id="timelineBar"></div>
+
+          <!-- Player Controls -->
+          <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+            <button class="btn btn-primary" onclick="playFullTrack(false)">▶ Слушать весь трек (Прямо)</button>
+            <button class="btn btn-secondary" style="border-color: #FF1744; color: #FF80AB;" onclick="playFullTrack(true)">🔄 Слушать трек НАОБОРОТ (АПОЖ)</button>
+            <button class="btn btn-secondary" style="border-color: #FFD54F; color: #FFD54F;" onclick="playMelodyNotes()">🎹 Мелодия нот (Piano AutoTune)</button>
+            <button class="btn btn-danger" onclick="stopAudio()">⏹ Стоп</button>
+          </div>
+        </div>
+
+        <!-- Video Preview Section -->
+        <div style="margin-top: 14px; display: flex; gap: 20px; align-items: flex-start;">
+          <div class="video-preview-wrapper">
+            <video id="videoClipPlayer" controls preload="metadata">
+              Ваш браузер не поддерживает HTML5 видео.
+            </video>
+          </div>
+          <div style="flex: 1; display: flex; flex-direction: column; gap: 8px;">
+            <div style="font-size: 13px; font-weight: 700; color: var(--gold-primary);">🎬 Финальный видеоклип</div>
+            <div style="font-size: 12px; color: var(--text-muted); line-height: 1.5;">
+              Клип проигрывается на Android TV после отгадывания трека. В плеере слева доступен предпросмотр реального MP4 видеоролика.
+            </div>
+            <div id="videoMetaText" style="font-size: 11px; color: var(--neon-cyan); margin-top: 4px;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">📝 Основная информация о треке</div>
+        <div class="grid-2" style="margin-bottom: 12px;">
+          <div class="form-group">
+            <label class="form-label">Название песни</label>
+            <input type="text" id="editTitle" class="form-control" oninput="updateCurrentSong()">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Исполнитель / Фильм</label>
+            <input type="text" id="editArtist" class="form-control" oninput="updateCurrentSong()">
+          </div>
+        </div>
+        <div class="grid-4" style="margin-bottom: 12px;">
+          <div class="form-group">
+            <label class="form-label">ID (уникальный)</label>
+            <input type="text" id="editId" class="form-control" oninput="updateCurrentSong()">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Категория</label>
+            <select id="editCategory" class="form-control" onchange="updateCurrentSong()">
+              <option value="soviet">Советская классика</option>
+              <option value="rock">Русский рок</option>
+              <option value="pop">Поп & Караоке</option>
+              <option value="kids">Детские & Мультфильмы</option>
+              <option value="world">Мировые хиты</option>
+              <option value="memes">Мемы и ТВ</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Год</label>
+            <input type="text" id="editYear" class="form-control" oninput="updateCurrentSong()">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Сложность</label>
+            <select id="editDifficulty" class="form-control" onchange="updateCurrentSong()">
+              <option value="EASY">Легко (3-4 части)</option>
+              <option value="MEDIUM">Средне (4-5 частей)</option>
+              <option value="HARD">Сложно (6 частей)</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid-2">
+          <div class="form-group">
+            <label class="form-label">URL Аудиофайла (MP3 / WAV)</label>
+            <input type="text" id="editAudioUrl" class="form-control" oninput="updateCurrentSong()">
+          </div>
+          <div class="form-group">
+            <label class="form-label">URL Видеоклипа (MP4 / YouTube ID)</label>
+            <input type="text" id="editClipUrl" class="form-control" oninput="updateCurrentSong()">
+          </div>
+        </div>
+        <div style="margin-top: 14px; display: flex; align-items: center; justify-content: space-between;">
+          <label style="display: flex; align-items: center; gap: 8px; font-weight: 700; cursor: pointer;">
+            <input type="checkbox" id="editIsApproved" onchange="updateCurrentSong()" style="width: 18px; height: 18px; accent-color: #00E676;">
+            ✅ Песня проверена и одобрена (Approved)
+          </label>
+          <button class="btn btn-danger" onclick="deleteCurrentSong()">🗑 Удалить песню</button>
+        </div>
+      </div>
+
+      <!-- Segment Slicer -->
+      <div class="panel">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;">
+          <div class="panel-title" style="margin-bottom: 0;">✂️ Нарезка на части для игры (3–6 сегментов)</div>
+          <div style="display: flex; gap: 8px;">
+            <button class="btn btn-secondary" onclick="autoSlice(3)">3 части</button>
+            <button class="btn btn-secondary" onclick="autoSlice(4)">4 части</button>
+            <button class="btn btn-secondary" onclick="autoSlice(5)">5 частей</button>
+            <button class="btn btn-secondary" onclick="autoSlice(6)">6 частей</button>
+            <button class="btn btn-primary" onclick="addSegment()">+ Добавить часть</button>
+          </div>
+        </div>
+
+        <div class="segment-list" id="segmentList"></div>
+      </div>
+
+      <!-- Quiz Choices -->
+      <div class="panel">
+        <div class="panel-title">🎯 Варианты ответов для викторины (1 правильный)</div>
+        <div id="optionsList" style="display: flex; flex-direction: column; gap: 10px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Сохранено успешно!</div>
+
+  <script>
+    let songs = [];
+    let currentSongIndex = 0;
+    let audioCtx = null;
+    let currentAudioBuffer = null;
+    let currentAudioSource = null;
+    let isPlaying = false;
+    let activeNotesTimeouts = [];
+    const audioCache = new Map();
+
+    const SEGMENT_COLORS = [
+      '#00E5FF', '#FF1744', '#FFD54F', '#00E676', '#7C4DFF', '#FF9100'
+    ];
+
+    async function loadSongs() {
+      try {
+        const res = await fetch('/api/songs');
+        songs = await res.json();
+        renderSongList();
+        if (songs.length > 0) {
+          selectSong(0);
+        }
+      } catch (err) {
+        console.error('Failed to load songs:', err);
+      }
+    }
+
+    function renderSongList() {
+      const listEl = document.getElementById('songList');
+      const search = document.getElementById('searchInput').value.toLowerCase();
+      const cat = document.getElementById('categoryFilter').value;
+
+      listEl.innerHTML = '';
+      let approvedCount = 0;
+
+      songs.forEach((song, idx) => {
+        if (song.isApproved) approvedCount++;
+
+        const matchesSearch = (song.title || '').toLowerCase().includes(search) || (song.artist || '').toLowerCase().includes(search);
+        const matchesCat = cat === 'all' || song.category === cat;
+
+        if (!matchesSearch || !matchesCat) return;
+
+        const card = document.createElement('div');
+        card.className = `song-card ${idx === currentSongIndex ? 'active' : ''}`;
+        card.onclick = () => selectSong(idx);
+        card.innerHTML = `
+          <div class="song-card-title">${song.title}</div>
+          <div class="song-card-artist">${song.artist}</div>
+          <div class="song-card-meta">
+            <span style="color: var(--neon-cyan);">${song.segments ? song.segments.length : 0} частей</span>
+            <span class="badge ${song.isApproved ? 'badge-approved' : 'badge-draft'}">
+              ${song.isApproved ? 'ОДОБРЕНО' : 'ЧЕРНОВИК'}
+            </span>
+          </div>
+        `;
+        listEl.appendChild(card);
+      });
+
+      document.getElementById('statsCount').textContent = songs.length;
+      document.getElementById('statsApproved').textContent = approvedCount;
+    }
+
+    async function selectSong(index) {
+      stopAudio();
+      currentSongIndex = index;
+      const song = songs[index];
+      if (!song) return;
+
+      document.getElementById('editTitle').value = song.title || '';
+      document.getElementById('editArtist').value = song.artist || '';
+      document.getElementById('editId').value = song.id || '';
+      document.getElementById('editCategory').value = song.category || 'soviet';
+      document.getElementById('editYear').value = song.year || '';
+      document.getElementById('editDifficulty').value = song.difficulty || 'EASY';
+      document.getElementById('editAudioUrl').value = song.audioUrl || '';
+      document.getElementById('editClipUrl').value = song.clipUrl || '';
+      document.getElementById('editIsApproved').checked = !!song.isApproved;
+
+      // Update Video Clip
+      const videoEl = document.getElementById('videoClipPlayer');
+      const videoMetaEl = document.getElementById('videoMetaText');
+      if (videoEl) {
+        videoEl.src = `/clips/${song.id}.mp4`;
+        videoEl.load();
+        if (videoMetaEl) videoMetaEl.textContent = `Файл клипа: /clips/${song.id}.mp4`;
+      }
+
+      renderSegments();
+      renderTimeline();
+      renderOptions();
+      renderSongList();
+
+      // Load Real Song Audio
+      await loadSongAudio(song);
+    }
+
+    async function loadSongAudio(song) {
+      const statusEl = document.getElementById('audioStatusText');
+      if (!song) return null;
+
+      if (audioCache.has(song.id)) {
+        currentAudioBuffer = audioCache.get(song.id);
+        if (statusEl) {
+          statusEl.innerHTML = `🟢 Аудио готово: <b>${song.id}.wav</b> (${currentAudioBuffer.duration.toFixed(1)} сек, ${(currentAudioBuffer.sampleRate / 1000).toFixed(1)} кГц)`;
+        }
+        renderTimeline();
+        return currentAudioBuffer;
+      }
+
+      if (statusEl) statusEl.innerHTML = `⏳ Загрузка реального аудио <b>${song.id}.wav</b>...`;
+
+      const candidateUrls = [
+        `/audio/${song.id}.wav`,
+        `/audio/${song.id}.mp3`,
+        song.audioUrl
+      ];
+
+      for (const url of candidateUrls) {
+        if (!url) continue;
+        try {
+          const res = await fetch(url);
+          if (!res.ok) continue;
+          const arrayBuffer = await res.arrayBuffer();
+          if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+          if (audioCtx.state === 'suspended') await audioCtx.resume();
+          const decoded = await audioCtx.decodeAudioData(arrayBuffer);
+          audioCache.set(song.id, decoded);
+
+          if (songs[currentSongIndex] && songs[currentSongIndex].id === song.id) {
+            currentAudioBuffer = decoded;
+            if (statusEl) {
+              statusEl.innerHTML = `🟢 Аудио готово: <b>${song.id}.wav</b> (${decoded.duration.toFixed(1)} сек, ${(decoded.sampleRate / 1000).toFixed(1)} кГц)`;
+            }
+            renderTimeline();
+          }
+          return decoded;
+        } catch (e) {
+          console.warn('Audio fetch/decode failed for:', url, e);
+        }
+      }
+
+      if (statusEl) {
+        statusEl.innerHTML = `⚠️ Аудиофайл не найден на сервере (/audio/${song.id}.wav)`;
+      }
+      currentAudioBuffer = null;
+      return null;
+    }
+
+    function renderTimeline() {
+      const container = document.getElementById('timelineBar');
+      const song = songs[currentSongIndex];
+      if (!container || !song || !song.segments) return;
+
+      container.innerHTML = '';
+      const totalDur = song.durationSec || (currentAudioBuffer ? currentAudioBuffer.duration : 15.0);
+
+      song.segments.forEach((seg, idx) => {
+        const segDur = Math.max(0.1, (seg.endSec || 0) - (seg.startSec || 0));
+        const pct = (segDur / totalDur) * 100;
+        const color = SEGMENT_COLORS[idx % SEGMENT_COLORS.length];
+
+        const block = document.createElement('div');
+        block.className = 'timeline-seg-block';
+        block.style.width = `${pct}%`;
+        block.style.background = color + '44';
+        block.style.borderTop = `3px solid ${color}`;
+        block.title = `Часть ${idx + 1}: ${seg.startSec}s - ${seg.endSec}s (${seg.lyricsSnippet || ''})`;
+        block.innerHTML = `<span>Ч${idx + 1} (${segDur.toFixed(1)}с)</span>`;
+        block.onclick = () => playSegmentPreview(seg.startSec, seg.endSec, false, idx);
+        container.appendChild(block);
+      });
+    }
+
+    function renderSegments() {
+      const list = document.getElementById('segmentList');
+      const song = songs[currentSongIndex];
+      if (!song || !song.segments) return;
+
+      list.innerHTML = '';
+      song.segments.forEach((seg, sIdx) => {
+        const item = document.createElement('div');
+        item.className = 'segment-item';
+        item.id = `seg-item-${sIdx}`;
+        item.innerHTML = `
+          <div class="segment-num">${sIdx + 1}</div>
+          <div>
+            <input type="text" class="form-control" value="${seg.lyricsSnippet || ''}" placeholder="Текст подсказки / слова..." oninput="updateSegment(${sIdx}, 'lyricsSnippet', this.value)">
+          </div>
+          <div>
+            <input type="number" step="0.05" class="form-control" value="${seg.startSec || 0}" placeholder="Старт (с)" oninput="updateSegment(${sIdx}, 'startSec', parseFloat(this.value)); renderTimeline();">
+          </div>
+          <div>
+            <input type="number" step="0.05" class="form-control" value="${seg.endSec || 0}" placeholder="Конец (с)" oninput="updateSegment(${sIdx}, 'endSec', parseFloat(this.value)); renderTimeline();">
+          </div>
+          <div style="display: flex; gap: 6px;">
+            <button class="btn btn-secondary" style="padding: 6px 12px;" onclick="playSegmentPreview(${seg.startSec}, ${seg.endSec}, false, ${sIdx})">▶ Прямо</button>
+            <button class="btn btn-primary" style="padding: 6px 12px;" onclick="playSegmentPreview(${seg.startSec}, ${seg.endSec}, true, ${sIdx})">🔄 Реверс</button>
+            <button class="btn btn-danger" style="padding: 6px 8px;" onclick="removeSegment(${sIdx})">✕</button>
+          </div>
+        `;
+        list.appendChild(item);
+      });
+    }
+
+    function renderOptions() {
+      const list = document.getElementById('optionsList');
+      const song = songs[currentSongIndex];
+      if (!song || !song.options) return;
+
+      list.innerHTML = '';
+      song.options.forEach((opt, oIdx) => {
+        const item = document.createElement('div');
+        item.style = 'display: flex; align-items: center; gap: 12px;';
+        item.innerHTML = `
+          <input type="radio" name="correctChoice" ${opt.isCorrect ? 'checked' : ''} onchange="setCorrectOption(${oIdx})" style="width: 20px; height: 20px; accent-color: #00E676; cursor: pointer;">
+          <input type="text" class="form-control" style="flex: 1;" value="${opt.text || ''}" placeholder="Вариант ответа ${oIdx + 1}..." oninput="updateOption(${oIdx}, this.value)">
+        `;
+        list.appendChild(item);
+      });
+    }
+
+    function updateCurrentSong() {
+      const song = songs[currentSongIndex];
+      if (!song) return;
+
+      song.title = document.getElementById('editTitle').value;
+      song.artist = document.getElementById('editArtist').value;
+      song.id = document.getElementById('editId').value;
+      song.category = document.getElementById('editCategory').value;
+      song.year = document.getElementById('editYear').value;
+      song.difficulty = document.getElementById('editDifficulty').value;
+      song.audioUrl = document.getElementById('editAudioUrl').value;
+      song.clipUrl = document.getElementById('editClipUrl').value;
+      song.isApproved = document.getElementById('editIsApproved').checked;
+      renderSongList();
+    }
+
+    function updateSegment(sIdx, field, val) {
+      if (songs[currentSongIndex] && songs[currentSongIndex].segments[sIdx]) {
+        songs[currentSongIndex].segments[sIdx][field] = val;
+      }
+    }
+
+    function updateOption(oIdx, val) {
+      if (songs[currentSongIndex] && songs[currentSongIndex].options[oIdx]) {
+        songs[currentSongIndex].options[oIdx].text = val;
+      }
+    }
+
+    function setCorrectOption(oIdx) {
+      if (songs[currentSongIndex] && songs[currentSongIndex].options) {
+        songs[currentSongIndex].options.forEach((opt, idx) => {
+          opt.isCorrect = (idx === oIdx);
+        });
+      }
+    }
+
+    function autoSlice(count) {
+      const song = songs[currentSongIndex];
+      if (!song) return;
+      const duration = song.durationSec || (currentAudioBuffer ? currentAudioBuffer.duration : 15.0);
+      const step = +(duration / count).toFixed(2);
+      const segs = [];
+      for (let i = 0; i < count; i++) {
+        segs.push({
+          id: i + 1,
+          startSec: +(i * step).toFixed(2),
+          endSec: +((i + 1) * step).toFixed(2),
+          label: `Часть ${i + 1}`,
+          lyricsSnippet: `Фрагмент ${i + 1}...`
+        });
+      }
+      song.segments = segs;
+      renderSegments();
+      renderTimeline();
+    }
+
+    function addSegment() {
+      const song = songs[currentSongIndex];
+      if (!song) return;
+      if (!song.segments) song.segments = [];
+      const len = song.segments.length;
+      const lastEnd = len > 0 ? song.segments[len - 1].endSec : 0.0;
+      song.segments.push({
+        id: len + 1,
+        startSec: lastEnd,
+        endSec: +(lastEnd + 3.5).toFixed(2),
+        label: `Часть ${len + 1}`,
+        lyricsSnippet: `Новый фрагмент ${len + 1}...`
+      });
+      renderSegments();
+      renderTimeline();
+    }
+
+    function removeSegment(idx) {
+      const song = songs[currentSongIndex];
+      if (song && song.segments) {
+        song.segments.splice(idx, 1);
+        renderSegments();
+        renderTimeline();
+      }
+    }
+
+    function addNewSong() {
+      const newSong = {
+        id: "new_song_" + Date.now(),
+        title: "Новая песня",
+        artist: "Исполнитель",
+        category: "pop",
+        year: "2026",
+        durationSec: 15.0,
+        audioUrl: "",
+        clipUrl: "",
+        difficulty: "EASY",
+        isApproved: false,
+        melodyNotes: [60, 62, 64, 65, 67, 65, 64, 62, 60],
+        segments: [
+          { id: 1, startSec: 0.0, endSec: 3.75, label: "Часть 1", lyricsSnippet: "Фрагмент 1..." },
+          { id: 2, startSec: 3.75, endSec: 7.5, label: "Часть 2", lyricsSnippet: "Фрагмент 2..." },
+          { id: 3, startSec: 7.5, endSec: 11.25, label: "Часть 3", lyricsSnippet: "Фрагмент 3..." },
+          { id: 4, startSec: 11.25, endSec: 15.0, label: "Часть 4", lyricsSnippet: "Фрагмент 4..." }
+        ],
+        options: [
+          { id: 1, text: "Новая песня", isCorrect: true },
+          { id: 2, text: "Вариант 2", isCorrect: false },
+          { id: 3, text: "Вариант 3", isCorrect: false },
+          { id: 4, text: "Вариант 4", isCorrect: false }
+        ]
+      };
+      songs.unshift(newSong);
+      renderSongList();
+      selectSong(0);
+    }
+
+    function deleteCurrentSong() {
+      if (confirm('Вы уверены, что хотите удалить эту песню?')) {
+        songs.splice(currentSongIndex, 1);
+        renderSongList();
+        if (songs.length > 0) {
+          selectSong(Math.max(0, currentSongIndex - 1));
+        }
+      }
+    }
+
+    function filterSongs() {
+      renderSongList();
+    }
+
+    async function saveAll() {
+      try {
+        const res = await fetch('/api/save', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(songs)
+        });
+        const data = await res.json();
+        showToast(data.message || 'Успешно сохранено!');
+      } catch (err) {
+        alert('Ошибка при сохранении: ' + err);
+      }
+    }
+
+    async function syncAll() {
+      try {
+        const res = await fetch('/api/sync', { method: 'POST' });
+        const data = await res.json();
+        showToast(data.message || 'Синхронизировано!');
+      } catch (err) {
+        alert('Ошибка при синхронизации: ' + err);
+      }
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.style.display = 'block';
+      setTimeout(() => { t.style.display = 'none'; }, 3000);
+    }
+
+    function stopAudio() {
+      if (currentAudioSource) {
+        try { currentAudioSource.stop(); } catch(e){}
+        currentAudioSource = null;
+      }
+      activeNotesTimeouts.forEach(t => clearTimeout(t));
+      activeNotesTimeouts = [];
+      isPlaying = false;
+      document.querySelectorAll('.segment-item').forEach(el => el.classList.remove('playing'));
+      const indicator = document.getElementById('playingIndicator');
+      if (indicator) indicator.style.display = 'none';
+    }
+
+    async function playSegmentPreview(start, end, reversed, sIdx) {
+      stopAudio();
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') await audioCtx.resume();
+
+      const song = songs[currentSongIndex];
+      if (!song) return;
+
+      let buf = currentAudioBuffer;
+      if (!buf) {
+        buf = await loadSongAudio(song);
+      }
+      if (!buf) {
+        alert(`Не удалось воспроизвести: аудиофайл ${song.id}.wav не найден на сервере.`);
+        return;
+      }
+
+      const sampleRate = buf.sampleRate;
+      const startSample = Math.max(0, Math.floor(start * sampleRate));
+      const endSample = Math.min(buf.length, Math.floor(end * sampleRate));
+      const length = Math.max(1, endSample - startSample);
+      const numChannels = buf.numberOfChannels;
+
+      const sliceBuf = audioCtx.createBuffer(numChannels, length, sampleRate);
+      for (let c = 0; c < numChannels; c++) {
+        const src = buf.getChannelData(c);
+        const dst = sliceBuf.getChannelData(c);
+        for (let i = 0; i < length; i++) {
+          dst[i] = src[startSample + i];
+        }
+        if (reversed) {
+          dst.reverse();
+        }
+      }
+
+      const source = audioCtx.createBufferSource();
+      source.buffer = sliceBuf;
+      const gainNode = audioCtx.createGain();
+      gainNode.gain.value = 1.0;
+      source.connect(gainNode);
+      gainNode.connect(audioCtx.destination);
+
+      currentAudioSource = source;
+      isPlaying = true;
+
+      const itemEl = document.getElementById(`seg-item-${sIdx}`);
+      if (itemEl) itemEl.classList.add('playing');
+      const indicator = document.getElementById('playingIndicator');
+      if (indicator) {
+        indicator.style.display = 'flex';
+        indicator.textContent = `▶ Воспроизведение ${reversed ? 'РЕВЕРС' : 'ПРЯМО'}: ${sIdx >= 0 ? 'Часть ' + (sIdx + 1) : 'Весь трек'} (${start.toFixed(1)}с - ${end.toFixed(1)}с)`;
+      }
+
+      source.onended = () => {
+        if (itemEl) itemEl.classList.remove('playing');
+        if (indicator) indicator.style.display = 'none';
+        isPlaying = false;
+        currentAudioSource = null;
+      };
+
+      source.start();
+    }
+
+    async function playFullTrack(reversed = false) {
+      const song = songs[currentSongIndex];
+      if (!song) return;
+      const dur = song.durationSec || (currentAudioBuffer ? currentAudioBuffer.duration : 15.0);
+      playSegmentPreview(0, dur, reversed, -1);
+    }
+
+    function midiToFreq(midi) {
+      return 440 * Math.pow(2, (midi - 69) / 12);
+    }
+
+    const NOTE_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+    function midiToNoteName(midi) {
+      const note = NOTE_NAMES[midi % 12];
+      const oct = Math.floor(midi / 12) - 1;
+      return `${note}${oct}`;
+    }
+
+    function playPianoNote(freq, startTime, duration = 0.35) {
+      if (!audioCtx) return;
+      // High quality multi-harmonic Piano Timbre
+      const harmonics = [
+        { mult: 1.0, gain: 0.65, decay: 1.0 },
+        { mult: 2.0, gain: 0.28, decay: 1.4 },
+        { mult: 3.0, gain: 0.12, decay: 2.0 },
+        { mult: 4.0, gain: 0.05, decay: 2.8 }
+      ];
+
+      const masterGain = audioCtx.createGain();
+      masterGain.connect(audioCtx.destination);
+
+      harmonics.forEach(h => {
+        const osc = audioCtx.createOscillator();
+        const g = audioCtx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(freq * h.mult, startTime);
+        
+        // Attack & Exponential Release
+        g.gain.setValueAtTime(0.0001, startTime);
+        g.gain.exponentialRampToValueAtTime(h.gain * 0.7, startTime + 0.015);
+        g.gain.exponentialRampToValueAtTime(0.0001, startTime + duration * h.decay);
+
+        osc.connect(g);
+        g.connect(masterGain);
+
+        osc.start(startTime);
+        osc.stop(startTime + duration * h.decay);
+      });
+    }
+
+    async function playMelodyNotes() {
+      stopAudio();
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') await audioCtx.resume();
+
+      const song = songs[currentSongIndex];
+      if (!song || !song.melodyNotes || song.melodyNotes.length === 0) {
+        alert('У этой песни нет нот мелодии.');
+        return;
+      }
+
+      const indicator = document.getElementById('playingIndicator');
+      if (indicator) indicator.style.display = 'flex';
+
+      const now = audioCtx.currentTime;
+      const noteDuration = 0.38;
+
+      song.melodyNotes.forEach((midi, idx) => {
+        const noteTime = now + (idx * noteDuration);
+        const freq = midiToFreq(midi);
+        playPianoNote(freq, noteTime, noteDuration * 0.95);
+
+        const t = setTimeout(() => {
+          if (indicator) {
+            indicator.textContent = `🎹 Нота ${idx + 1}/${song.melodyNotes.length}: ${midiToNoteName(midi)} (MIDI ${midi}, ${Math.round(freq)} Гц)`;
+          }
+        }, idx * noteDuration * 1000);
+        activeNotesTimeouts.push(t);
+      });
+
+      const totalTime = song.melodyNotes.length * noteDuration * 1000;
+      const endT = setTimeout(() => {
+        if (indicator) indicator.style.display = 'none';
+      }, totalTime);
+      activeNotesTimeouts.push(endT);
+    }
+
+    loadSongs();
+  </script>
+</body>
+</html>
