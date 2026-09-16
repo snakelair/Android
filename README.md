@@ -9,11 +9,11 @@
 | Проект | Описание | Версия | Платформа | Релиз (APK) |
 | :--- | :--- | :---: | :---: | :---: |
 | [🎬 **Стоп-Кадр (StopFrame)**](./StopFrame) | Кино-викторина на память и внимательность для всей семьи | **v1.1.0** | Android TV / Google TV / Планшеты | [Скачать APK (14 MB)](./StopFrame/releases/StopFrame-v1.0.0-release.apk) |
-| [🎵 **Tracker Music PRO**](./TrackerMusic) | Плеер трекерной музыки демосцены и кейгенов (WASM + 3D WebGL) | **v1.0.0** | Android TV / Google TV / Планшеты / Смартфоны | [Скачать APK (2.7 MB)](./TrackerMusic/releases/TrackerMusic-v1.0.0-release.apk) |
+| [🎵 **Tracker Music PRO**](./TrackerMusic) | Плеер трекерной музыки демосцены и кейгенов (WASM + 3D WebGL + MediaSession + Deep Links) | **v1.0.1** | Android TV / Google TV / Планшеты / Смартфоны / Авто | [Скачать APK (2.7 MB)](./TrackerMusic/releases/TrackerMusic-v1.0.1-release.apk) |
 
 ---
 
-## 📂 Структура репозитория
+## 📁 Структура репозитория
 
 ```text
 Android/
@@ -24,8 +24,9 @@ Android/
 │   │   └── StopFrame-v1.0.0-release.apk
 │   └── screenshots/               # Скриншоты интерфейса и геймплея
 └── TrackerMusic/                  # Проект 2: Tracker Music PRO (Android & Android TV)
-    ├── README.md                  # Документация, QR-код, управление пультом TV
+    ├── README.md                  # Документация, QR-код, управление пультом TV & Bluetooth
     ├── releases/                  # Подписанные Release APK
-    │   └── TrackerMusic-v1.0.0-release.apk
-    └── screenshots/               # TV баннер и QR-код для установки
+    │   ├── TrackerMusic-v1.0.0-release.apk
+    │   └── TrackerMusic-v1.0.1-release.apk
+    └── screenshots/               # TV баннер, QR-код для установки и скриншоты TV
 ```
