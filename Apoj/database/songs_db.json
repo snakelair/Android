@@ -1,0 +1,1140 @@
+[
+  {
+    "id": "soviet_pesenka_o_medvedyah",
+    "title": "Песенка о медведях",
+    "artist": "Аида Ведищева (к/ф «Кавказская пленница»)",
+    "category": "soviet",
+    "year": "1967",
+    "durationSec": 15.0,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_pesenka_o_medvedyah.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_pesenka_o_medvedyah.mp4",
+    "youtubeVideoId": "kavkaz_bears",
+    "difficulty": "EASY",
+    "isApproved": true,
+    "melodyNotes": [
+      60,
+      64,
+      67,
+      65,
+      64,
+      62,
+      60,
+      62,
+      64,
+      60
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 3.6,
+        "label": "Часть 1: Где-то на белом свете",
+        "lyricsSnippet": "Где-то на белом свете..."
+      },
+      {
+        "id": 2,
+        "startSec": 3.6,
+        "endSec": 7.4,
+        "label": "Часть 2: Там где всегда мороз",
+        "lyricsSnippet": "Там где всегда мороз..."
+      },
+      {
+        "id": 3,
+        "startSec": 7.4,
+        "endSec": 11.2,
+        "label": "Часть 3: Трутся спиной медведи",
+        "lyricsSnippet": "Трутся спиной медведи..."
+      },
+      {
+        "id": 4,
+        "startSec": 11.2,
+        "endSec": 15.0,
+        "label": "Часть 4: О земную ось",
+        "lyricsSnippet": "О земную ось!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Песенка о медведях («Где-то на белом свете...»)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Остров невезения («Весь покрытый зеленью...»)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Песня про зайцев («В темно-синем лесу...»)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Постой, паровоз («Не стучите, колеса...»)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "soviet_ostrov_nevezeniya",
+    "title": "Остров невезения",
+    "artist": "Андрей Миронов (к/ф «Бриллиантовая рука»)",
+    "category": "soviet",
+    "year": "1968",
+    "durationSec": 14.8,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_ostrov_nevezeniya.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_ostrov_nevezeniya.mp4",
+    "youtubeVideoId": "diamond_island",
+    "difficulty": "EASY",
+    "isApproved": true,
+    "melodyNotes": [
+      65,
+      65,
+      65,
+      64,
+      62,
+      64,
+      65,
+      67,
+      65
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 3.7,
+        "label": "Часть 1: Весь покрытый зеленью",
+        "lyricsSnippet": "Весь покрытый зеленью..."
+      },
+      {
+        "id": 2,
+        "startSec": 3.7,
+        "endSec": 7.4,
+        "label": "Часть 2: Абсолютно весь",
+        "lyricsSnippet": "Абсолютно весь..."
+      },
+      {
+        "id": 3,
+        "startSec": 7.4,
+        "endSec": 11.1,
+        "label": "Часть 3: Остров невезения",
+        "lyricsSnippet": "Остров невезения..."
+      },
+      {
+        "id": 4,
+        "startSec": 11.1,
+        "endSec": 14.8,
+        "label": "Часть 4: В океане есть",
+        "lyricsSnippet": "В океане есть!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Остров невезения",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Песенка о медведях",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Разговор со счастьем",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Чунга-Чанга",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "soviet_razgovor_so_schastyem",
+    "title": "Разговор со счастьем",
+    "artist": "Валерий Золотухин (к/ф «Иван Васильевич меняет профессию»)",
+    "category": "soviet",
+    "year": "1973",
+    "durationSec": 15.2,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_razgovor_so_schastyem.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_razgovor_so_schastyem.mp4",
+    "youtubeVideoId": "ivan_schastye",
+    "difficulty": "MEDIUM",
+    "isApproved": true,
+    "melodyNotes": [
+      67,
+      67,
+      67,
+      65,
+      64,
+      62,
+      60,
+      64,
+      67
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 3.8,
+        "label": "Часть 1: Вдруг как в сказке",
+        "lyricsSnippet": "Вдруг как в сказке скрипнула дверь..."
+      },
+      {
+        "id": 2,
+        "startSec": 3.8,
+        "endSec": 7.6,
+        "label": "Часть 2: Всё мне ясно стало теперь",
+        "lyricsSnippet": "Всё мне ясно стало теперь..."
+      },
+      {
+        "id": 3,
+        "startSec": 7.6,
+        "endSec": 11.4,
+        "label": "Часть 3: Столько лет я спорил с судьбой",
+        "lyricsSnippet": "Столько лет я спорил с судьбой..."
+      },
+      {
+        "id": 4,
+        "startSec": 11.4,
+        "endSec": 15.2,
+        "label": "Часть 4: Ради этой встречи с тобой",
+        "lyricsSnippet": "Ради этой встречи с тобой!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Разговор со счастьем («Вдруг как в сказке...»)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Если б я был султан",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Звенит январская вьюга",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Песня про зайцев",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "rock_gruppa_krovi",
+    "title": "Группа крови",
+    "artist": "КИНО / Виктор Цой",
+    "category": "rock",
+    "year": "1988",
+    "durationSec": 16.0,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_gruppa_krovi.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_gruppa_krovi.mp4",
+    "youtubeVideoId": "kino_blood",
+    "difficulty": "EASY",
+    "isApproved": true,
+    "melodyNotes": [
+      62,
+      62,
+      62,
+      65,
+      64,
+      62,
+      60,
+      58,
+      62
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 4.0,
+        "label": "Часть 1: Группа крови на рукаве",
+        "lyricsSnippet": "Группа крови — на рукаве..."
+      },
+      {
+        "id": 2,
+        "startSec": 4.0,
+        "endSec": 8.0,
+        "label": "Часть 2: Мой порядковый номер",
+        "lyricsSnippet": "Мой порядковый номер — на рукаве..."
+      },
+      {
+        "id": 3,
+        "startSec": 8.0,
+        "endSec": 12.0,
+        "label": "Часть 3: Пожелай мне удачи в бою",
+        "lyricsSnippet": "Пожелай мне удачи в бою..."
+      },
+      {
+        "id": 4,
+        "startSec": 12.0,
+        "endSec": 16.0,
+        "label": "Часть 4: Пожелай мне удачи",
+        "lyricsSnippet": "Пожелай мне, пожелай мне удачи!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Группа крови (КИНО)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Звезда по имени Солнце (КИНО)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Пачка сигарет (КИНО)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Спокойная ночь (КИНО)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "rock_batareyka",
+    "title": "Батарейка",
+    "artist": "Жуки",
+    "category": "rock",
+    "year": "1999",
+    "durationSec": 15.6,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_batareyka.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_batareyka.mp4",
+    "youtubeVideoId": "zhuki_bat",
+    "difficulty": "EASY",
+    "isApproved": true,
+    "melodyNotes": [
+      67,
+      65,
+      64,
+      62,
+      60,
+      62,
+      64,
+      60
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 3.9,
+        "label": "Часть 1: Холодный ветер с дождем",
+        "lyricsSnippet": "Холодный ветер с дождем усилился стократно..."
+      },
+      {
+        "id": 2,
+        "startSec": 3.9,
+        "endSec": 7.8,
+        "label": "Часть 2: Всё говорит об одном",
+        "lyricsSnippet": "Всё говорит об одном, что нет пути обратно..."
+      },
+      {
+        "id": 3,
+        "startSec": 7.8,
+        "endSec": 11.7,
+        "label": "Часть 3: Что ты не мой лопушок",
+        "lyricsSnippet": "Что ты не мой лопушок, а я не твой Андрейка..."
+      },
+      {
+        "id": 4,
+        "startSec": 11.7,
+        "endSec": 15.6,
+        "label": "Часть 4: О-о-и-я-и-ё Батарейка",
+        "lyricsSnippet": "О-о-и-я-и-ё! Батарейка!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Батарейка (Жуки)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Хали-гали, паратрупер (Леприконсы)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Мое сердце (Сплин)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Полковнику никто не пишет (Би-2)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "rock_lesnik",
+    "title": "Лесник",
+    "artist": "Король и Шут",
+    "category": "rock",
+    "year": "1997",
+    "durationSec": 16.5,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_lesnik.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_lesnik.mp4",
+    "youtubeVideoId": "kish_lesnik",
+    "difficulty": "MEDIUM",
+    "isApproved": true,
+    "melodyNotes": [
+      64,
+      65,
+      67,
+      65,
+      64,
+      62,
+      60,
+      62,
+      64
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 4.1,
+        "label": "Часть 1: Замученный дорогой",
+        "lyricsSnippet": "Замученный дорогой, я выбился из сил..."
+      },
+      {
+        "id": 2,
+        "startSec": 4.1,
+        "endSec": 8.2,
+        "label": "Часть 2: И в хижине лесника",
+        "lyricsSnippet": "И в хижине лесника ночлега попросил..."
+      },
+      {
+        "id": 3,
+        "startSec": 8.2,
+        "endSec": 12.3,
+        "label": "Часть 3: С улыбкой добродушной",
+        "lyricsSnippet": "С улыбкой добродушной старик меня впустил..."
+      },
+      {
+        "id": 4,
+        "startSec": 12.3,
+        "endSec": 16.5,
+        "label": "Часть 4: И жестом дружелюбным",
+        "lyricsSnippet": "И жестом дружелюбным на ужин пригласил!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Лесник (Король и Шут)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Кукла колдуна (Король и Шут)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Прыгну со скалы (Король и Шут)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Ели мясо мужики (Король и Шут)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "pop_sedaya_noch",
+    "title": "Седая ночь",
+    "artist": "Юрий Шатунов / Ласковый май",
+    "category": "pop",
+    "year": "1988",
+    "durationSec": 15.0,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_sedaya_noch.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_sedaya_noch.mp4",
+    "youtubeVideoId": "shatunov_noch",
+    "difficulty": "EASY",
+    "isApproved": true,
+    "melodyNotes": [
+      65,
+      64,
+      62,
+      64,
+      65,
+      67,
+      65,
+      64,
+      62
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 3.7,
+        "label": "Часть 1: И снова седая ночь",
+        "lyricsSnippet": "И снова седая ночь..."
+      },
+      {
+        "id": 2,
+        "startSec": 3.7,
+        "endSec": 7.5,
+        "label": "Часть 2: И только ей доверяю я",
+        "lyricsSnippet": "И только ей доверяю я..."
+      },
+      {
+        "id": 3,
+        "startSec": 7.5,
+        "endSec": 11.2,
+        "label": "Часть 3: Знаешь седая ночь",
+        "lyricsSnippet": "Знаешь седая ночь..."
+      },
+      {
+        "id": 4,
+        "startSec": 11.2,
+        "endSec": 15.0,
+        "label": "Часть 4: Ты все мои тайны",
+        "lyricsSnippet": "Ты все мои тайны!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Седая ночь (Юрий Шатунов)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Белые розы (Ласковый май)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Розовый вечер (Юрий Шатунов)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Лето (Ласковый май)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "pop_topoliny_puh",
+    "title": "Тополиный пух",
+    "artist": "Иванушки International",
+    "category": "pop",
+    "year": "1998",
+    "durationSec": 15.5,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_topoliny_puh.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_topoliny_puh.mp4",
+    "youtubeVideoId": "ivanushki_puh",
+    "difficulty": "EASY",
+    "isApproved": true,
+    "melodyNotes": [
+      67,
+      65,
+      64,
+      62,
+      64,
+      65,
+      67,
+      64,
+      60
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 3.8,
+        "label": "Часть 1: Тополиный пух",
+        "lyricsSnippet": "Тополиный пух, жара, июль..."
+      },
+      {
+        "id": 2,
+        "startSec": 3.8,
+        "endSec": 7.7,
+        "label": "Часть 2: Ночи такие звездные",
+        "lyricsSnippet": "Ночи такие звездные..."
+      },
+      {
+        "id": 3,
+        "startSec": 7.7,
+        "endSec": 11.6,
+        "label": "Часть 3: Ты пойми что первый поцелуй",
+        "lyricsSnippet": "Ты пойми, что первый поцелуй..."
+      },
+      {
+        "id": 4,
+        "startSec": 11.6,
+        "endSec": 15.5,
+        "label": "Часть 4: Он звенит над нами",
+        "lyricsSnippet": "Он звенит над нами!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Тополиный пух (Иванушки International)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Тучи (Иванушки International)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Кукла (Иванушки International)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Колечко (Иванушки International)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "pop_znaesh_li_ty",
+    "title": "Знаешь ли ты",
+    "artist": "МакSим",
+    "category": "pop",
+    "year": "2006",
+    "durationSec": 16.0,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_znaesh_li_ty.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_znaesh_li_ty.mp4",
+    "youtubeVideoId": "maksim_znaesh",
+    "difficulty": "MEDIUM",
+    "isApproved": true,
+    "melodyNotes": [
+      64,
+      67,
+      69,
+      71,
+      69,
+      67,
+      64,
+      62,
+      64
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 4.0,
+        "label": "Часть 1: Знаешь ли ты",
+        "lyricsSnippet": "Знаешь ли ты, вдоль ночных дорог..."
+      },
+      {
+        "id": 2,
+        "startSec": 4.0,
+        "endSec": 8.0,
+        "label": "Часть 2: Шла босиком",
+        "lyricsSnippet": "Шла босиком, не жалея ног..."
+      },
+      {
+        "id": 3,
+        "startSec": 8.0,
+        "endSec": 12.0,
+        "label": "Часть 3: Сердце его теперь в твоих руках",
+        "lyricsSnippet": "Сердце его теперь в твоих руках..."
+      },
+      {
+        "id": 4,
+        "startSec": 12.0,
+        "endSec": 16.0,
+        "label": "Часть 4: Не потеряй его и не сломай",
+        "lyricsSnippet": "Не потеряй его и не сломай!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Знаешь ли ты (МакSим)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Трудный возраст (МакSим)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Нежность (МакSим)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Отпускаю (МакSим)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "kids_mamontenok",
+    "title": "Песенка Мамонтёнка",
+    "artist": "Клара Румянова (м/ф «Мама для мамонтёнка»)",
+    "category": "kids",
+    "year": "1981",
+    "durationSec": 14.5,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_mamontenok.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_mamontenok.mp4",
+    "youtubeVideoId": "mamontenok",
+    "difficulty": "EASY",
+    "isApproved": true,
+    "melodyNotes": [
+      60,
+      62,
+      64,
+      65,
+      67,
+      65,
+      64,
+      62,
+      60
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 3.6,
+        "label": "Часть 1: По синему морю",
+        "lyricsSnippet": "По синему морю к зеленой земле..."
+      },
+      {
+        "id": 2,
+        "startSec": 3.6,
+        "endSec": 7.2,
+        "label": "Часть 2: Плыву я на белом своем корабле",
+        "lyricsSnippet": "Плыву я на белом своем корабле..."
+      },
+      {
+        "id": 3,
+        "startSec": 7.2,
+        "endSec": 10.8,
+        "label": "Часть 3: Ведь так не бывает на свете",
+        "lyricsSnippet": "Ведь так не бывает на свете..."
+      },
+      {
+        "id": 4,
+        "startSec": 10.8,
+        "endSec": 14.5,
+        "label": "Часть 4: Чтоб были потеряны дети",
+        "lyricsSnippet": "Чтоб были потеряны дети!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Песенка Мамонтёнка («По синему морю...»)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Песенка Чебурашки («Я был когда-то странной...»)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Песенка крокодила Гены («Пусть бегут неуклюже...»)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Колыбельная Медведицы («Ложкой снег мешая...»)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "kids_bremenskie",
+    "title": "Песня друзей (Ничего на свете лучше нету)",
+    "artist": "Олег Анофриев (м/ф «Бременские музыканты»)",
+    "category": "kids",
+    "year": "1969",
+    "durationSec": 15.0,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_bremenskie.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_bremenskie.mp4",
+    "youtubeVideoId": "bremen_friends",
+    "difficulty": "EASY",
+    "isApproved": true,
+    "melodyNotes": [
+      67,
+      65,
+      64,
+      62,
+      60,
+      64,
+      67,
+      65,
+      64
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 3.7,
+        "label": "Часть 1: Ничего на свете лучше нету",
+        "lyricsSnippet": "Ничего на свете лучше нету..."
+      },
+      {
+        "id": 2,
+        "startSec": 3.7,
+        "endSec": 7.5,
+        "label": "Часть 2: Чем бродить друзьям по белу свету",
+        "lyricsSnippet": "Чем бродить друзьям по белу свету..."
+      },
+      {
+        "id": 3,
+        "startSec": 7.5,
+        "endSec": 11.2,
+        "label": "Часть 3: Тем кто дружен не страшны тревоги",
+        "lyricsSnippet": "Тем кто дружен не страшны тревоги..."
+      },
+      {
+        "id": 4,
+        "startSec": 11.2,
+        "endSec": 15.0,
+        "label": "Часть 4: Нам любые дороги дороги",
+        "lyricsSnippet": "Нам любые дороги дороги!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Песня друзей («Ничего на свете лучше нету»)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Серенада Трубадура («Луч солнца золотого»)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Песня разбойников («Говорят мы бяки-буки»)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Песня Охраны («Ох рано встает охрана»)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "world_queen_we_will_rock_you",
+    "title": "We Will Rock You",
+    "artist": "Queen",
+    "category": "world",
+    "year": "1977",
+    "durationSec": 14.0,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_queen_we_will_rock_you.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_queen_we_will_rock_you.mp4",
+    "youtubeVideoId": "queen_rock_you",
+    "difficulty": "EASY",
+    "isApproved": true,
+    "melodyNotes": [
+      64,
+      64,
+      64,
+      64,
+      67,
+      65,
+      64,
+      62,
+      60
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 3.5,
+        "label": "Part 1: Buddy you're a boy",
+        "lyricsSnippet": "Buddy you're a boy make a big noise..."
+      },
+      {
+        "id": 2,
+        "startSec": 3.5,
+        "endSec": 7.0,
+        "label": "Part 2: Playing in the street",
+        "lyricsSnippet": "Playing in the street gonna be a big man someday..."
+      },
+      {
+        "id": 3,
+        "startSec": 7.0,
+        "endSec": 10.5,
+        "label": "Part 3: You got mud on your face",
+        "lyricsSnippet": "You got mud on your face, you big disgrace..."
+      },
+      {
+        "id": 4,
+        "startSec": 10.5,
+        "endSec": 14.0,
+        "label": "Part 4: We will we will rock you",
+        "lyricsSnippet": "We will we will rock you!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "We Will Rock You (Queen)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Bohemian Rhapsody (Queen)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "The Show Must Go On (Queen)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Another One Bites the Dust (Queen)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "world_imagine_dragons_believer",
+    "title": "Believer",
+    "artist": "Imagine Dragons",
+    "category": "world",
+    "year": "2017",
+    "durationSec": 15.0,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_imagine_dragons_believer.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_imagine_dragons_believer.mp4",
+    "youtubeVideoId": "dragons_believer",
+    "difficulty": "MEDIUM",
+    "isApproved": true,
+    "melodyNotes": [
+      65,
+      65,
+      65,
+      68,
+      67,
+      65,
+      63,
+      65
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 3.7,
+        "label": "Part 1: First things first",
+        "lyricsSnippet": "First things first, I'ma say all the words inside my head..."
+      },
+      {
+        "id": 2,
+        "startSec": 3.7,
+        "endSec": 7.5,
+        "label": "Part 2: I'm fired up and tired",
+        "lyricsSnippet": "I'm fired up and tired of the way that things have been..."
+      },
+      {
+        "id": 3,
+        "startSec": 7.5,
+        "endSec": 11.2,
+        "label": "Part 3: Pain! You made me a",
+        "lyricsSnippet": "Pain! You made me a, you made me a believer..."
+      },
+      {
+        "id": 4,
+        "startSec": 11.2,
+        "endSec": 15.0,
+        "label": "Part 4: Believer!",
+        "lyricsSnippet": "Believer, believer!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Believer (Imagine Dragons)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Radioactive (Imagine Dragons)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Demons (Imagine Dragons)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Bones (Imagine Dragons)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "memes_yagoda_malinka",
+    "title": "Ягода малинка",
+    "artist": "Хабиб",
+    "category": "memes",
+    "year": "2020",
+    "durationSec": 16.0,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_yagoda_malinka.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_yagoda_malinka.mp4",
+    "youtubeVideoId": "yagoda_malinka",
+    "difficulty": "EASY",
+    "isApproved": true,
+    "melodyNotes": [
+      60,
+      62,
+      64,
+      65,
+      67,
+      65,
+      64,
+      62,
+      60
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 4.0,
+        "label": "Часть 1: Ягода малинка оп-оп-оп",
+        "lyricsSnippet": "Ягода малинка оп-оп-оп..."
+      },
+      {
+        "id": 2,
+        "startSec": 4.0,
+        "endSec": 8.0,
+        "label": "Часть 2: Крутит головой залетает в топ",
+        "lyricsSnippet": "Крутит головой залетает в топ..."
+      },
+      {
+        "id": 3,
+        "startSec": 8.0,
+        "endSec": 12.0,
+        "label": "Часть 3: Такая ты грустинка хей диджей",
+        "lyricsSnippet": "Такая ты грустинка хей диджей..."
+      },
+      {
+        "id": 4,
+        "startSec": 12.0,
+        "endSec": 16.0,
+        "label": "Часть 4: Эй переключи нам этот трек",
+        "lyricsSnippet": "Эй переключи нам этот трек!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Ягода малинка (Хабиб)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Матушка Земля (Татьяна Куртукова)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Горький вкус (Султан Лагучев)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Юность (Добро)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "memes_matushka_zemlya",
+    "title": "Матушка Земля",
+    "artist": "Татьяна Куртукова",
+    "category": "memes",
+    "year": "2024",
+    "durationSec": 16.0,
+    "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_matushka_zemlya.mp3",
+    "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_matushka_zemlya.mp4",
+    "youtubeVideoId": "matushka_earth",
+    "difficulty": "MEDIUM",
+    "isApproved": true,
+    "melodyNotes": [
+      62,
+      65,
+      67,
+      69,
+      67,
+      65,
+      64,
+      62
+    ],
+    "segments": [
+      {
+        "id": 1,
+        "startSec": 0.0,
+        "endSec": 4.0,
+        "label": "Часть 1: Матушка земля",
+        "lyricsSnippet": "Матушка земля, белая березонька..."
+      },
+      {
+        "id": 2,
+        "startSec": 4.0,
+        "endSec": 8.0,
+        "label": "Часть 2: Для меня святая",
+        "lyricsSnippet": "Для меня святая Русь, для других занозонька..."
+      },
+      {
+        "id": 3,
+        "startSec": 8.0,
+        "endSec": 12.0,
+        "label": "Часть 3: За меня в огонь и в воду",
+        "lyricsSnippet": "За меня в огонь и в воду, за родную за свободу..."
+      },
+      {
+        "id": 4,
+        "startSec": 12.0,
+        "endSec": 16.0,
+        "label": "Часть 4: Постою я за Россию",
+        "lyricsSnippet": "Постою я за Россию!"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "Матушка Земля (Татьяна Куртукова)",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Ягода малинка (Хабиб)",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Встанем (SHAMAN)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Горький вкус (Султан Лагучев)",
+        "isCorrect": false
+      }
+    ]
+  }
+]
