@@ -1,0 +1,8 @@
+{
+  "versionCode": 3,
+  "versionName": "1.0.2",
+  "apkUrl": "https://raw.githubusercontent.com/snakelair/Android/main/TrackerMusic/releases/TrackerMusic-v1.0.2-release.apk",
+  "releaseNotes": "• Встроена система автоматического самообновления прямо в приложении\n• Защита от частых напоминаний (интервал 7 дней при отказе)\n• Поддержка внешнего управления (Bluetooth-гарнитуры, мультируль авто, пульты ТВ)\n• Прямые ссылки на треки и их мгновенный перехват в приложении (Deep Links)\n• Умная предзагрузка последнего/популярного трека без автовоспроизведения",
+  "mandatory": false,
+  "minSdk": 26
+}

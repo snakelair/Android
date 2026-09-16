@@ -2,10 +2,10 @@
 
 **Tracker Music PRO** — официальный полноэкранный нативный клиент трекерной музыки демосцены и кейгенов для **Android-планшетов, смартфонов, автомобильных ГУ (Android Auto/Head Units) и телевизоров Android TV / Google TV**.
 
-[![Release](https://img.shields.io/badge/Release-v1.0.1-cyan?style=for-the-badge&logo=android)](releases/TrackerMusic-v1.0.1-release.apk)
-[![Platform](https://img.shields.io/badge/Platform-Android_TV_/_Google_TV_/_Auto_/_Tablets-blue?style=for-the-badge&logo=google)](releases/TrackerMusic-v1.0.1-release.apk)
+[![Release](https://img.shields.io/badge/Release-v1.0.2-cyan?style=for-the-badge&logo=android)](releases/TrackerMusic-v1.0.2-release.apk)
+[![Platform](https://img.shields.io/badge/Platform-Android_TV_/_Google_TV_/_Auto_/_Tablets-blue?style=for-the-badge&logo=google)](releases/TrackerMusic-v1.0.2-release.apk)
 [![Engine](https://img.shields.io/badge/Engine-libopenmpt_WASM_+_3D_WebGL-magenta?style=for-the-badge)](https://tracker.snakelair.ru/)
-[![Download APK](https://img.shields.io/badge/Download_APK-2.75_MB-green?style=for-the-badge&logo=android)](releases/TrackerMusic-v1.0.1-release.apk)
+[![Download APK](https://img.shields.io/badge/Download_APK-2.75_MB-green?style=for-the-badge&logo=android)](releases/TrackerMusic-v1.0.2-release.apk)
 
 ---
 
@@ -19,26 +19,24 @@
 </p>
 
 ### Вариант 2. Прямая ссылка для скачивания
-🚀 **[Скачать TrackerMusic v1.0.1 Release APK (2.75 МБ)](https://raw.githubusercontent.com/snakelair/Android/main/TrackerMusic/releases/TrackerMusic-v1.0.1-release.apk)**  
-*(Предыдущие версии: [releases/TrackerMusic-v1.0.0-release.apk](releases/TrackerMusic-v1.0.0-release.apk))*
+🚀 **[Скачать TrackerMusic v1.0.2 Release APK (2.75 МБ)](https://raw.githubusercontent.com/snakelair/Android/main/TrackerMusic/releases/TrackerMusic-v1.0.2-release.apk)**  
+*(Предыдущие версии: [releases/TrackerMusic-v1.0.1-release.apk](releases/TrackerMusic-v1.0.1-release.apk), [releases/TrackerMusic-v1.0.0-release.apk](releases/TrackerMusic-v1.0.0-release.apk))*
 
 > [!NOTE]
 > Приложение подписано официальным релизным ключом SnakeLair и готово к установке на любое устройство с **Android 8.0+ (minSdk 26)** — планшеты, телефоны, Android TV, Google TV, ТВ-приставки (Xiaomi Mi Box, Dune, Ugoos, SberBox), проекторы и головные устройства авто.
 
 ---
 
-## ⚡ Что нового в версии 1.0.1
+## ⚡ Что нового в версии 1.0.2
 
-- 🔗 **Поддержка Deep Links (App Links):** Прямой перехват и открытие ссылок `https://tracker.snakelair.ru/?track=<id>` прямо в приложении при переходе из мессенджеров, браузера или соцсетей.
-- 🎧 **Внешнее управление (MediaSession API + Bluetooth / Авто / Гарнитуры):**
-  - Полная интеграция с системным `MediaSession`.
-  - Управление воспроизведением со стандартных кнопок Bluetooth-наушников (Play/Pause, Next Track, Prev Track).
-  - Управление с мультируля в авто и автомобильных Android магнитол.
-  - Отображение текущего трека, автора и обложки в системной шторке уведомлений и на экране блокировки.
-- 🎯 **Умная предзагрузка трека (без автозапуска):**
-  - При первом открытии автоматически подгружается самый популярный трек каталога (по лайкам) в состоянии паузы.
-  - При повторных посещениях сохраняется и восстанавливается последний прослушанный трек.
-- 📤 **Быстрый шеринг треков:** Кнопка «Поделиться» с генерацией прямых ссылок на конкретные треки.
+- 🔄 **Встроенная система самообновления (In-App Self-Update):**
+  - Автоматическая проверка новых версий в репозитории при старте приложения.
+  - Показ диалога с описанием обновлений (с фокусом на кнопке «Обновить» для пультов ТВ).
+  - Умная защита от спама: при нажатии **«Позже»** повторное напоминание откладывается на **7 дней**, либо показывается мгновенно при выходе ещё более свежего релиза.
+  - Внутриигровое скачивание APK с прогресс-баром и бесшовный запуск системного установщика пакетов (`FileProvider`).
+- 🔗 **Поддержка Deep Links (App Links):** Прямой перехват и открытие ссылок `https://tracker.snakelair.ru/?track=<id>` прямо в приложении.
+- 🎧 **Внешнее управление (MediaSession API + Bluetooth / Авто / Гарнитуры):** Управление со стандартных кнопок Bluetooth-гарнитур, мультируля в авто и пульта ТВ.
+- 🎯 **Умная предзагрузка трека (без автозапуска):** Автоматическая загрузка популярного трека или последнего прослушанного в режиме паузы.
 
 ---
 
@@ -74,7 +72,7 @@
 ## 📋 Техническая информация
 
 - **Package ID:** com.snakelair.trackermusic
-- **Версия:** 1.0.1 (versionCode 2)
+- **Версия:** 1.0.2 (versionCode 3)
 - **Размер APK:** ~2.75 МБ
 - **Min SDK:** Android 8.0 Oreo (API 26)
 - **Target SDK:** Android 15 (API 35)
