@@ -5,12 +5,12 @@
     "artist": "Аида Ведищева (к/ф «Кавказская пленница»)",
     "category": "soviet",
     "year": "1967",
-    "durationSec": 15.0,
+    "durationSec": 12.74,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_pesenka_o_medvedyah.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_pesenka_o_medvedyah.mp4",
     "youtubeVideoId": "soviet_pesenka_o_medvedyah",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -26,29 +26,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.25,
         "label": "Часть 1: Где-то на белом свете",
         "lyricsSnippet": "Где-то на белом свете..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.25,
+        "endSec": 5.95,
         "label": "Часть 2: Там где всегда мороз",
         "lyricsSnippet": "Там где всегда мороз..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 5.95,
+        "endSec": 9.55,
         "label": "Часть 3: Трутся спиной медведи",
         "lyricsSnippet": "Трутся спиной медведи..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 9.55,
+        "endSec": 12.74,
         "label": "Часть 4: О земную ось",
         "lyricsSnippet": "О земную ось!"
       }
@@ -82,12 +82,12 @@
     "artist": "Андрей Миронов (к/ф «Бриллиантовая рука»)",
     "category": "soviet",
     "year": "1968",
-    "durationSec": 14.8,
+    "durationSec": 14.76,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_ostrov_nevezeniya.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_ostrov_nevezeniya.mp4",
     "youtubeVideoId": "soviet_ostrov_nevezeniya",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       65,
@@ -103,29 +103,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.7,
+        "startSec": 0.09,
+        "endSec": 3.85,
         "label": "Часть 1: Весь покрытый зеленью",
         "lyricsSnippet": "Весь покрытый зеленью..."
       },
       {
         "id": 2,
-        "startSec": 3.7,
-        "endSec": 7.4,
+        "startSec": 3.85,
+        "endSec": 7.52,
         "label": "Часть 2: Абсолютно весь",
         "lyricsSnippet": "Абсолютно весь..."
       },
       {
         "id": 3,
-        "startSec": 7.4,
-        "endSec": 11.1,
+        "startSec": 7.52,
+        "endSec": 11.59,
         "label": "Часть 3: Остров невезения",
         "lyricsSnippet": "Остров невезения..."
       },
       {
         "id": 4,
-        "startSec": 11.1,
-        "endSec": 14.8,
+        "startSec": 11.59,
+        "endSec": 14.76,
         "label": "Часть 4: В океане есть",
         "lyricsSnippet": "В океане есть!"
       }
@@ -159,12 +159,12 @@
     "artist": "Валерий Золотухин (к/ф «Иван Васильевич меняет профессию»)",
     "category": "soviet",
     "year": "1973",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_razgovor_so_schastyem.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_razgovor_so_schastyem.mp4",
     "youtubeVideoId": "soviet_razgovor_so_schastyem",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       62,
       65,
@@ -180,29 +180,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 4.27,
         "label": "Часть 1: Вдруг как в сказке",
         "lyricsSnippet": "Вдруг как в сказке..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 4.27,
+        "endSec": 7.75,
         "label": "Часть 2: Скрипнула дверь",
         "lyricsSnippet": "Скрипнула дверь..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.75,
+        "endSec": 11.14,
         "label": "Часть 3: Все мне ясно стало теперь",
         "lyricsSnippet": "Все мне ясно стало теперь..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.14,
+        "endSec": 15.16,
         "label": "Часть 4: Столько лет я спорил с судьбой",
         "lyricsSnippet": "Столько лет я спорил с судьбой!"
       }
@@ -236,12 +236,12 @@
     "artist": "Юрий Никулин (к/ф «Бриллиантовая рука»)",
     "category": "soviet",
     "year": "1968",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_pesnya_pro_zaytsev.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_pesnya_pro_zaytsev.mp4",
     "youtubeVideoId": "soviet_pesnya_pro_zaytsev",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -257,29 +257,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 1.89,
+        "endSec": 5.17,
         "label": "Часть 1: А нам все равно",
         "lyricsSnippet": "А нам все равно..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 5.17,
+        "endSec": 8.6,
         "label": "Часть 2: А нам все равно",
         "lyricsSnippet": "А нам все равно..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 8.6,
+        "endSec": 11.69,
         "label": "Часть 3: Пусть боимся мы волка и сову",
         "lyricsSnippet": "Пусть боимся мы волка и сову..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.69,
+        "endSec": 14.96,
         "label": "Часть 4: Дело есть у нас в самый жуткий час",
         "lyricsSnippet": "Косим трын-траву!"
       }
@@ -313,12 +313,12 @@
     "artist": "Юрий Никулин (к/ф «Операция Ы»)",
     "category": "soviet",
     "year": "1965",
-    "durationSec": 14.5,
+    "durationSec": 14.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_postoy_parovoz.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_postoy_parovoz.mp4",
     "youtubeVideoId": "soviet_postoy_parovoz",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       57,
       60,
@@ -334,29 +334,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.62,
+        "startSec": 0.09,
+        "endSec": 3.65,
         "label": "Часть 1: Постой паровоз",
         "lyricsSnippet": "Постой паровоз..."
       },
       {
         "id": 2,
-        "startSec": 3.62,
-        "endSec": 7.25,
+        "startSec": 3.65,
+        "endSec": 7.37,
         "label": "Часть 2: Не стучите колеса",
         "lyricsSnippet": "Не стучите колеса..."
       },
       {
         "id": 3,
-        "startSec": 7.25,
-        "endSec": 10.88,
+        "startSec": 7.37,
+        "endSec": 10.57,
         "label": "Часть 3: Кондуктор нажми",
         "lyricsSnippet": "Кондуктор нажми..."
       },
       {
         "id": 4,
-        "startSec": 10.88,
-        "endSec": 14.5,
+        "startSec": 10.57,
+        "endSec": 14.46,
         "label": "Часть 4: На тормоза",
         "lyricsSnippet": "На тормоза!"
       }
@@ -390,12 +390,12 @@
     "artist": "Татьяна Дасковская (к/ф «Гостья из будущего»)",
     "category": "soviet",
     "year": "1985",
-    "durationSec": 15.6,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_prekrasnoe_daleko.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_prekrasnoe_daleko.mp4",
     "youtubeVideoId": "soviet_prekrasnoe_daleko",
     "difficulty": "MEDIUM",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       64,
@@ -411,29 +411,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.9,
+        "startSec": 0.09,
+        "endSec": 3.5,
         "label": "Часть 1: Прекрасное далеко",
         "lyricsSnippet": "Прекрасное далеко..."
       },
       {
         "id": 2,
-        "startSec": 3.9,
-        "endSec": 7.8,
+        "startSec": 3.5,
+        "endSec": 7.55,
         "label": "Часть 2: Не будь ко мне жестоко",
         "lyricsSnippet": "Не будь ко мне жестоко..."
       },
       {
         "id": 3,
-        "startSec": 7.8,
-        "endSec": 11.7,
+        "startSec": 7.55,
+        "endSec": 11.29,
         "label": "Часть 3: Не будь ко мне жестоко",
         "lyricsSnippet": "Не будь ко мне жестоко..."
       },
       {
         "id": 4,
-        "startSec": 11.7,
-        "endSec": 15.6,
+        "startSec": 11.29,
+        "endSec": 14.96,
         "label": "Часть 4: Жестоко не будь",
         "lyricsSnippet": "Жестоко не будь!"
       }
@@ -467,12 +467,12 @@
     "artist": "Большой детский хор (к/ф «Приключения Электроника»)",
     "category": "soviet",
     "year": "1979",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_krylatye_kacheli.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_krylatye_kacheli.mp4",
     "youtubeVideoId": "soviet_krylatye_kacheli",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -488,29 +488,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.25,
         "label": "Часть 1: Взмывая выше ели",
         "lyricsSnippet": "Взмывая выше ели..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.25,
+        "endSec": 7.55,
         "label": "Часть 2: Не ведая преград",
         "lyricsSnippet": "Не ведая преград..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.55,
+        "endSec": 11.47,
         "label": "Часть 3: Крылатые качели",
         "lyricsSnippet": "Крылатые качели..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.47,
+        "endSec": 14.96,
         "label": "Часть 4: Летят летят летят",
         "lyricsSnippet": "Летят летят летят!"
       }
@@ -544,12 +544,12 @@
     "artist": "Олег Анофриев (к/ф «Земля Санникова»)",
     "category": "soviet",
     "year": "1973",
-    "durationSec": 15.4,
+    "durationSec": 15.36,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_est_tolko_mig.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_est_tolko_mig.mp4",
     "youtubeVideoId": "soviet_est_tolko_mig",
     "difficulty": "MEDIUM",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       62,
@@ -565,29 +565,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.85,
+        "startSec": 0.09,
+        "endSec": 4.2,
         "label": "Часть 1: Призрачно все",
         "lyricsSnippet": "Призрачно все в этом мире бушующем..."
       },
       {
         "id": 2,
-        "startSec": 3.85,
-        "endSec": 7.7,
+        "startSec": 4.2,
+        "endSec": 7.3,
         "label": "Часть 2: Есть только миг",
         "lyricsSnippet": "Есть только миг за него и держись..."
       },
       {
         "id": 3,
-        "startSec": 7.7,
-        "endSec": 11.55,
+        "startSec": 7.3,
+        "endSec": 11.89,
         "label": "Часть 3: Есть только миг между прошлым и будущим",
         "lyricsSnippet": "Есть только миг между прошлым и будущим..."
       },
       {
         "id": 4,
-        "startSec": 11.55,
-        "endSec": 15.4,
+        "startSec": 11.89,
+        "endSec": 15.36,
         "label": "Часть 4: Именно он называется жизнь",
         "lyricsSnippet": "Именно он называется жизнь!"
       }
@@ -621,12 +621,12 @@
     "artist": "Анна Герман",
     "category": "soviet",
     "year": "1974",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_nadezhda.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_nadezhda.mp4",
     "youtubeVideoId": "soviet_nadezhda",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       69,
@@ -642,29 +642,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 4.52,
         "label": "Часть 1: Надежда мой компас земной",
         "lyricsSnippet": "Надежда мой компас земной..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 4.52,
+        "endSec": 7.67,
         "label": "Часть 2: А удача награда за смелость",
         "lyricsSnippet": "А удача награда за смелость..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.67,
+        "endSec": 11.09,
         "label": "Часть 3: А песни довольно одной",
         "lyricsSnippet": "А песни довольно одной..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.09,
+        "endSec": 14.96,
         "label": "Часть 4: Чтоб только о доме в ней пелось",
         "lyricsSnippet": "Чтоб только о доме в ней пелось!"
       }
@@ -698,12 +698,12 @@
     "artist": "ВИА «Земляне»",
     "category": "soviet",
     "year": "1983",
-    "durationSec": 15.5,
+    "durationSec": 15.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_trava_u_doma.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_trava_u_doma.mp4",
     "youtubeVideoId": "soviet_trava_u_doma",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       65,
@@ -719,21 +719,21 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.88,
+        "startSec": 0.09,
+        "endSec": 3.52,
         "label": "Часть 1: И снится нам не рокот космодрома",
         "lyricsSnippet": "И снится нам не рокот космодрома..."
       },
       {
         "id": 2,
-        "startSec": 3.88,
-        "endSec": 7.75,
+        "startSec": 3.52,
+        "endSec": 7.7,
         "label": "Часть 2: Не эта ледяная синева",
         "lyricsSnippet": "Не эта ледяная синева..."
       },
       {
         "id": 3,
-        "startSec": 7.75,
+        "startSec": 7.7,
         "endSec": 11.62,
         "label": "Часть 3: А снится нам трава трава у дома",
         "lyricsSnippet": "А снится нам трава трава у дома..."
@@ -741,7 +741,7 @@
       {
         "id": 4,
         "startSec": 11.62,
-        "endSec": 15.5,
+        "endSec": 15.46,
         "label": "Часть 4: Зеленая зеленая трава",
         "lyricsSnippet": "Зеленая зеленая трава!"
       }
@@ -775,12 +775,12 @@
     "artist": "ВИА «Поющие гитары»",
     "category": "soviet",
     "year": "1969",
-    "durationSec": 14.8,
+    "durationSec": 14.76,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_siniy_iney.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_siniy_iney.mp4",
     "youtubeVideoId": "soviet_siniy_iney",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       64,
@@ -796,7 +796,7 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
+        "startSec": 0.09,
         "endSec": 3.7,
         "label": "Часть 1: Синий синий иней",
         "lyricsSnippet": "Синий синий иней..."
@@ -804,21 +804,21 @@
       {
         "id": 2,
         "startSec": 3.7,
-        "endSec": 7.4,
+        "endSec": 7.57,
         "label": "Часть 2: Лег на провода",
         "lyricsSnippet": "Лег на провода..."
       },
       {
         "id": 3,
-        "startSec": 7.4,
-        "endSec": 11.1,
+        "startSec": 7.57,
+        "endSec": 10.35,
         "label": "Часть 3: В небе темно-синем",
         "lyricsSnippet": "В небе темно-синем..."
       },
       {
         "id": 4,
-        "startSec": 11.1,
-        "endSec": 14.8,
+        "startSec": 10.35,
+        "endSec": 14.76,
         "label": "Часть 4: Синяя звезда",
         "lyricsSnippet": "Синяя звезда!"
       }
@@ -852,12 +852,12 @@
     "artist": "Алла Пугачева",
     "category": "soviet",
     "year": "1982",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_million_alyh_roz.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_million_alyh_roz.mp4",
     "youtubeVideoId": "soviet_million_alyh_roz",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       69,
       67,
@@ -873,29 +873,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 4.15,
         "label": "Часть 1: Миллион миллион",
         "lyricsSnippet": "Миллион миллион..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 4.15,
+        "endSec": 7.92,
         "label": "Часть 2: Миллион алых роз",
         "lyricsSnippet": "Миллион алых роз..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.92,
+        "endSec": 11.52,
         "label": "Часть 3: Из окна из окна",
         "lyricsSnippet": "Из окна из окна..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.52,
+        "endSec": 15.16,
         "label": "Часть 4: Видишь ты",
         "lyricsSnippet": "Видишь ты!"
       }
@@ -929,12 +929,12 @@
     "artist": "Игорь Скляр",
     "category": "soviet",
     "year": "1985",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_komarovo.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_komarovo.mp4",
     "youtubeVideoId": "soviet_komarovo",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -950,29 +950,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 4.07,
         "label": "Часть 1: На недельку до второго",
         "lyricsSnippet": "На недельку до второго..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 4.07,
+        "endSec": 6.82,
         "label": "Часть 2: Я уеду в Комарово",
         "lyricsSnippet": "Я уеду в Комарово..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 6.82,
+        "endSec": 11.0,
         "label": "Часть 3: Поглядеть отвыкшим глазом",
         "lyricsSnippet": "Поглядеть отвыкшим глазом..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.0,
+        "endSec": 14.96,
         "label": "Часть 4: На балтийскую волну",
         "lyricsSnippet": "На балтийскую волну!"
       }
@@ -1006,12 +1006,12 @@
     "artist": "Валерий Леонтьев",
     "category": "soviet",
     "year": "1983",
-    "durationSec": 15.5,
+    "durationSec": 15.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_deltaplan.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_deltaplan.mp4",
     "youtubeVideoId": "soviet_deltaplan",
     "difficulty": "MEDIUM",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       72,
@@ -1027,29 +1027,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.88,
+        "startSec": 0.09,
+        "endSec": 3.8,
         "label": "Часть 1: Я верю что когда-нибудь",
         "lyricsSnippet": "Я верю что когда-нибудь..."
       },
       {
         "id": 2,
-        "startSec": 3.88,
-        "endSec": 7.75,
+        "startSec": 3.8,
+        "endSec": 7.0,
         "label": "Часть 2: Настанет этот час",
         "lyricsSnippet": "Настанет этот час..."
       },
       {
         "id": 3,
-        "startSec": 7.75,
-        "endSec": 11.62,
+        "startSec": 7.0,
+        "endSec": 10.82,
         "label": "Часть 3: И снова легкий дельтаплан",
         "lyricsSnippet": "И снова легкий дельтаплан..."
       },
       {
         "id": 4,
-        "startSec": 11.62,
-        "endSec": 15.5,
+        "startSec": 10.82,
+        "endSec": 15.46,
         "label": "Часть 4: Поднимет в небо нас",
         "lyricsSnippet": "Поднимет в небо нас!"
       }
@@ -1083,12 +1083,12 @@
     "artist": "Михаил Боярский",
     "category": "soviet",
     "year": "1987",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_zelenoglazoe_taksi.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_zelenoglazoe_taksi.mp4",
     "youtubeVideoId": "soviet_zelenoglazoe_taksi",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -1104,29 +1104,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 3.97,
         "label": "Часть 1: Зеленоглазое такси",
         "lyricsSnippet": "Зеленоглазое такси..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 3.97,
+        "endSec": 7.67,
         "label": "Часть 2: Притормози притормози",
         "lyricsSnippet": "Притормози притормози..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.67,
+        "endSec": 11.39,
         "label": "Часть 3: И отвези меня туда",
         "lyricsSnippet": "И отвези меня туда..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.39,
+        "endSec": 15.16,
         "label": "Часть 4: Где будут рады мне всегда",
         "lyricsSnippet": "Где будут рады мне всегда!"
       }
@@ -1160,12 +1160,12 @@
     "artist": "Дмитрий Харатьян (к/ф «Гардемарины, вперёд!»)",
     "category": "soviet",
     "year": "1987",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_gardemariny.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_gardemariny.mp4",
     "youtubeVideoId": "soviet_gardemariny",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -1181,29 +1181,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.95,
         "label": "Часть 1: Не вешать нос гардемарины",
         "lyricsSnippet": "Не вешать нос гардемарины..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.95,
+        "endSec": 7.45,
         "label": "Часть 2: Дурна ли жизнь иль хороша",
         "lyricsSnippet": "Дурна ли жизнь иль хороша..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.45,
+        "endSec": 11.32,
         "label": "Часть 3: Едины парус и душа",
         "lyricsSnippet": "Едины парус и душа..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.32,
+        "endSec": 14.96,
         "label": "Часть 4: Судьба и Родина едины",
         "lyricsSnippet": "Судьба и Родина едины!"
       }
@@ -1237,12 +1237,12 @@
     "artist": "Лариса Долина (к/ф «Чародеи»)",
     "category": "soviet",
     "year": "1982",
-    "durationSec": 14.8,
+    "durationSec": 14.76,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_tri_belyh_konya.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_tri_belyh_konya.mp4",
     "youtubeVideoId": "soviet_tri_belyh_konya",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       69,
@@ -1258,29 +1258,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.7,
+        "startSec": 0.09,
+        "endSec": 4.17,
         "label": "Часть 1: И уносят меня и уносят меня",
         "lyricsSnippet": "И уносят меня и уносят меня..."
       },
       {
         "id": 2,
-        "startSec": 3.7,
-        "endSec": 7.4,
+        "startSec": 4.17,
+        "endSec": 7.35,
         "label": "Часть 2: В звенящую снежную даль",
         "lyricsSnippet": "В звенящую снежную даль..."
       },
       {
         "id": 3,
-        "startSec": 7.4,
-        "endSec": 11.1,
+        "startSec": 7.35,
+        "endSec": 11.34,
         "label": "Часть 3: Три белых коня",
         "lyricsSnippet": "Три белых коня эх три белых коня..."
       },
       {
         "id": 4,
-        "startSec": 11.1,
-        "endSec": 14.8,
+        "startSec": 11.34,
+        "endSec": 14.76,
         "label": "Часть 4: Декабрь январь и февраль",
         "lyricsSnippet": "Декабрь январь и февраль!"
       }
@@ -1314,12 +1314,12 @@
     "artist": "Павел Луспекаев (к/ф «Белое солнце пустыни»)",
     "category": "soviet",
     "year": "1970",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_vashe_blagorodie.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_vashe_blagorodie.mp4",
     "youtubeVideoId": "soviet_vashe_blagorodie",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -1335,29 +1335,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.37,
         "label": "Часть 1: Ваше благородие госпожа удача",
         "lyricsSnippet": "Ваше благородие госпожа удача..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.37,
+        "endSec": 7.55,
         "label": "Часть 2: Для кого ты добрая а для кого иначе",
         "lyricsSnippet": "Для кого ты добрая а для кого иначе..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.55,
+        "endSec": 10.97,
         "label": "Часть 3: Девять граммов в сердце",
         "lyricsSnippet": "Девять граммов в сердце постой не зови..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 10.97,
+        "endSec": 14.96,
         "label": "Часть 4: Не везет мне в смерти повезет в любви",
         "lyricsSnippet": "Не везет мне в смерти повезет в любви!"
       }
@@ -1391,12 +1391,12 @@
     "artist": "Марк Бернес (к/ф «Два бойца»)",
     "category": "soviet",
     "year": "1943",
-    "durationSec": 15.6,
+    "durationSec": 15.56,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_temnaya_noch.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_temnaya_noch.mp4",
     "youtubeVideoId": "soviet_temnaya_noch",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       62,
       65,
@@ -1412,14 +1412,14 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.9,
+        "startSec": 0.09,
+        "endSec": 3.95,
         "label": "Часть 1: Темная ночь только пули свистят",
         "lyricsSnippet": "Темная ночь только пули свистят по степи..."
       },
       {
         "id": 2,
-        "startSec": 3.9,
+        "startSec": 3.95,
         "endSec": 7.8,
         "label": "Часть 2: Только ветер гудит в проводах",
         "lyricsSnippet": "Только ветер гудит в проводах..."
@@ -1427,14 +1427,14 @@
       {
         "id": 3,
         "startSec": 7.8,
-        "endSec": 11.7,
+        "endSec": 11.72,
         "label": "Часть 3: В темную ночь ты любимая знаю не спишь",
         "lyricsSnippet": "В темную ночь ты любимая знаю не спишь..."
       },
       {
         "id": 4,
-        "startSec": 11.7,
-        "endSec": 15.6,
+        "startSec": 11.72,
+        "endSec": 15.56,
         "label": "Часть 4: И у детской кроватки тайком",
         "lyricsSnippet": "И у детской кроватки тайком ты слезу утираешь!"
       }
@@ -1468,12 +1468,12 @@
     "artist": "Андрей Миронов (к/ф «Достояние республики»)",
     "category": "soviet",
     "year": "1971",
-    "durationSec": 14.5,
+    "durationSec": 14.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/soviet_shpaga.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/soviet_shpaga.mp4",
     "youtubeVideoId": "soviet_shpaga",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       67,
@@ -1489,29 +1489,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.62,
+        "startSec": 0.09,
+        "endSec": 3.87,
         "label": "Часть 1: Вжик вжик вжик",
         "lyricsSnippet": "Вжик вжик вжик..."
       },
       {
         "id": 2,
-        "startSec": 3.62,
-        "endSec": 7.25,
+        "startSec": 3.87,
+        "endSec": 7.5,
         "label": "Часть 2: Уноси готовенького",
         "lyricsSnippet": "Уноси готовенького..."
       },
       {
         "id": 3,
-        "startSec": 7.25,
-        "endSec": 10.88,
+        "startSec": 7.5,
+        "endSec": 10.72,
         "label": "Часть 3: Вжик вжик вжик",
         "lyricsSnippet": "Вжик вжик вжик..."
       },
       {
         "id": 4,
-        "startSec": 10.88,
-        "endSec": 14.5,
+        "startSec": 10.72,
+        "endSec": 14.46,
         "label": "Часть 4: Кто на новенького",
         "lyricsSnippet": "Кто на новенького!"
       }
@@ -1545,12 +1545,12 @@
     "artist": "Кино (Виктор Цой)",
     "category": "rock",
     "year": "1988",
-    "durationSec": 16.0,
+    "durationSec": 15.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_gruppa_krovi.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_gruppa_krovi.mp4",
     "youtubeVideoId": "rock_gruppa_krovi",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       64,
@@ -1566,29 +1566,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 4.0,
+        "startSec": 0.09,
+        "endSec": 4.22,
         "label": "Часть 1: Группа крови на рукаве",
         "lyricsSnippet": "Группа крови на рукаве..."
       },
       {
         "id": 2,
-        "startSec": 4.0,
-        "endSec": 8.0,
+        "startSec": 4.22,
+        "endSec": 8.02,
         "label": "Часть 2: Мой порядковый номер",
         "lyricsSnippet": "Мой порядковый номер на рукаве..."
       },
       {
         "id": 3,
-        "startSec": 8.0,
-        "endSec": 12.0,
+        "startSec": 8.02,
+        "endSec": 11.82,
         "label": "Часть 3: Пожелай мне удачи в бою",
         "lyricsSnippet": "Пожелай мне удачи в бою..."
       },
       {
         "id": 4,
-        "startSec": 12.0,
-        "endSec": 16.0,
+        "startSec": 11.82,
+        "endSec": 15.96,
         "label": "Часть 4: Пожелай мне удачи",
         "lyricsSnippet": "Пожелай мне удачи!"
       }
@@ -1622,12 +1622,12 @@
     "artist": "Жуки",
     "category": "rock",
     "year": "1999",
-    "durationSec": 15.6,
+    "durationSec": 15.56,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_batareyka.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_batareyka.mp4",
     "youtubeVideoId": "rock_batareyka",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       69,
       67,
@@ -1643,29 +1643,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.9,
+        "startSec": 0.09,
+        "endSec": 4.0,
         "label": "Часть 1: Холодный ветер с дождем",
         "lyricsSnippet": "Холодный ветер с дождем усилился стократно..."
       },
       {
         "id": 2,
-        "startSec": 3.9,
-        "endSec": 7.8,
+        "startSec": 4.0,
+        "endSec": 8.37,
         "label": "Часть 2: Все говорит об одном",
         "lyricsSnippet": "Все говорит об одном что нет пути обратно..."
       },
       {
         "id": 3,
-        "startSec": 7.8,
-        "endSec": 11.7,
+        "startSec": 8.37,
+        "endSec": 11.94,
         "label": "Часть 3: Что ты не мой лопушок",
         "lyricsSnippet": "Что ты не мой лопушок а я не твой Андрейка..."
       },
       {
         "id": 4,
-        "startSec": 11.7,
-        "endSec": 15.6,
+        "startSec": 11.94,
+        "endSec": 15.56,
         "label": "Часть 4: О-о-и-я-и-ё батарейка",
         "lyricsSnippet": "О-о-и-я-и-ё батарейка!"
       }
@@ -1699,12 +1699,12 @@
     "artist": "Король и Шут",
     "category": "rock",
     "year": "1997",
-    "durationSec": 16.5,
+    "durationSec": 16.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_lesnik.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_lesnik.mp4",
     "youtubeVideoId": "rock_lesnik",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       57,
       60,
@@ -1720,29 +1720,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 4.12,
+        "startSec": 0.09,
+        "endSec": 3.35,
         "label": "Часть 1: Замученный дорогой",
         "lyricsSnippet": "Замученный дорогой я выбился из сил..."
       },
       {
         "id": 2,
-        "startSec": 4.12,
-        "endSec": 8.25,
+        "startSec": 3.35,
+        "endSec": 8.3,
         "label": "Часть 2: И в доме лесника",
         "lyricsSnippet": "И в доме лесника ночлега попросил..."
       },
       {
         "id": 3,
-        "startSec": 8.25,
-        "endSec": 12.38,
+        "startSec": 8.3,
+        "endSec": 12.29,
         "label": "Часть 3: С улыбкой добродушной",
         "lyricsSnippet": "С улыбкой добродушной старик меня пустил..."
       },
       {
         "id": 4,
-        "startSec": 12.38,
-        "endSec": 16.5,
+        "startSec": 12.29,
+        "endSec": 16.46,
         "label": "Часть 4: И чаем ароматным угостил",
         "lyricsSnippet": "Будь как дома, путник, я ни в чем не откажу!"
       }
@@ -1776,12 +1776,12 @@
     "artist": "Кино (Виктор Цой)",
     "category": "rock",
     "year": "1989",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_zvezda_solntse.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_zvezda_solntse.mp4",
     "youtubeVideoId": "rock_zvezda_solntse",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       57,
       60,
@@ -1797,29 +1797,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 4.45,
         "label": "Часть 1: Белый снег серый лед",
         "lyricsSnippet": "Белый снег серый лед на растрескавшейся земле..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 4.45,
+        "endSec": 7.47,
         "label": "Часть 2: Одеялом лоскутным на ней",
         "lyricsSnippet": "Одеялом лоскутным на ней город в дорожной петле..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.47,
+        "endSec": 11.82,
         "label": "Часть 3: А над городом плывут облака",
         "lyricsSnippet": "А над городом плывут облака закрывая небесный свет..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.82,
+        "endSec": 15.16,
         "label": "Часть 4: И две тысячи лет война",
         "lyricsSnippet": "По имени Солнце!"
       }
@@ -1853,12 +1853,12 @@
     "artist": "Король и Шут",
     "category": "rock",
     "year": "1999",
-    "durationSec": 15.8,
+    "durationSec": 15.76,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_prygnu_so_skaly.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_prygnu_so_skaly.mp4",
     "youtubeVideoId": "rock_prygnu_so_skaly",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -1874,29 +1874,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.95,
+        "startSec": 0.09,
+        "endSec": 4.02,
         "label": "Часть 1: С головы сорвал ветер",
         "lyricsSnippet": "С головы сорвал ветер мой колпак..."
       },
       {
         "id": 2,
-        "startSec": 3.95,
-        "endSec": 7.9,
+        "startSec": 4.02,
+        "endSec": 7.92,
         "label": "Часть 2: Я хотел любви но вышло все не так",
         "lyricsSnippet": "Я хотел любви но вышло все не так..."
       },
       {
         "id": 3,
-        "startSec": 7.9,
-        "endSec": 11.85,
+        "startSec": 7.92,
+        "endSec": 11.84,
         "label": "Часть 3: Знаю я чужой среди вас",
         "lyricsSnippet": "Знаю я чужой среди вас..."
       },
       {
         "id": 4,
-        "startSec": 11.85,
-        "endSec": 15.8,
+        "startSec": 11.84,
+        "endSec": 15.76,
         "label": "Часть 4: Разбежавшись прыгну со скалы",
         "lyricsSnippet": "Разбежавшись прыгну со скалы!"
       }
@@ -1930,12 +1930,12 @@
     "artist": "Би-2 (к/ф «Брат 2»)",
     "category": "rock",
     "year": "2000",
-    "durationSec": 15.5,
+    "durationSec": 15.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_polkovniku.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_polkovniku.mp4",
     "youtubeVideoId": "rock_polkovniku",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       62,
@@ -1951,29 +1951,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.88,
+        "startSec": 0.09,
+        "endSec": 4.05,
         "label": "Часть 1: Большие города",
         "lyricsSnippet": "Большие города пустые поезда..."
       },
       {
         "id": 2,
-        "startSec": 3.88,
-        "endSec": 7.75,
+        "startSec": 4.05,
+        "endSec": 7.67,
         "label": "Часть 2: Ни берега ни дна",
         "lyricsSnippet": "Ни берега ни дна все начинать сначала..."
       },
       {
         "id": 3,
-        "startSec": 7.75,
-        "endSec": 11.62,
+        "startSec": 7.67,
+        "endSec": 11.57,
         "label": "Часть 3: Холодный ветер в спину",
         "lyricsSnippet": "Холодный ветер в спину..."
       },
       {
         "id": 4,
-        "startSec": 11.62,
-        "endSec": 15.5,
+        "startSec": 11.57,
+        "endSec": 15.46,
         "label": "Часть 4: Полковнику никто не пишет",
         "lyricsSnippet": "Полковника никто не ждет!"
       }
@@ -2007,12 +2007,12 @@
     "artist": "Би-2",
     "category": "rock",
     "year": "2000",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_varvara.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_varvara.mp4",
     "youtubeVideoId": "rock_varvara",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       62,
       65,
@@ -2028,29 +2028,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 4.15,
         "label": "Часть 1: Порвали паруса",
         "lyricsSnippet": "Порвали паруса..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 4.15,
+        "endSec": 8.02,
         "label": "Часть 2: Капали слезы на платье",
         "lyricsSnippet": "Капали слезы на платье..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 8.02,
+        "endSec": 11.27,
         "label": "Часть 3: Ты говорила мне",
         "lyricsSnippet": "Ты говорила мне..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.27,
+        "endSec": 14.96,
         "label": "Часть 4: Варвара Варвара",
         "lyricsSnippet": "Варвара!"
       }
@@ -2084,12 +2084,12 @@
     "artist": "Сплин",
     "category": "rock",
     "year": "2001",
-    "durationSec": 15.4,
+    "durationSec": 15.36,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_moe_serdtse.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_moe_serdtse.mp4",
     "youtubeVideoId": "rock_moe_serdtse",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       67,
@@ -2105,29 +2105,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.85,
+        "startSec": 0.09,
+        "endSec": 3.6,
         "label": "Часть 1: Мы не знали друг друга",
         "lyricsSnippet": "Мы не знали друг друга до этого лета..."
       },
       {
         "id": 2,
-        "startSec": 3.85,
-        "endSec": 7.7,
+        "startSec": 3.6,
+        "endSec": 8.27,
         "label": "Часть 2: Мы болтались по свету",
         "lyricsSnippet": "Мы болтались по свету в земле и воде..."
       },
       {
         "id": 3,
-        "startSec": 7.7,
-        "endSec": 11.55,
+        "startSec": 8.27,
+        "endSec": 11.47,
         "label": "Часть 3: И совершенно случайно",
         "lyricsSnippet": "И совершенно случайно мы взяли билеты..."
       },
       {
         "id": 4,
-        "startSec": 11.55,
-        "endSec": 15.4,
+        "startSec": 11.47,
+        "endSec": 15.36,
         "label": "Часть 4: Мое сердце остановилось",
         "lyricsSnippet": "Мое сердце остановилось отдышалось и снова пошло!"
       }
@@ -2161,12 +2161,12 @@
     "artist": "Сплин",
     "category": "rock",
     "year": "1998",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_vyhoda_net.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_vyhoda_net.mp4",
     "youtubeVideoId": "rock_vyhoda_net",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -2182,29 +2182,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 4.25,
         "label": "Часть 1: Скоро рассвет",
         "lyricsSnippet": "Скоро рассвет выхода нет..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 4.25,
+        "endSec": 8.27,
         "label": "Часть 2: Ключ поверни и полетели",
         "lyricsSnippet": "Ключ поверни и полетели..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 8.27,
+        "endSec": 11.12,
         "label": "Часть 3: Нужно писать в чью-то тетрадь",
         "lyricsSnippet": "Нужно писать в чью-то тетрадь..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.12,
+        "endSec": 14.96,
         "label": "Часть 4: Кровью как в метрополитене",
         "lyricsSnippet": "Выхода нет!"
       }
@@ -2238,12 +2238,12 @@
     "artist": "Агата Кристи",
     "category": "rock",
     "year": "1994",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_skazochnaya_tayga.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_skazochnaya_tayga.mp4",
     "youtubeVideoId": "rock_skazochnaya_tayga",
     "difficulty": "MEDIUM",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       69,
@@ -2259,29 +2259,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 3.92,
         "label": "Часть 1: Когда я на почте",
         "lyricsSnippet": "Когда я на почте служил ямщиком..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 3.92,
+        "endSec": 7.65,
         "label": "Часть 2: Был молод был полон",
         "lyricsSnippet": "Был молод был полон я сил..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.65,
+        "endSec": 11.54,
         "label": "Часть 3: На ветвях сидят дрозды",
         "lyricsSnippet": "На ветвях сидят дрозды..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.54,
+        "endSec": 15.16,
         "label": "Часть 4: Значит скоро сказке конец",
         "lyricsSnippet": "В сказочной тайге!"
       }
@@ -2315,12 +2315,12 @@
     "artist": "Агата Кристи",
     "category": "rock",
     "year": "1993",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_kak_na_voyne.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_kak_na_voyne.mp4",
     "youtubeVideoId": "rock_kak_na_voyne",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -2336,29 +2336,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.65,
         "label": "Часть 1: Ляг отдохни",
         "lyricsSnippet": "Ляг отдохни и послушай что я скажу..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.65,
+        "endSec": 7.55,
         "label": "Часть 2: Я терпел но сегодня я ухожу",
         "lyricsSnippet": "Я терпел но сегодня я ухожу..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.55,
+        "endSec": 11.12,
         "label": "Часть 3: Я беру портвейн иду домой",
         "lyricsSnippet": "Я беру портвейн иду домой..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.12,
+        "endSec": 14.96,
         "label": "Часть 4: На войне как на войне",
         "lyricsSnippet": "А на войне как на войне!"
       }
@@ -2392,12 +2392,12 @@
     "artist": "ДДТ (Юрий Шевчук)",
     "category": "rock",
     "year": "1991",
-    "durationSec": 15.6,
+    "durationSec": 15.56,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_chto_takoe_osen.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_chto_takoe_osen.mp4",
     "youtubeVideoId": "rock_chto_takoe_osen",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -2413,29 +2413,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.9,
+        "startSec": 0.09,
+        "endSec": 4.0,
         "label": "Часть 1: Что такое осень это небо",
         "lyricsSnippet": "Что такое осень это небо..."
       },
       {
         "id": 2,
-        "startSec": 3.9,
-        "endSec": 7.8,
+        "startSec": 4.0,
+        "endSec": 7.7,
         "label": "Часть 2: Плачущее небо под ногами",
         "lyricsSnippet": "Плачущее небо под ногами..."
       },
       {
         "id": 3,
-        "startSec": 7.8,
-        "endSec": 11.7,
+        "startSec": 7.7,
+        "endSec": 11.39,
         "label": "Часть 3: В лужах разлетаются птицы с облаками",
         "lyricsSnippet": "В лужах разлетаются птицы с облаками..."
       },
       {
         "id": 4,
-        "startSec": 11.7,
-        "endSec": 15.6,
+        "startSec": 11.39,
+        "endSec": 15.56,
         "label": "Часть 4: Осень я давно с тобою не был",
         "lyricsSnippet": "Осень я давно с тобою не был!"
       }
@@ -2469,12 +2469,12 @@
     "artist": "Ария (Валерий Кипелов)",
     "category": "rock",
     "year": "1999",
-    "durationSec": 16.0,
+    "durationSec": 15.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_bespechny_angel.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_bespechny_angel.mp4",
     "youtubeVideoId": "rock_bespechny_angel",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       69,
@@ -2490,29 +2490,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 4.0,
+        "startSec": 0.09,
+        "endSec": 3.82,
         "label": "Часть 1: Этот парень был из тех",
         "lyricsSnippet": "Этот парень был из тех кто просто любит жизнь..."
       },
       {
         "id": 2,
-        "startSec": 4.0,
-        "endSec": 8.0,
+        "startSec": 3.82,
+        "endSec": 7.85,
         "label": "Часть 2: Любит праздники и громкий смех",
         "lyricsSnippet": "Любит праздники и громкий смех пыль дорог и ветра свист..."
       },
       {
         "id": 3,
-        "startSec": 8.0,
-        "endSec": 12.0,
+        "startSec": 7.85,
+        "endSec": 12.09,
         "label": "Часть 3: Он был везде и всегда своим",
         "lyricsSnippet": "Он был везде и всегда своим..."
       },
       {
         "id": 4,
-        "startSec": 12.0,
-        "endSec": 16.0,
+        "startSec": 12.09,
+        "endSec": 15.96,
         "label": "Часть 4: Ты летящий вдаль беспечный ангел",
         "lyricsSnippet": "Ты летящий вдаль вдаль ангел!"
       }
@@ -2546,12 +2546,12 @@
     "artist": "Ария",
     "category": "rock",
     "year": "1987",
-    "durationSec": 15.5,
+    "durationSec": 15.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_ulitsa_roz.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_ulitsa_roz.mp4",
     "youtubeVideoId": "rock_ulitsa_roz",
     "difficulty": "MEDIUM",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -2567,29 +2567,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.88,
+        "startSec": 0.09,
+        "endSec": 3.82,
         "label": "Часть 1: Жанна из тех королев",
         "lyricsSnippet": "Жанна из тех королев что любят роскошь и ночь..."
       },
       {
         "id": 2,
-        "startSec": 3.88,
-        "endSec": 7.75,
+        "startSec": 3.82,
+        "endSec": 7.65,
         "label": "Часть 2: Только царить на земле",
         "lyricsSnippet": "Только царить на земле ей долго не суждено..."
       },
       {
         "id": 3,
-        "startSec": 7.75,
-        "endSec": 11.62,
+        "startSec": 7.65,
+        "endSec": 11.34,
         "label": "Часть 3: Сводит с ума улица Роз",
         "lyricsSnippet": "Сводит с ума улица Роз..."
       },
       {
         "id": 4,
-        "startSec": 11.62,
-        "endSec": 15.5,
+        "startSec": 11.34,
+        "endSec": 15.46,
         "label": "Часть 4: Спрячь свой обман",
         "lyricsSnippet": "Улица Роз!"
       }
@@ -2623,12 +2623,12 @@
     "artist": "Мумий Тролль (Илья Лагутенко)",
     "category": "rock",
     "year": "1997",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_vladivostok_2000.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_vladivostok_2000.mp4",
     "youtubeVideoId": "rock_vladivostok_2000",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       65,
@@ -2644,29 +2644,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.97,
         "label": "Часть 1: Уходим уходим уходим",
         "lyricsSnippet": "Уходим уходим уходим..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.97,
+        "endSec": 7.7,
         "label": "Часть 2: Наступят времена почище",
         "lyricsSnippet": "Наступят времена почище..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.7,
+        "endSec": 11.37,
         "label": "Часть 3: Бьется родная в экстазе",
         "lyricsSnippet": "Бьется родная в экстазе..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.37,
+        "endSec": 14.96,
         "label": "Часть 4: Владивосток две тыщи",
         "lyricsSnippet": "Владивосток две тыщи!"
       }
@@ -2700,12 +2700,12 @@
     "artist": "Наутилус Помпилиус",
     "category": "rock",
     "year": "1986",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_skovannye.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_skovannye.mp4",
     "youtubeVideoId": "rock_skovannye",
     "difficulty": "MEDIUM",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       57,
       59,
@@ -2721,29 +2721,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 4.17,
         "label": "Часть 1: Круговая порука мажет как копоть",
         "lyricsSnippet": "Круговая порука мажет как копоть..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 4.17,
+        "endSec": 8.42,
         "label": "Часть 2: Я беру чью-то руку а чувствую локоть",
         "lyricsSnippet": "Я беру чью-то руку а чувствую локоть..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 8.42,
+        "endSec": 11.74,
         "label": "Часть 3: Скованные одной цепью",
         "lyricsSnippet": "Скованные одной цепью..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.74,
+        "endSec": 15.16,
         "label": "Часть 4: Связанные одной целью",
         "lyricsSnippet": "Связанные одной целью!"
       }
@@ -2777,12 +2777,12 @@
     "artist": "Чичерина",
     "category": "rock",
     "year": "2000",
-    "durationSec": 14.8,
+    "durationSec": 14.74,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_tulula.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_tulula.mp4",
     "youtubeVideoId": "rock_tulula",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       67,
@@ -2798,29 +2798,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.7,
+        "startSec": 0.09,
+        "endSec": 4.15,
         "label": "Часть 1: В голове моей замкнуло",
         "lyricsSnippet": "В голове моей замкнуло ла-ла..."
       },
       {
         "id": 2,
-        "startSec": 3.7,
-        "endSec": 7.4,
+        "startSec": 4.15,
+        "endSec": 7.82,
         "label": "Часть 2: Ветром в клочья разорвало",
         "lyricsSnippet": "Ветром в клочья разорвало..."
       },
       {
         "id": 3,
-        "startSec": 7.4,
-        "endSec": 11.1,
+        "startSec": 7.82,
+        "endSec": 10.87,
         "label": "Часть 3: Ту-лу-ла ту-лу-ла ту-ту-лу-ла",
         "lyricsSnippet": "Ту-лу-ла ту-лу-ла ту-ту-лу-ла..."
       },
       {
         "id": 4,
-        "startSec": 11.1,
-        "endSec": 14.8,
+        "startSec": 10.87,
+        "endSec": 14.74,
         "label": "Часть 4: Ветром в голову надуло",
         "lyricsSnippet": "Ветром в голову надуло ла-ла-ла!"
       }
@@ -2854,12 +2854,12 @@
     "artist": "Земфира (к/ф «Брат 2»)",
     "category": "rock",
     "year": "2000",
-    "durationSec": 15.5,
+    "durationSec": 15.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_iskala.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_iskala.mp4",
     "youtubeVideoId": "rock_iskala",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -2875,29 +2875,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.88,
+        "startSec": 0.09,
+        "endSec": 3.15,
         "label": "Часть 1: Я искала тебя ночами темными",
         "lyricsSnippet": "Я искала тебя ночами темными..."
       },
       {
         "id": 2,
-        "startSec": 3.88,
-        "endSec": 7.75,
+        "startSec": 3.15,
+        "endSec": 7.87,
         "label": "Часть 2: И морозами и ветрами",
         "lyricsSnippet": "И морозами и ветрами..."
       },
       {
         "id": 3,
-        "startSec": 7.75,
-        "endSec": 11.62,
+        "startSec": 7.87,
+        "endSec": 11.67,
         "label": "Часть 3: Ты совсем как во сне",
         "lyricsSnippet": "Ты совсем как во сне..."
       },
       {
         "id": 4,
-        "startSec": 11.62,
-        "endSec": 15.5,
+        "startSec": 11.67,
+        "endSec": 15.46,
         "label": "Часть 4: Я искала тебя",
         "lyricsSnippet": "Я искала тебя!"
       }
@@ -2931,12 +2931,12 @@
     "artist": "Леприконсы",
     "category": "rock",
     "year": "1999",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_hali_gali.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_hali_gali.mp4",
     "youtubeVideoId": "rock_hali_gali",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -2952,29 +2952,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.87,
         "label": "Часть 1: Хали-гали паратрупер",
         "lyricsSnippet": "Хали-гали паратрупер..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.87,
+        "endSec": 7.22,
         "label": "Часть 2: Нам с тобою было супер",
         "lyricsSnippet": "Нам с тобою было супер..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.22,
+        "endSec": 11.37,
         "label": "Часть 3: Супер-восемь прокати",
         "lyricsSnippet": "Супер-восемь прокати..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.37,
+        "endSec": 14.96,
         "label": "Часть 4: И меня не отпусти",
         "lyricsSnippet": "Хали-гали!"
       }
@@ -3008,12 +3008,12 @@
     "artist": "Чиж & Co",
     "category": "rock",
     "year": "1995",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/rock_kamorka.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/rock_kamorka.mp4",
     "youtubeVideoId": "rock_kamorka",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -3029,29 +3029,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 3.95,
         "label": "Часть 1: А не спеть ли мне песню",
         "lyricsSnippet": "А не спеть ли мне песню о любви..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 3.95,
+        "endSec": 7.85,
         "label": "Часть 2: А не выдумать ли новый жанр",
         "lyricsSnippet": "А не выдумать ли новый жанр..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.85,
+        "endSec": 11.74,
         "label": "Часть 3: Попопсовее мотив и стихи",
         "lyricsSnippet": "Попопсовее мотив и стихи..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.74,
+        "endSec": 15.16,
         "label": "Часть 4: И всю жизнь получать гонорар",
         "lyricsSnippet": "И всю жизнь получать гонорар!"
       }
@@ -3085,12 +3085,12 @@
     "artist": "Юрий Шатунов (Ласковый май)",
     "category": "pop",
     "year": "1988",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_sedaya_noch.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_sedaya_noch.mp4",
     "youtubeVideoId": "pop_sedaya_noch",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       64,
@@ -3106,29 +3106,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.92,
         "label": "Часть 1: И снова седая ночь",
         "lyricsSnippet": "И снова седая ночь..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.92,
+        "endSec": 7.65,
         "label": "Часть 2: И только ей доверяю я",
         "lyricsSnippet": "И только ей доверяю я..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.65,
+        "endSec": 11.37,
         "label": "Часть 3: Знаешь седая ночь",
         "lyricsSnippet": "Знаешь седая ночь ты все мои тайны..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.37,
+        "endSec": 14.96,
         "label": "Часть 4: Но даже и ты помочь не можешь мне",
         "lyricsSnippet": "Но даже и ты помочь не можешь мне!"
       }
@@ -3162,12 +3162,12 @@
     "artist": "Иванушки International",
     "category": "pop",
     "year": "1998",
-    "durationSec": 15.5,
+    "durationSec": 15.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_topoliny_puh.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_topoliny_puh.mp4",
     "youtubeVideoId": "pop_topoliny_puh",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -3183,29 +3183,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.88,
+        "startSec": 0.09,
+        "endSec": 4.1,
         "label": "Часть 1: Тополиный пух жара июль",
         "lyricsSnippet": "Тополиный пух жара июль..."
       },
       {
         "id": 2,
-        "startSec": 3.88,
-        "endSec": 7.75,
+        "startSec": 4.1,
+        "endSec": 7.9,
         "label": "Часть 2: Ночи такие звездные",
         "lyricsSnippet": "Ночи такие звездные..."
       },
       {
         "id": 3,
-        "startSec": 7.75,
-        "endSec": 11.62,
+        "startSec": 7.9,
+        "endSec": 11.29,
         "label": "Часть 3: Ты пойми что первый поцелуй",
         "lyricsSnippet": "Ты пойми что первый поцелуй..."
       },
       {
         "id": 4,
-        "startSec": 11.62,
-        "endSec": 15.5,
+        "startSec": 11.29,
+        "endSec": 15.46,
         "label": "Часть 4: Это еще не любовь",
         "lyricsSnippet": "Это еще не любовь!"
       }
@@ -3239,12 +3239,12 @@
     "artist": "МакSим",
     "category": "pop",
     "year": "2006",
-    "durationSec": 16.0,
+    "durationSec": 15.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_znaesh_li_ty.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_znaesh_li_ty.mp4",
     "youtubeVideoId": "pop_znaesh_li_ty",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       69,
@@ -3260,14 +3260,14 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 4.0,
+        "startSec": 0.09,
+        "endSec": 4.2,
         "label": "Часть 1: Знаешь ли ты",
         "lyricsSnippet": "Знаешь ли ты вдоль ночных дорог..."
       },
       {
         "id": 2,
-        "startSec": 4.0,
+        "startSec": 4.2,
         "endSec": 8.0,
         "label": "Часть 2: Шла босиком",
         "lyricsSnippet": "Шла босиком не жалея ног..."
@@ -3275,14 +3275,14 @@
       {
         "id": 3,
         "startSec": 8.0,
-        "endSec": 12.0,
+        "endSec": 12.17,
         "label": "Часть 3: Сердце его теперь в твоих руках",
         "lyricsSnippet": "Сердце его теперь в твоих руках..."
       },
       {
         "id": 4,
-        "startSec": 12.0,
-        "endSec": 16.0,
+        "startSec": 12.17,
+        "endSec": 15.96,
         "label": "Часть 4: Не потеряй его и не сломай",
         "lyricsSnippet": "Не потеряй его и не сломай!"
       }
@@ -3316,12 +3316,12 @@
     "artist": "Руки Вверх!",
     "category": "pop",
     "year": "2001",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_18_mne_uzhe.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_18_mne_uzhe.mp4",
     "youtubeVideoId": "pop_18_mne_uzhe",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       67,
@@ -3337,29 +3337,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.95,
         "label": "Часть 1: Забирай меня скорей",
         "lyricsSnippet": "Забирай меня скорей..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.95,
+        "endSec": 7.95,
         "label": "Часть 2: Увози за сто морей",
         "lyricsSnippet": "Увози за сто морей..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.95,
+        "endSec": 11.24,
         "label": "Часть 3: И целуй меня везде",
         "lyricsSnippet": "И целуй меня везде..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.24,
+        "endSec": 14.96,
         "label": "Часть 4: 18 мне уже",
         "lyricsSnippet": "Восемнадцать мне уже!"
       }
@@ -3393,12 +3393,12 @@
     "artist": "Руки Вверх!",
     "category": "pop",
     "year": "1998",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_kroshka_moya.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_kroshka_moya.mp4",
     "youtubeVideoId": "pop_kroshka_moya",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -3414,7 +3414,7 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
+        "startSec": 0.09,
         "endSec": 3.8,
         "label": "Часть 1: Крошка моя я по тебе скучаю",
         "lyricsSnippet": "Крошка моя я по тебе скучаю..."
@@ -3422,21 +3422,21 @@
       {
         "id": 2,
         "startSec": 3.8,
-        "endSec": 7.6,
+        "endSec": 7.47,
         "label": "Часть 2: Я от тебя письма не получаю",
         "lyricsSnippet": "Я от тебя письма не получаю..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.47,
+        "endSec": 11.74,
         "label": "Часть 3: Ты далеко и даже не скучаешь",
         "lyricsSnippet": "Ты далеко и даже не скучаешь..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.74,
+        "endSec": 15.16,
         "label": "Часть 4: Но я вернусь ты это знаешь",
         "lyricsSnippet": "Но я вернусь ты это точно знаешь!"
       }
@@ -3470,12 +3470,12 @@
     "artist": "Ласковый май (Юрий Шатунов)",
     "category": "pop",
     "year": "1988",
-    "durationSec": 15.4,
+    "durationSec": 15.36,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_belye_rozy.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_belye_rozy.mp4",
     "youtubeVideoId": "pop_belye_rozy",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       62,
@@ -3491,29 +3491,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.85,
+        "startSec": 0.09,
+        "endSec": 4.1,
         "label": "Часть 1: Белые розы белые розы",
         "lyricsSnippet": "Белые розы белые розы..."
       },
       {
         "id": 2,
-        "startSec": 3.85,
-        "endSec": 7.7,
+        "startSec": 4.1,
+        "endSec": 7.9,
         "label": "Часть 2: Беззащитны шипы",
         "lyricsSnippet": "Беззащитны шипы..."
       },
       {
         "id": 3,
-        "startSec": 7.7,
-        "endSec": 11.55,
+        "startSec": 7.9,
+        "endSec": 11.42,
         "label": "Часть 3: Что с вами сделал снег и морозы",
         "lyricsSnippet": "Что с вами сделал снег и морозы..."
       },
       {
         "id": 4,
-        "startSec": 11.55,
-        "endSec": 15.4,
+        "startSec": 11.42,
+        "endSec": 15.36,
         "label": "Часть 4: Лед витрин голубых",
         "lyricsSnippet": "Лед витрин голубых!"
       }
@@ -3547,12 +3547,12 @@
     "artist": "Иванушки International",
     "category": "pop",
     "year": "1996",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_tuchi.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_tuchi.mp4",
     "youtubeVideoId": "pop_tuchi",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       57,
       60,
@@ -3568,29 +3568,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.67,
         "label": "Часть 1: А тучи как люди",
         "lyricsSnippet": "А тучи как люди как люди они одиноки..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.67,
+        "endSec": 8.3,
         "label": "Часть 2: Но все-таки тучи не так жестоки",
         "lyricsSnippet": "Но все-таки тучи не так жестоки..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 8.3,
+        "endSec": 11.24,
         "label": "Часть 3: Да тучи как люди",
         "lyricsSnippet": "Да тучи как люди..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.24,
+        "endSec": 14.96,
         "label": "Часть 4: Они одиноки",
         "lyricsSnippet": "Они одиноки!"
       }
@@ -3624,12 +3624,12 @@
     "artist": "Звери (Рома Зверь)",
     "category": "pop",
     "year": "2004",
-    "durationSec": 15.0,
+    "durationSec": 14.94,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_rayony_kvartaly.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_rayony_kvartaly.mp4",
     "youtubeVideoId": "pop_rayony_kvartaly",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -3645,29 +3645,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.65,
         "label": "Часть 1: Районы кварталы жилые массивы",
         "lyricsSnippet": "Районы кварталы жилые массивы..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.65,
+        "endSec": 7.75,
         "label": "Часть 2: Я ухожу ухожу красиво",
         "lyricsSnippet": "Я ухожу ухожу красиво..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.75,
+        "endSec": 11.12,
         "label": "Часть 3: Районы кварталы жилые массивы",
         "lyricsSnippet": "Районы кварталы жилые массивы..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.12,
+        "endSec": 14.94,
         "label": "Часть 4: Я ухожу ухожу красиво",
         "lyricsSnippet": "Я ухожу ухожу красиво!"
       }
@@ -3701,12 +3701,12 @@
     "artist": "Звери",
     "category": "pop",
     "year": "2003",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_vse_chto_kasaetsya.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_vse_chto_kasaetsya.mp4",
     "youtubeVideoId": "pop_vse_chto_kasaetsya",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       65,
@@ -3722,29 +3722,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 4.2,
         "label": "Часть 1: Все что тебя касается",
         "lyricsSnippet": "Все что тебя касается..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 4.2,
+        "endSec": 7.42,
         "label": "Часть 2: Все что меня касается",
         "lyricsSnippet": "Все что меня касается..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.42,
+        "endSec": 10.75,
         "label": "Часть 3: Все только начинается",
         "lyricsSnippet": "Все только начинается..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 10.75,
+        "endSec": 14.96,
         "label": "Часть 4: Начинается",
         "lyricsSnippet": "Начинается!"
       }
@@ -3778,12 +3778,12 @@
     "artist": "Отпетые Мошенники",
     "category": "pop",
     "year": "1999",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_lyubi_menya_lyubi.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_lyubi_menya_lyubi.mp4",
     "youtubeVideoId": "pop_lyubi_menya_lyubi",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -3799,29 +3799,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 3.42,
         "label": "Часть 1: Люби меня люби",
         "lyricsSnippet": "Люби меня люби жарким огнем..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 3.42,
+        "endSec": 7.32,
         "label": "Часть 2: Ночью и днем сердце сжигая",
         "lyricsSnippet": "Ночью и днем сердце сжигая..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.32,
+        "endSec": 11.42,
         "label": "Часть 3: Люби меня люби",
         "lyricsSnippet": "Люби меня люби..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.42,
+        "endSec": 15.16,
         "label": "Часть 4: Не улетай",
         "lyricsSnippet": "Не улетай не растай!"
       }
@@ -3855,12 +3855,12 @@
     "artist": "Андрей Губин",
     "category": "pop",
     "year": "2002",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_devushki_kak_zvezdy.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_devushki_kak_zvezdy.mp4",
     "youtubeVideoId": "pop_devushki_kak_zvezdy",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       69,
@@ -3876,29 +3876,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 4.25,
         "label": "Часть 1: Такие девушки как звезды",
         "lyricsSnippet": "Такие девушки как звезды..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 4.25,
+        "endSec": 7.72,
         "label": "Часть 2: Что светят в небе до утра",
         "lyricsSnippet": "Что светят в небе до утра..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.72,
+        "endSec": 11.54,
         "label": "Часть 3: Такие девушки как звезды",
         "lyricsSnippet": "Такие девушки как звезды..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.54,
+        "endSec": 14.96,
         "label": "Часть 4: Горят и падают с моста",
         "lyricsSnippet": "Покоя сердцу не дают!"
       }
@@ -3932,12 +3932,12 @@
     "artist": "Андрей Губин",
     "category": "pop",
     "year": "1998",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_zima_holoda.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_zima_holoda.mp4",
     "youtubeVideoId": "pop_zima_holoda",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -3953,29 +3953,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.72,
         "label": "Часть 1: Зима холода одинокие дома",
         "lyricsSnippet": "Зима холода одинокие дома..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.72,
+        "endSec": 7.72,
         "label": "Часть 2: Моря поезда все зачеркнет весна",
         "lyricsSnippet": "Моря поезда все зачеркнет весна..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.72,
+        "endSec": 11.27,
         "label": "Часть 3: Зима холода",
         "lyricsSnippet": "Зима холода все зачеркнет весна..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.27,
+        "endSec": 14.96,
         "label": "Часть 4: Одинокие дома",
         "lyricsSnippet": "Одинокие дома!"
       }
@@ -4009,12 +4009,12 @@
     "artist": "Валерий Меладзе",
     "category": "pop",
     "year": "1998",
-    "durationSec": 15.5,
+    "durationSec": 15.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_samba_motylka.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_samba_motylka.mp4",
     "youtubeVideoId": "pop_samba_motylka",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -4030,29 +4030,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.88,
+        "startSec": 0.09,
+        "endSec": 3.95,
         "label": "Часть 1: Самба белого мотылька",
         "lyricsSnippet": "Самба белого мотылька..."
       },
       {
         "id": 2,
-        "startSec": 3.88,
-        "endSec": 7.75,
+        "startSec": 3.95,
+        "endSec": 8.3,
         "label": "Часть 2: У открытого огонька",
         "lyricsSnippet": "У открытого огонька..."
       },
       {
         "id": 3,
-        "startSec": 7.75,
-        "endSec": 11.62,
+        "startSec": 8.3,
+        "endSec": 11.57,
         "label": "Часть 3: Как легко и непринужденно",
         "lyricsSnippet": "Как легко и непринужденно..."
       },
       {
         "id": 4,
-        "startSec": 11.62,
-        "endSec": 15.5,
+        "startSec": 11.57,
+        "endSec": 15.46,
         "label": "Часть 4: Ты взлетала под облака",
         "lyricsSnippet": "Ты взлетала под облака!"
       }
@@ -4086,12 +4086,12 @@
     "artist": "Валерий Меладзе",
     "category": "pop",
     "year": "2000",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_tekila_lyubov.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_tekila_lyubov.mp4",
     "youtubeVideoId": "pop_tekila_lyubov",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       69,
@@ -4107,29 +4107,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.67,
         "label": "Часть 1: Текила любовь",
         "lyricsSnippet": "Текила любовь..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.67,
+        "endSec": 7.45,
         "label": "Часть 2: Полусладкий обман",
         "lyricsSnippet": "Полусладкий обман..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.45,
+        "endSec": 11.39,
         "label": "Часть 3: Текила любовь",
         "lyricsSnippet": "Текила любовь..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.39,
+        "endSec": 14.96,
         "label": "Часть 4: И туман и туман",
         "lyricsSnippet": "И туман и туман!"
       }
@@ -4163,12 +4163,12 @@
     "artist": "Филипп Киркоров",
     "category": "pop",
     "year": "2018",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_tsvet_nastroeniya.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_tsvet_nastroeniya.mp4",
     "youtubeVideoId": "pop_tsvet_nastroeniya",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -4184,29 +4184,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.65,
         "label": "Часть 1: Цвет настроения синий",
         "lyricsSnippet": "Цвет настроения синий..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.65,
+        "endSec": 6.92,
         "label": "Часть 2: Внутри мартини а в руках бикини",
         "lyricsSnippet": "Внутри мартини а в руках бикини..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 6.92,
+        "endSec": 11.17,
         "label": "Часть 3: Цвет настроения синий",
         "lyricsSnippet": "Цвет настроения синий..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.17,
+        "endSec": 14.96,
         "label": "Часть 4: Она так чувствует себя богиней",
         "lyricsSnippet": "Она так чувствует себя богиней!"
       }
@@ -4240,12 +4240,12 @@
     "artist": "Любэ (Николай Расторгуев)",
     "category": "pop",
     "year": "1994",
-    "durationSec": 16.0,
+    "durationSec": 15.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_kon_lyube.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_kon_lyube.mp4",
     "youtubeVideoId": "pop_kon_lyube",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       57,
       60,
@@ -4261,29 +4261,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 4.0,
+        "startSec": 0.09,
+        "endSec": 4.65,
         "label": "Часть 1: Выйду ночью в поле с конем",
         "lyricsSnippet": "Выйду ночью в поле с конем..."
       },
       {
         "id": 2,
-        "startSec": 4.0,
-        "endSec": 8.0,
+        "startSec": 4.65,
+        "endSec": 8.45,
         "label": "Часть 2: Ночкой темной тихо пойдем",
         "lyricsSnippet": "Ночкой темной тихо пойдем..."
       },
       {
         "id": 3,
-        "startSec": 8.0,
-        "endSec": 12.0,
+        "startSec": 8.45,
+        "endSec": 12.19,
         "label": "Часть 3: Мы пойдем с конем по полю вдвоем",
         "lyricsSnippet": "Мы пойдем с конем по полю вдвоем..."
       },
       {
         "id": 4,
-        "startSec": 12.0,
-        "endSec": 16.0,
+        "startSec": 12.19,
+        "endSec": 15.96,
         "label": "Часть 4: Мы пойдем с конем по полю вдвоем",
         "lyricsSnippet": "Мы пойдем с конем по полю вдвоем!"
       }
@@ -4317,12 +4317,12 @@
     "artist": "Корни",
     "category": "pop",
     "year": "2003",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_ty_uznaesh_ee.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_ty_uznaesh_ee.mp4",
     "youtubeVideoId": "pop_ty_uznaesh_ee",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -4338,29 +4338,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 4.12,
         "label": "Часть 1: Она любит пугливую речь",
         "lyricsSnippet": "Она любит пугливую речь..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 4.12,
+        "endSec": 7.92,
         "label": "Часть 2: И созвездие ярких огней",
         "lyricsSnippet": "И созвездие ярких огней..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.92,
+        "endSec": 10.92,
         "label": "Часть 3: Ты узнаешь ее из тысячи",
         "lyricsSnippet": "Ты узнаешь ее из тысячи..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 10.92,
+        "endSec": 14.96,
         "label": "Часть 4: По словам по глазам по голосу",
         "lyricsSnippet": "По глазам по словам по голосу!"
       }
@@ -4394,12 +4394,12 @@
     "artist": "Глюк’oZa (Наталья Ионова)",
     "category": "pop",
     "year": "2003",
-    "durationSec": 14.8,
+    "durationSec": 14.76,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_glukoza_nevesta.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_glukoza_nevesta.mp4",
     "youtubeVideoId": "pop_glukoza_nevesta",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       65,
@@ -4415,29 +4415,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.7,
+        "startSec": 0.09,
+        "endSec": 4.22,
         "label": "Часть 1: Я буду вместо вместо вместо нее",
         "lyricsSnippet": "Я буду вместо вместо вместо нее..."
       },
       {
         "id": 2,
-        "startSec": 3.7,
-        "endSec": 7.4,
+        "startSec": 4.22,
+        "endSec": 7.55,
         "label": "Часть 2: Твоя невеста честно честно мое",
         "lyricsSnippet": "Твоя невеста честно честно мое..."
       },
       {
         "id": 3,
-        "startSec": 7.4,
-        "endSec": 11.1,
+        "startSec": 7.55,
+        "endSec": 10.87,
         "label": "Часть 3: Белое платье белая фата",
         "lyricsSnippet": "Белое платье белая фата..."
       },
       {
         "id": 4,
-        "startSec": 11.1,
-        "endSec": 14.8,
+        "startSec": 10.87,
+        "endSec": 14.76,
         "label": "Часть 4: Вместо нее",
         "lyricsSnippet": "Вместо нее!"
       }
@@ -4471,12 +4471,12 @@
     "artist": "ANNA ASTI",
     "category": "pop",
     "year": "2023",
-    "durationSec": 15.4,
+    "durationSec": 15.36,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_tsaritsa_asti.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_tsaritsa_asti.mp4",
     "youtubeVideoId": "pop_tsaritsa_asti",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -4492,29 +4492,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.85,
+        "startSec": 0.09,
+        "endSec": 3.72,
         "label": "Часть 1: И теперь он в слезах",
         "lyricsSnippet": "И теперь он в слезах позвонит друзьям..."
       },
       {
         "id": 2,
-        "startSec": 3.85,
-        "endSec": 7.7,
+        "startSec": 3.72,
+        "endSec": 7.82,
         "label": "Часть 2: Мальчик плывет мальчик плачет",
         "lyricsSnippet": "Мальчик плывет мальчик плачет..."
       },
       {
         "id": 3,
-        "startSec": 7.7,
-        "endSec": 11.55,
+        "startSec": 7.82,
+        "endSec": 11.44,
         "label": "Часть 3: Ведь только для нее он был готов",
         "lyricsSnippet": "Ведь только для нее он был готов..."
       },
       {
         "id": 4,
-        "startSec": 11.55,
-        "endSec": 15.4,
+        "startSec": 11.44,
+        "endSec": 15.36,
         "label": "Часть 4: А она царица",
         "lyricsSnippet": "А теперь она царица, царица!"
       }
@@ -4548,12 +4548,12 @@
     "artist": "Полина Гагарина",
     "category": "pop",
     "year": "2012",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/pop_spektakl_okonchen.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/pop_spektakl_okonchen.mp4",
     "youtubeVideoId": "pop_spektakl_okonchen",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       69,
@@ -4569,29 +4569,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 3.77,
         "label": "Часть 1: Спектакль окончен",
         "lyricsSnippet": "Спектакль окончен гаснет свет..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 3.77,
+        "endSec": 7.1,
         "label": "Часть 2: И отзвучали аплодисменты",
         "lyricsSnippet": "И отзвучали аплодисменты..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.1,
+        "endSec": 11.92,
         "label": "Часть 3: Многоточие или конец",
         "lyricsSnippet": "Многоточие или конец..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.92,
+        "endSec": 15.16,
         "label": "Часть 4: Гаснет свет",
         "lyricsSnippet": "Гаснут огни!"
       }
@@ -4625,12 +4625,12 @@
     "artist": "Клара Румянова (м/ф «Мама для мамонтёнка»)",
     "category": "kids",
     "year": "1981",
-    "durationSec": 14.5,
+    "durationSec": 14.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_mamontenok.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_mamontenok.mp4",
     "youtubeVideoId": "kids_mamontenok",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -4646,29 +4646,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.62,
+        "startSec": 1.82,
+        "endSec": 5.2,
         "label": "Часть 1: По синему морю к зеленой земле",
         "lyricsSnippet": "По синему морю к зеленой земле..."
       },
       {
         "id": 2,
-        "startSec": 3.62,
-        "endSec": 7.25,
+        "startSec": 5.2,
+        "endSec": 8.15,
         "label": "Часть 2: Плыву я на белом своем корабле",
         "lyricsSnippet": "Плыву я на белом своем корабле..."
       },
       {
         "id": 3,
-        "startSec": 7.25,
-        "endSec": 10.88,
+        "startSec": 8.15,
+        "endSec": 11.44,
         "label": "Часть 3: Плыву я на белом своем корабле",
         "lyricsSnippet": "Плыву я на белом своем корабле..."
       },
       {
         "id": 4,
-        "startSec": 10.88,
-        "endSec": 14.5,
+        "startSec": 11.44,
+        "endSec": 14.46,
         "label": "Часть 4: На белом своем корабле",
         "lyricsSnippet": "На белом своем корабле!"
       }
@@ -4702,12 +4702,12 @@
     "artist": "Олег Анофриев (м/ф «Бременские музыканты»)",
     "category": "kids",
     "year": "1969",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_bremenskie.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_bremenskie.mp4",
     "youtubeVideoId": "kids_bremenskie",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       67,
@@ -4723,29 +4723,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.5,
         "label": "Часть 1: Ничего на свете лучше нету",
         "lyricsSnippet": "Ничего на свете лучше нету..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.5,
+        "endSec": 8.07,
         "label": "Часть 2: Чем бродить друзьям по белу свету",
         "lyricsSnippet": "Чем бродить друзьям по белу свету..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 8.07,
+        "endSec": 10.8,
         "label": "Часть 3: Тем кто дружен не страшны тревоги",
         "lyricsSnippet": "Тем кто дружен не страшны тревоги..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 10.8,
+        "endSec": 14.96,
         "label": "Часть 4: Нам любые дороги дороги",
         "lyricsSnippet": "Нам любые дороги дороги!"
       }
@@ -4779,12 +4779,12 @@
     "artist": "Муслим Магомаев (м/ф «Бременские музыканты»)",
     "category": "kids",
     "year": "1973",
-    "durationSec": 15.4,
+    "durationSec": 15.36,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_luch_solntsa.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_luch_solntsa.mp4",
     "youtubeVideoId": "kids_luch_solntsa",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -4800,29 +4800,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.85,
+        "startSec": 0.09,
+        "endSec": 3.97,
         "label": "Часть 1: Луч солнца золотого",
         "lyricsSnippet": "Луч солнца золотого..."
       },
       {
         "id": 2,
-        "startSec": 3.85,
-        "endSec": 7.7,
+        "startSec": 3.97,
+        "endSec": 7.22,
         "label": "Часть 2: Тьмы скрыла пелена",
         "lyricsSnippet": "Тьмы скрыла пелена..."
       },
       {
         "id": 3,
-        "startSec": 7.7,
-        "endSec": 11.55,
+        "startSec": 7.22,
+        "endSec": 11.19,
         "label": "Часть 3: И между нами снова",
         "lyricsSnippet": "И между нами снова..."
       },
       {
         "id": 4,
-        "startSec": 11.55,
-        "endSec": 15.4,
+        "startSec": 11.19,
+        "endSec": 15.36,
         "label": "Часть 4: Вдруг выросла стена",
         "lyricsSnippet": "Вдруг выросла стена!"
       }
@@ -4856,12 +4856,12 @@
     "artist": "Олег Анофриев & Ростислав Плятт",
     "category": "kids",
     "year": "1974",
-    "durationSec": 14.8,
+    "durationSec": 14.51,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_lvenok_cherepaha.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_lvenok_cherepaha.mp4",
     "youtubeVideoId": "kids_lvenok_cherepaha",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -4877,29 +4877,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.7,
+        "startSec": 0.09,
+        "endSec": 3.45,
         "label": "Часть 1: Я на солнышке лежу",
         "lyricsSnippet": "Я на солнышке лежу..."
       },
       {
         "id": 2,
-        "startSec": 3.7,
-        "endSec": 7.4,
+        "startSec": 3.45,
+        "endSec": 7.27,
         "label": "Часть 2: Я на солнышко гляжу",
         "lyricsSnippet": "Я на солнышко гляжу..."
       },
       {
         "id": 3,
-        "startSec": 7.4,
-        "endSec": 11.1,
+        "startSec": 7.27,
+        "endSec": 10.92,
         "label": "Часть 3: Все лежу и лежу",
         "lyricsSnippet": "Все лежу и лежу..."
       },
       {
         "id": 4,
-        "startSec": 11.1,
-        "endSec": 14.8,
+        "startSec": 10.92,
+        "endSec": 14.51,
         "label": "Часть 4: И на солнышко гляжу",
         "lyricsSnippet": "И на солнышко гляжу!"
       }
@@ -4933,12 +4933,12 @@
     "artist": "Владимир Ферапонтов (м/ф «Шапокляк»)",
     "category": "kids",
     "year": "1974",
-    "durationSec": 15.2,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_goluboy_vagon.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_goluboy_vagon.mp4",
     "youtubeVideoId": "kids_goluboy_vagon",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       62,
@@ -4954,29 +4954,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 3.87,
         "label": "Часть 1: Голубой вагон бежит качается",
         "lyricsSnippet": "Голубой вагон бежит качается..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 3.87,
+        "endSec": 7.45,
         "label": "Часть 2: Скорый поезд набирает ход",
         "lyricsSnippet": "Скорый поезд набирает ход..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.45,
+        "endSec": 10.87,
         "label": "Часть 3: Ах зачем же этот день кончается",
         "lyricsSnippet": "Ах зачем же этот день кончается..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 10.87,
+        "endSec": 14.96,
         "label": "Часть 4: Пусть бы он тянулся целый год",
         "lyricsSnippet": "Пусть бы он тянулся целый год!"
       }
@@ -5010,12 +5010,12 @@
     "artist": "Владимир Ферапонтов (м/ф «Чебурашка»)",
     "category": "kids",
     "year": "1971",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_krokodil_gena.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_krokodil_gena.mp4",
     "youtubeVideoId": "kids_krokodil_gena",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -5031,29 +5031,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.52,
+        "endSec": 3.82,
         "label": "Часть 1: Пусть бегут неуклюже",
         "lyricsSnippet": "Пусть бегут неуклюже пешеходы по лужам..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.82,
+        "endSec": 7.72,
         "label": "Часть 2: А вода по асфальту рекой",
         "lyricsSnippet": "А вода по асфальту рекой..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.72,
+        "endSec": 11.54,
         "label": "Часть 3: И неясно прохожим",
         "lyricsSnippet": "И неясно прохожим в этот день непогожий..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.54,
+        "endSec": 14.96,
         "label": "Часть 4: Почему я веселый такой",
         "lyricsSnippet": "Почему я веселый такой!"
       }
@@ -5087,12 +5087,12 @@
     "artist": "Нина Бродская (к/ф «Приключения Буратино»)",
     "category": "kids",
     "year": "1975",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_buratino.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_buratino.mp4",
     "youtubeVideoId": "kids_buratino",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       67,
@@ -5108,29 +5108,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 4.05,
         "label": "Часть 1: Кто доброй сказкой входит в дом",
         "lyricsSnippet": "Кто доброй сказкой входит в дом..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 4.05,
+        "endSec": 7.8,
         "label": "Часть 2: Кто с детства каждому знаком",
         "lyricsSnippet": "Кто с детства каждому знаком..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.8,
+        "endSec": 11.04,
         "label": "Часть 3: Кто не ученый не поэт",
         "lyricsSnippet": "Кто не ученый не поэт..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.04,
+        "endSec": 14.96,
         "label": "Часть 4: Скажите как его зовут",
         "lyricsSnippet": "БУ-РА-ТИ-НО!"
       }
@@ -5164,12 +5164,12 @@
     "artist": "Ольга Рождественская (к/ф «Про Красную Шапочку»)",
     "category": "kids",
     "year": "1977",
-    "durationSec": 15.2,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_krasnaya_shapochka.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_krasnaya_shapochka.mp4",
     "youtubeVideoId": "kids_krasnaya_shapochka",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -5185,29 +5185,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 3.87,
         "label": "Часть 1: А-а в Африке реки вот такой ширины",
         "lyricsSnippet": "А-а в Африке реки вот такой ширины..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 3.87,
+        "endSec": 8.12,
         "label": "Часть 2: А-а в Африке горы вот такой вышины",
         "lyricsSnippet": "А-а в Африке горы вот такой вышины..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 8.12,
+        "endSec": 11.34,
         "label": "Часть 3: А-а крокодилы бегемоты",
         "lyricsSnippet": "А-а крокодилы бегемоты..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.34,
+        "endSec": 14.96,
         "label": "Часть 4: А-а обезьяны кашалоты",
         "lyricsSnippet": "А-а и зеленый попугай!"
       }
@@ -5241,12 +5241,12 @@
     "artist": "Клара Румянова (м/ф «Трям! Здравствуйте!»)",
     "category": "kids",
     "year": "1980",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_oblaka_loshadki.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_oblaka_loshadki.mp4",
     "youtubeVideoId": "kids_oblaka_loshadki",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -5262,29 +5262,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.77,
         "label": "Часть 1: Мимо белого яблока луны",
         "lyricsSnippet": "Мимо белого яблока луны..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.77,
+        "endSec": 7.52,
         "label": "Часть 2: Мимо красного яблока заката",
         "lyricsSnippet": "Мимо красного яблока заката..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.52,
+        "endSec": 11.44,
         "label": "Часть 3: Облака из неведомой страны",
         "lyricsSnippet": "Облака из неведомой страны..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.44,
+        "endSec": 14.96,
         "label": "Часть 4: К нам спешат и опять бегут куда-то",
         "lyricsSnippet": "Белогривые лошадки!"
       }
@@ -5318,12 +5318,12 @@
     "artist": "м/ф «Приключения Незнайки»",
     "category": "kids",
     "year": "1971",
-    "durationSec": 14.0,
+    "durationSec": 13.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_kuznechik.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_kuznechik.mp4",
     "youtubeVideoId": "kids_kuznechik",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       69,
       64,
@@ -5339,29 +5339,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.5,
+        "startSec": 0.09,
+        "endSec": 3.42,
         "label": "Часть 1: В траве сидел кузнечик",
         "lyricsSnippet": "В траве сидел кузнечик..."
       },
       {
         "id": 2,
-        "startSec": 3.5,
-        "endSec": 7.0,
+        "startSec": 3.42,
+        "endSec": 7.4,
         "label": "Часть 2: В траве сидел кузнечик",
         "lyricsSnippet": "В траве сидел кузнечик..."
       },
       {
         "id": 3,
-        "startSec": 7.0,
-        "endSec": 10.5,
+        "startSec": 7.4,
+        "endSec": 10.67,
         "label": "Часть 3: Совсем как огуречик",
         "lyricsSnippet": "Совсем как огуречик..."
       },
       {
         "id": 4,
-        "startSec": 10.5,
-        "endSec": 14.0,
+        "startSec": 10.67,
+        "endSec": 13.96,
         "label": "Часть 4: Зелененький он был",
         "lyricsSnippet": "Зелененький он был!"
       }
@@ -5395,12 +5395,12 @@
     "artist": "Клара Румянова (м/ф «Крошка Енот»)",
     "category": "kids",
     "year": "1974",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_ulybka.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_ulybka.mp4",
     "youtubeVideoId": "kids_ulybka",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -5416,29 +5416,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.25,
         "label": "Часть 1: От улыбки хмурый день светлей",
         "lyricsSnippet": "От улыбки хмурый день светлей..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.25,
+        "endSec": 7.45,
         "label": "Часть 2: От улыбки в небе радуга проснется",
         "lyricsSnippet": "От улыбки в небе радуга проснется..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.45,
+        "endSec": 11.37,
         "label": "Часть 3: Поделись улыбкою своей",
         "lyricsSnippet": "Поделись улыбкою своей..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.37,
+        "endSec": 14.96,
         "label": "Часть 4: И она к тебе не раз еще вернется",
         "lyricsSnippet": "И она к тебе не раз еще вернется!"
       }
@@ -5472,12 +5472,12 @@
     "artist": "Валентина Толкунова (м/ф «Зима в Простоквашино»)",
     "category": "kids",
     "year": "1984",
-    "durationSec": 14.8,
+    "durationSec": 14.76,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_kaby_ne_bylo_zimy.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_kaby_ne_bylo_zimy.mp4",
     "youtubeVideoId": "kids_kaby_ne_bylo_zimy",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       69,
@@ -5493,29 +5493,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.7,
+        "startSec": 0.09,
+        "endSec": 4.57,
         "label": "Часть 1: Кабы не было зимы",
         "lyricsSnippet": "Кабы не было зимы в городах и селах..."
       },
       {
         "id": 2,
-        "startSec": 3.7,
-        "endSec": 7.4,
+        "startSec": 4.57,
+        "endSec": 7.52,
         "label": "Часть 2: Никогда б не знали мы",
         "lyricsSnippet": "Никогда б не знали мы этих дней веселых..."
       },
       {
         "id": 3,
-        "startSec": 7.4,
-        "endSec": 11.1,
+        "startSec": 7.52,
+        "endSec": 11.09,
         "label": "Часть 3: Не кружила б малышня",
         "lyricsSnippet": "Не кружила б малышня возле снежной бабы..."
       },
       {
         "id": 4,
-        "startSec": 11.1,
-        "endSec": 14.8,
+        "startSec": 11.09,
+        "endSec": 14.76,
         "label": "Часть 4: Не петляла бы лыжня",
         "lyricsSnippet": "Кабы кабы кабы!"
       }
@@ -5549,12 +5549,12 @@
     "artist": "Олег Анофриев (т/п «Спокойной ночи, малыши!»)",
     "category": "kids",
     "year": "1964",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_spyat_ustalye_igrushki.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_spyat_ustalye_igrushki.mp4",
     "youtubeVideoId": "kids_spyat_ustalye_igrushki",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       62,
@@ -5570,29 +5570,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.95,
         "label": "Часть 1: Спят усталые игрушки",
         "lyricsSnippet": "Спят усталые игрушки книжки спят..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.95,
+        "endSec": 7.47,
         "label": "Часть 2: Одеяла и подушки ждут ребят",
         "lyricsSnippet": "Одеяла и подушки ждут ребят..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.47,
+        "endSec": 11.42,
         "label": "Часть 3: Даже сказка спать ложится",
         "lyricsSnippet": "Даже сказка спать ложится..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.42,
+        "endSec": 14.96,
         "label": "Часть 4: Чтобы ночью нам присниться",
         "lyricsSnippet": "Баю-бай!"
       }
@@ -5626,12 +5626,12 @@
     "artist": "Леонид Броневой (м/ф «Пластилиновая ворона»)",
     "category": "kids",
     "year": "1981",
-    "durationSec": 15.2,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_plastilinovaya_vorona.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_plastilinovaya_vorona.mp4",
     "youtubeVideoId": "kids_plastilinovaya_vorona",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -5647,29 +5647,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 3.35,
         "label": "Часть 1: Одну простую сказку",
         "lyricsSnippet": "Одну простую сказку а может и не сказку..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 3.35,
+        "endSec": 7.85,
         "label": "Часть 2: А может непростую",
         "lyricsSnippet": "А может непростую хотим вам рассказать..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.85,
+        "endSec": 11.0,
         "label": "Часть 3: Ее мы помним с детства",
         "lyricsSnippet": "Ее мы помним с детства а может и не с детства..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.0,
+        "endSec": 14.96,
         "label": "Часть 4: А может и не помним",
         "lyricsSnippet": "Но будем вспоминать!"
       }
@@ -5703,12 +5703,12 @@
     "artist": "м/ф «Летучий корабль»",
     "category": "kids",
     "year": "1979",
-    "durationSec": 14.5,
+    "durationSec": 14.94,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_babki_ezhki.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_babki_ezhki.mp4",
     "youtubeVideoId": "kids_babki_ezhki",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       67,
@@ -5724,29 +5724,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.62,
+        "startSec": 0.09,
+        "endSec": 4.22,
         "label": "Часть 1: Растяни меха гармошка",
         "lyricsSnippet": "Растяни меха гармошка эх играй наяривай..."
       },
       {
         "id": 2,
-        "startSec": 3.62,
-        "endSec": 7.25,
+        "startSec": 4.22,
+        "endSec": 7.47,
         "label": "Часть 2: Пой частушки бабка ежка",
         "lyricsSnippet": "Пой частушки бабка ежка пой не разговаривай..."
       },
       {
         "id": 3,
-        "startSec": 7.25,
-        "endSec": 10.88,
+        "startSec": 7.47,
+        "endSec": 11.27,
         "label": "Часть 3: Я была навеселе",
         "lyricsSnippet": "Я была навеселе и летала на метле..."
       },
       {
         "id": 4,
-        "startSec": 10.88,
-        "endSec": 14.5,
+        "startSec": 11.27,
+        "endSec": 14.94,
         "label": "Часть 4: Сама не верю я в такие суеверия",
         "lyricsSnippet": "Шла лесною стороной увязался черт за мной!"
       }
@@ -5780,12 +5780,12 @@
     "artist": "Анатолий Папанов (м/ф «Летучий корабль»)",
     "category": "kids",
     "year": "1979",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_vodyanoy.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_vodyanoy.mp4",
     "youtubeVideoId": "kids_vodyanoy",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -5801,29 +5801,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.92,
         "label": "Часть 1: Я водяной я водяной",
         "lyricsSnippet": "Я водяной я водяной..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.92,
+        "endSec": 8.2,
         "label": "Часть 2: Никто не водится со мной",
         "lyricsSnippet": "Никто не водится со мной..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 8.2,
+        "endSec": 11.17,
         "label": "Часть 3: Внутри меня водица",
         "lyricsSnippet": "Внутри меня водица ну что со мной водиться..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.17,
+        "endSec": 14.96,
         "label": "Часть 4: Эх жизнь моя жестянка",
         "lyricsSnippet": "А мне летать охота!"
       }
@@ -5857,12 +5857,12 @@
     "artist": "Сергей Васильев & Марина Ланда (м/с «Смешарики»)",
     "category": "kids",
     "year": "2005",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/kids_ot_vinta.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/kids_ot_vinta.mp4",
     "youtubeVideoId": "kids_ot_vinta",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       69,
@@ -5878,29 +5878,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.55,
         "label": "Часть 1: Если в небе самолет",
         "lyricsSnippet": "Если в небе самолет значит кто-то в нем летит..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.55,
+        "endSec": 7.45,
         "label": "Часть 2: Значит кто-то высоко",
         "lyricsSnippet": "Значит кто-то высоко крыльями гудит..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.45,
+        "endSec": 10.85,
         "label": "Часть 3: От винта от винта",
         "lyricsSnippet": "От винта от винта..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 10.85,
+        "endSec": 14.96,
         "label": "Часть 4: Все пилоты на местах",
         "lyricsSnippet": "От винта!"
       }
@@ -5934,12 +5934,12 @@
     "artist": "Queen",
     "category": "world",
     "year": "1975",
-    "durationSec": 16.0,
+    "durationSec": 15.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_queen_bohemian_rhapsody.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_queen_bohemian_rhapsody.mp4",
     "youtubeVideoId": "world_queen_bohemian_rhapsody",
     "difficulty": "MEDIUM",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       64,
@@ -5955,29 +5955,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 4.0,
+        "startSec": 0.09,
+        "endSec": 3.95,
         "label": "Часть 1: Mama just killed a man",
         "lyricsSnippet": "Mama just killed a man..."
       },
       {
         "id": 2,
-        "startSec": 4.0,
-        "endSec": 8.0,
+        "startSec": 3.95,
+        "endSec": 7.32,
         "label": "Часть 2: Put a gun against his head",
         "lyricsSnippet": "Put a gun against his head pulled my trigger now he's dead..."
       },
       {
         "id": 3,
-        "startSec": 8.0,
-        "endSec": 12.0,
+        "startSec": 7.32,
+        "endSec": 12.39,
         "label": "Часть 3: Mama life had just begun",
         "lyricsSnippet": "Mama life had just begun..."
       },
       {
         "id": 4,
-        "startSec": 12.0,
-        "endSec": 16.0,
+        "startSec": 12.39,
+        "endSec": 15.96,
         "label": "Часть 4: And now I've gone and thrown it all away",
         "lyricsSnippet": "Thrown it all away!"
       }
@@ -6011,12 +6011,12 @@
     "artist": "Queen",
     "category": "world",
     "year": "1977",
-    "durationSec": 15.0,
+    "durationSec": 13.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_queen_we_will_rock_you.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_queen_we_will_rock_you.mp4",
     "youtubeVideoId": "world_queen_we_will_rock_you",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       64,
@@ -6032,29 +6032,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.57,
         "label": "Часть 1: Buddy you're a boy make a big noise",
         "lyricsSnippet": "Buddy you're a boy make a big noise..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.57,
+        "endSec": 6.75,
         "label": "Часть 2: Playing in the street gonna be a big man someday",
         "lyricsSnippet": "Playing in the street gonna be a big man someday..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 6.75,
+        "endSec": 9.77,
         "label": "Часть 3: You got mud on your face",
         "lyricsSnippet": "You got mud on your face big disgrace..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 9.77,
+        "endSec": 13.96,
         "label": "Часть 4: We will we will rock you",
         "lyricsSnippet": "We will we will rock you!"
       }
@@ -6088,12 +6088,12 @@
     "artist": "Imagine Dragons",
     "category": "world",
     "year": "2017",
-    "durationSec": 15.5,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_imagine_dragons_believer.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_imagine_dragons_believer.mp4",
     "youtubeVideoId": "world_imagine_dragons_believer",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       63,
@@ -6109,29 +6109,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.88,
+        "startSec": 0.09,
+        "endSec": 3.05,
         "label": "Часть 1: First things first",
         "lyricsSnippet": "First things first I'mma say all the words inside my head..."
       },
       {
         "id": 2,
-        "startSec": 3.88,
-        "endSec": 7.75,
+        "startSec": 3.05,
+        "endSec": 7.87,
         "label": "Часть 2: I'm fired up and tired of the way",
         "lyricsSnippet": "I'm fired up and tired of the way that things have been..."
       },
       {
         "id": 3,
-        "startSec": 7.75,
-        "endSec": 11.62,
+        "startSec": 7.87,
+        "endSec": 10.85,
         "label": "Часть 3: Pain! You made me a you made me a believer",
         "lyricsSnippet": "Pain! You made me a believer believer..."
       },
       {
         "id": 4,
-        "startSec": 11.62,
-        "endSec": 15.5,
+        "startSec": 10.85,
+        "endSec": 14.96,
         "label": "Часть 4: Pain! You break me down",
         "lyricsSnippet": "Pain! You break me down and build me up!"
       }
@@ -6165,12 +6165,12 @@
     "artist": "Michael Jackson",
     "category": "world",
     "year": "1982",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_michael_jackson_billie_jean.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_michael_jackson_billie_jean.mp4",
     "youtubeVideoId": "world_michael_jackson_billie_jean",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       66,
       64,
@@ -6186,14 +6186,14 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 3.7,
         "label": "Часть 1: She was more like a beauty queen",
         "lyricsSnippet": "She was more like a beauty queen from a movie scene..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
+        "startSec": 3.7,
         "endSec": 7.6,
         "label": "Часть 2: I said don't mind but what do you mean",
         "lyricsSnippet": "I said don't mind but what do you mean I am the one..."
@@ -6201,14 +6201,14 @@
       {
         "id": 3,
         "startSec": 7.6,
-        "endSec": 11.4,
+        "endSec": 11.17,
         "label": "Часть 3: Billie Jean is not my lover",
         "lyricsSnippet": "Billie Jean is not my lover..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.17,
+        "endSec": 15.16,
         "label": "Часть 4: She's just a girl who claims that I am the one",
         "lyricsSnippet": "The kid is not my son!"
       }
@@ -6242,12 +6242,12 @@
     "artist": "The Beatles (Paul McCartney)",
     "category": "world",
     "year": "1965",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_beatles_yesterday.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_beatles_yesterday.mp4",
     "youtubeVideoId": "world_beatles_yesterday",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       64,
@@ -6263,29 +6263,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.25,
         "label": "Часть 1: Yesterday",
         "lyricsSnippet": "Yesterday all my troubles seemed so far away..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.25,
+        "endSec": 7.67,
         "label": "Часть 2: Now it looks as though they're here to stay",
         "lyricsSnippet": "Now it looks as though they're here to stay..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.67,
+        "endSec": 10.62,
         "label": "Часть 3: Oh I believe in yesterday",
         "lyricsSnippet": "Oh I believe in yesterday..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 10.62,
+        "endSec": 14.96,
         "label": "Часть 4: Suddenly I'm not half the man I used to be",
         "lyricsSnippet": "I believe in yesterday!"
       }
@@ -6319,12 +6319,12 @@
     "artist": "The Beatles",
     "category": "world",
     "year": "1966",
-    "durationSec": 14.8,
+    "durationSec": 14.76,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_beatles_yellow_submarine.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_beatles_yellow_submarine.mp4",
     "youtubeVideoId": "world_beatles_yellow_submarine",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       67,
@@ -6340,29 +6340,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.7,
+        "startSec": 0.09,
+        "endSec": 3.75,
         "label": "Часть 1: We all live in a yellow submarine",
         "lyricsSnippet": "We all live in a yellow submarine..."
       },
       {
         "id": 2,
-        "startSec": 3.7,
-        "endSec": 7.4,
+        "startSec": 3.75,
+        "endSec": 7.17,
         "label": "Часть 2: Yellow submarine yellow submarine",
         "lyricsSnippet": "Yellow submarine yellow submarine..."
       },
       {
         "id": 3,
-        "startSec": 7.4,
-        "endSec": 11.1,
+        "startSec": 7.17,
+        "endSec": 11.0,
         "label": "Часть 3: We all live in a yellow submarine",
         "lyricsSnippet": "We all live in a yellow submarine..."
       },
       {
         "id": 4,
-        "startSec": 11.1,
-        "endSec": 14.8,
+        "startSec": 11.0,
+        "endSec": 14.76,
         "label": "Часть 4: Yellow submarine",
         "lyricsSnippet": "Yellow submarine!"
       }
@@ -6396,12 +6396,12 @@
     "artist": "ABBA",
     "category": "world",
     "year": "1976",
-    "durationSec": 15.4,
+    "durationSec": 15.36,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_abba_dancing_queen.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_abba_dancing_queen.mp4",
     "youtubeVideoId": "world_abba_dancing_queen",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -6417,29 +6417,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.85,
+        "startSec": 0.09,
+        "endSec": 4.15,
         "label": "Часть 1: You can dance you can jive",
         "lyricsSnippet": "You can dance you can jive..."
       },
       {
         "id": 2,
-        "startSec": 3.85,
-        "endSec": 7.7,
+        "startSec": 4.15,
+        "endSec": 7.55,
         "label": "Часть 2: Having the time of your life",
         "lyricsSnippet": "Having the time of your life..."
       },
       {
         "id": 3,
-        "startSec": 7.7,
-        "endSec": 11.55,
+        "startSec": 7.55,
+        "endSec": 12.32,
         "label": "Часть 3: See that girl watch that scene",
         "lyricsSnippet": "See that girl watch that scene..."
       },
       {
         "id": 4,
-        "startSec": 11.55,
-        "endSec": 15.4,
+        "startSec": 12.32,
+        "endSec": 15.36,
         "label": "Часть 4: Dig in the dancing queen",
         "lyricsSnippet": "Dig in the dancing queen!"
       }
@@ -6473,12 +6473,12 @@
     "artist": "Bon Jovi",
     "category": "world",
     "year": "2000",
-    "durationSec": 15.5,
+    "durationSec": 15.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_bon_jovi_its_my_life.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_bon_jovi_its_my_life.mp4",
     "youtubeVideoId": "world_bon_jovi_its_my_life",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       63,
@@ -6494,29 +6494,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.88,
+        "startSec": 0.09,
+        "endSec": 4.1,
         "label": "Часть 1: It's my life",
         "lyricsSnippet": "It's my life..."
       },
       {
         "id": 2,
-        "startSec": 3.88,
-        "endSec": 7.75,
+        "startSec": 4.1,
+        "endSec": 8.35,
         "label": "Часть 2: It's now or never",
         "lyricsSnippet": "It's now or never..."
       },
       {
         "id": 3,
-        "startSec": 7.75,
-        "endSec": 11.62,
+        "startSec": 8.35,
+        "endSec": 12.09,
         "label": "Часть 3: I ain't gonna live forever",
         "lyricsSnippet": "I ain't gonna live forever..."
       },
       {
         "id": 4,
-        "startSec": 11.62,
-        "endSec": 15.5,
+        "startSec": 12.09,
+        "endSec": 15.46,
         "label": "Часть 4: I just want to live while I'm alive",
         "lyricsSnippet": "It's my life!"
       }
@@ -6550,12 +6550,12 @@
     "artist": "Nirvana (Kurt Cobain)",
     "category": "world",
     "year": "1991",
-    "durationSec": 15.8,
+    "durationSec": 15.76,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_nirvana_smells_like_teen_spirit.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_nirvana_smells_like_teen_spirit.mp4",
     "youtubeVideoId": "world_nirvana_smells_like_teen_spirit",
     "difficulty": "MEDIUM",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       65,
@@ -6571,29 +6571,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.95,
+        "startSec": 0.09,
+        "endSec": 4.02,
         "label": "Часть 1: With the lights out it's less dangerous",
         "lyricsSnippet": "With the lights out it's less dangerous..."
       },
       {
         "id": 2,
-        "startSec": 3.95,
-        "endSec": 7.9,
+        "startSec": 4.02,
+        "endSec": 7.67,
         "label": "Часть 2: Here we are now entertain us",
         "lyricsSnippet": "Here we are now entertain us..."
       },
       {
         "id": 3,
-        "startSec": 7.9,
-        "endSec": 11.85,
+        "startSec": 7.67,
+        "endSec": 11.77,
         "label": "Часть 3: I feel stupid and contagious",
         "lyricsSnippet": "I feel stupid and contagious..."
       },
       {
         "id": 4,
-        "startSec": 11.85,
-        "endSec": 15.8,
+        "startSec": 11.77,
+        "endSec": 15.76,
         "label": "Часть 4: A mulatto an albino a mosquito my libido",
         "lyricsSnippet": "Yeah!"
       }
@@ -6627,12 +6627,12 @@
     "artist": "AC/DC",
     "category": "world",
     "year": "1979",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_acdc_highway_to_hell.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_acdc_highway_to_hell.mp4",
     "youtubeVideoId": "world_acdc_highway_to_hell",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -6648,29 +6648,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.35,
         "label": "Часть 1: Living easy living free",
         "lyricsSnippet": "Living easy living free..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.35,
+        "endSec": 6.95,
         "label": "Часть 2: Season ticket on a one-way ride",
         "lyricsSnippet": "Season ticket on a one-way ride..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 6.95,
+        "endSec": 11.59,
         "label": "Часть 3: I'm on the highway to hell",
         "lyricsSnippet": "I'm on the highway to hell..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.59,
+        "endSec": 14.96,
         "label": "Часть 4: Highway to hell",
         "lyricsSnippet": "Highway to hell!"
       }
@@ -6704,12 +6704,12 @@
     "artist": "Linkin Park (Chester Bennington)",
     "category": "world",
     "year": "2000",
-    "durationSec": 15.5,
+    "durationSec": 15.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_linkin_park_in_the_end.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_linkin_park_in_the_end.mp4",
     "youtubeVideoId": "world_linkin_park_in_the_end",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       63,
       66,
@@ -6725,29 +6725,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.88,
+        "startSec": 0.09,
+        "endSec": 3.8,
         "label": "Часть 1: It starts with one thing I don't know why",
         "lyricsSnippet": "It starts with one thing I don't know why..."
       },
       {
         "id": 2,
-        "startSec": 3.88,
-        "endSec": 7.75,
+        "startSec": 3.8,
+        "endSec": 7.37,
         "label": "Часть 2: It doesn't even matter how hard you try",
         "lyricsSnippet": "It doesn't even matter how hard you try..."
       },
       {
         "id": 3,
-        "startSec": 7.75,
-        "endSec": 11.62,
+        "startSec": 7.37,
+        "endSec": 11.39,
         "label": "Часть 3: I tried so hard and got so far",
         "lyricsSnippet": "I tried so hard and got so far..."
       },
       {
         "id": 4,
-        "startSec": 11.62,
-        "endSec": 15.5,
+        "startSec": 11.39,
+        "endSec": 15.46,
         "label": "Часть 4: But in the end it doesn't even matter",
         "lyricsSnippet": "It doesn't even matter!"
       }
@@ -6781,12 +6781,12 @@
     "artist": "Coldplay",
     "category": "world",
     "year": "2008",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_coldplay_viva_la_vida.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_coldplay_viva_la_vida.mp4",
     "youtubeVideoId": "world_coldplay_viva_la_vida",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       68,
@@ -6802,29 +6802,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.92,
         "label": "Часть 1: I used to rule the world",
         "lyricsSnippet": "I used to rule the world..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.92,
+        "endSec": 7.4,
         "label": "Часть 2: Seas would rise when I gave the word",
         "lyricsSnippet": "Seas would rise when I gave the word..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.4,
+        "endSec": 11.32,
         "label": "Часть 3: Now in the morning I sleep alone",
         "lyricsSnippet": "Now in the morning I sleep alone..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.32,
+        "endSec": 14.96,
         "label": "Часть 4: Sweep the streets I used to own",
         "lyricsSnippet": "Sweep the streets I used to own!"
       }
@@ -6858,12 +6858,12 @@
     "artist": "a-ha",
     "category": "world",
     "year": "1985",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_aha_take_on_me.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_aha_take_on_me.mp4",
     "youtubeVideoId": "world_aha_take_on_me",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       62,
       62,
@@ -6879,29 +6879,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 4.15,
         "label": "Часть 1: Talking away",
         "lyricsSnippet": "Talking away I don't know what I'm to say..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 4.15,
+        "endSec": 7.7,
         "label": "Часть 2: I'll say it anyway",
         "lyricsSnippet": "I'll say it anyway today's another day to find you..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.7,
+        "endSec": 11.29,
         "label": "Часть 3: Take on me",
         "lyricsSnippet": "Take on me take on me..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.29,
+        "endSec": 15.16,
         "label": "Часть 4: Take me on",
         "lyricsSnippet": "I'll be gone in a day or two!"
       }
@@ -6935,12 +6935,12 @@
     "artist": "Adele",
     "category": "world",
     "year": "2010",
-    "durationSec": 15.4,
+    "durationSec": 15.36,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_adele_rolling_in_the_deep.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_adele_rolling_in_the_deep.mp4",
     "youtubeVideoId": "world_adele_rolling_in_the_deep",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       63,
@@ -6956,29 +6956,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.85,
+        "startSec": 0.09,
+        "endSec": 4.0,
         "label": "Часть 1: There's a fire starting in my heart",
         "lyricsSnippet": "There's a fire starting in my heart..."
       },
       {
         "id": 2,
-        "startSec": 3.85,
-        "endSec": 7.7,
+        "startSec": 4.0,
+        "endSec": 7.17,
         "label": "Часть 2: Reaching a fever pitch and it's bringing me out the dark",
         "lyricsSnippet": "Reaching a fever pitch..."
       },
       {
         "id": 3,
-        "startSec": 7.7,
-        "endSec": 11.55,
+        "startSec": 7.17,
+        "endSec": 11.77,
         "label": "Часть 3: We could have had it all",
         "lyricsSnippet": "We could have had it all..."
       },
       {
         "id": 4,
-        "startSec": 11.55,
-        "endSec": 15.4,
+        "startSec": 11.77,
+        "endSec": 15.36,
         "label": "Часть 4: Rolling in the deep",
         "lyricsSnippet": "Rolling in the deep!"
       }
@@ -7012,12 +7012,12 @@
     "artist": "Survivor (к/ф «Рокки 3»)",
     "category": "world",
     "year": "1982",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_survivor_eye_of_the_tiger.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_survivor_eye_of_the_tiger.mp4",
     "youtubeVideoId": "world_survivor_eye_of_the_tiger",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       60,
@@ -7033,29 +7033,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.72,
         "label": "Часть 1: Rising up back on the street",
         "lyricsSnippet": "Rising up back on the street..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.72,
+        "endSec": 7.55,
         "label": "Часть 2: Did my time took my chances",
         "lyricsSnippet": "Did my time took my chances..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.55,
+        "endSec": 11.32,
         "label": "Часть 3: It's the eye of the tiger",
         "lyricsSnippet": "It's the eye of the tiger it's the thrill of the fight..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.32,
+        "endSec": 14.96,
         "label": "Часть 4: Rising up to the challenge of our rival",
         "lyricsSnippet": "And the last known survivor!"
       }
@@ -7089,12 +7089,12 @@
     "artist": "Eagles",
     "category": "world",
     "year": "1976",
-    "durationSec": 16.0,
+    "durationSec": 15.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_eagles_hotel_california.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_eagles_hotel_california.mp4",
     "youtubeVideoId": "world_eagles_hotel_california",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       66,
       64,
@@ -7110,29 +7110,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 4.0,
+        "startSec": 0.09,
+        "endSec": 4.15,
         "label": "Часть 1: On a dark desert highway",
         "lyricsSnippet": "On a dark desert highway cool wind in my hair..."
       },
       {
         "id": 2,
-        "startSec": 4.0,
-        "endSec": 8.0,
+        "startSec": 4.15,
+        "endSec": 7.45,
         "label": "Часть 2: Warm smell of colitas",
         "lyricsSnippet": "Warm smell of colitas rising up through the air..."
       },
       {
         "id": 3,
-        "startSec": 8.0,
-        "endSec": 12.0,
+        "startSec": 7.45,
+        "endSec": 12.17,
         "label": "Часть 3: Welcome to the Hotel California",
         "lyricsSnippet": "Welcome to the Hotel California..."
       },
       {
         "id": 4,
-        "startSec": 12.0,
-        "endSec": 16.0,
+        "startSec": 12.17,
+        "endSec": 15.96,
         "label": "Часть 4: Such a lovely place",
         "lyricsSnippet": "Such a lovely place!"
       }
@@ -7166,12 +7166,12 @@
     "artist": "George Michael (Wham!)",
     "category": "world",
     "year": "1984",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_george_michael_careless_whisper.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_george_michael_careless_whisper.mp4",
     "youtubeVideoId": "world_george_michael_careless_whisper",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       62,
       65,
@@ -7187,29 +7187,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.52,
         "label": "Часть 1: I'm never gonna dance again",
         "lyricsSnippet": "I'm never gonna dance again..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.52,
+        "endSec": 8.15,
         "label": "Часть 2: Guilty feet have got no rhythm",
         "lyricsSnippet": "Guilty feet have got no rhythm..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 8.15,
+        "endSec": 10.92,
         "label": "Часть 3: Though it's easy to pretend",
         "lyricsSnippet": "Though it's easy to pretend..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 10.92,
+        "endSec": 14.96,
         "label": "Часть 4: I know you're not a fool",
         "lyricsSnippet": "Careless whisper!"
       }
@@ -7243,12 +7243,12 @@
     "artist": "Ed Sheeran",
     "category": "world",
     "year": "2017",
-    "durationSec": 15.0,
+    "durationSec": 14.94,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/world_ed_sheeran_shape_of_you.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/world_ed_sheeran_shape_of_you.mp4",
     "youtubeVideoId": "world_ed_sheeran_shape_of_you",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       61,
       64,
@@ -7264,29 +7264,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 4.4,
         "label": "Часть 1: The club isn't the best place to find a lover",
         "lyricsSnippet": "The club isn't the best place to find a lover..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 4.4,
+        "endSec": 7.52,
         "label": "Часть 2: So the bar is where I go",
         "lyricsSnippet": "So the bar is where I go..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.52,
+        "endSec": 11.39,
         "label": "Часть 3: I'm in love with the shape of you",
         "lyricsSnippet": "I'm in love with the shape of you..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.39,
+        "endSec": 14.94,
         "label": "Часть 4: We push and pull like a magnet do",
         "lyricsSnippet": "I'm in love with your body!"
       }
@@ -7320,12 +7320,12 @@
     "artist": "Хабиб",
     "category": "memes",
     "year": "2020",
-    "durationSec": 15.0,
+    "durationSec": 15.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_yagoda_malinka.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_yagoda_malinka.mp4",
     "youtubeVideoId": "memes_yagoda_malinka",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       65,
@@ -7341,29 +7341,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.25,
         "label": "Часть 1: Ягода малинка оп-оп-оп",
         "lyricsSnippet": "Ягода малинка оп-оп-оп..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.25,
+        "endSec": 7.67,
         "label": "Часть 2: Крутит головой залетает в топ",
         "lyricsSnippet": "Крутит головой залетает в топ..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.67,
+        "endSec": 11.27,
         "label": "Часть 3: Такая ты грустинка холоднее льда",
         "lyricsSnippet": "Такая ты грустинка холоднее льда..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.27,
+        "endSec": 15.96,
         "label": "Часть 4: Но улыбка твоя это просто пушка",
         "lyricsSnippet": "Просто пушка!"
       }
@@ -7397,12 +7397,12 @@
     "artist": "Татьяна Куртукова",
     "category": "memes",
     "year": "2024",
-    "durationSec": 15.5,
+    "durationSec": 15.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_matushka_zemlya.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_matushka_zemlya.mp4",
     "youtubeVideoId": "memes_matushka_zemlya",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -7418,29 +7418,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.88,
+        "startSec": 0.09,
+        "endSec": 4.05,
         "label": "Часть 1: Матушка земля белая березонька",
         "lyricsSnippet": "Матушка земля белая березонька..."
       },
       {
         "id": 2,
-        "startSec": 3.88,
-        "endSec": 7.75,
+        "startSec": 4.05,
+        "endSec": 7.9,
         "label": "Часть 2: Для меня святая Русь для других занозонька",
         "lyricsSnippet": "Для меня святая Русь для других занозонька..."
       },
       {
         "id": 3,
-        "startSec": 7.75,
-        "endSec": 11.62,
+        "startSec": 7.9,
+        "endSec": 11.69,
         "label": "Часть 3: Матушка земля белая березонька",
         "lyricsSnippet": "Матушка земля белая березонька..."
       },
       {
         "id": 4,
-        "startSec": 11.62,
-        "endSec": 15.5,
+        "startSec": 11.69,
+        "endSec": 15.96,
         "label": "Часть 4: Для меня святая Русь",
         "lyricsSnippet": "Святая Русь!"
       }
@@ -7474,12 +7474,12 @@
     "artist": "Little Big",
     "category": "memes",
     "year": "2018",
-    "durationSec": 14.8,
+    "durationSec": 14.76,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_skibidi.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_skibidi.mp4",
     "youtubeVideoId": "memes_skibidi",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       60,
@@ -7495,29 +7495,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.7,
+        "startSec": 0.09,
+        "endSec": 3.67,
         "label": "Часть 1: Skibidi wap-pa-pa",
         "lyricsSnippet": "Skibidi wap-pa-pa..."
       },
       {
         "id": 2,
-        "startSec": 3.7,
-        "endSec": 7.4,
+        "startSec": 3.67,
+        "endSec": 7.47,
         "label": "Часть 2: Skibidi wap-pa-pa-pa-pa",
         "lyricsSnippet": "Skibidi wap-pa-pa-pa-pa..."
       },
       {
         "id": 3,
-        "startSec": 7.4,
-        "endSec": 11.1,
+        "startSec": 7.47,
+        "endSec": 10.92,
         "label": "Часть 3: Skibidi wap-pa-pa",
         "lyricsSnippet": "Skibidi wap-pa-pa..."
       },
       {
         "id": 4,
-        "startSec": 11.1,
-        "endSec": 14.8,
+        "startSec": 10.92,
+        "endSec": 14.76,
         "label": "Часть 4: Skibidi boom boom",
         "lyricsSnippet": "Skibidi boom boom!"
       }
@@ -7551,12 +7551,12 @@
     "artist": "Little Big",
     "category": "memes",
     "year": "2020",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_uno.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_uno.mp4",
     "youtubeVideoId": "memes_uno",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       62,
       65,
@@ -7572,14 +7572,14 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.67,
         "label": "Часть 1: Uno uno uno dos cuatro",
         "lyricsSnippet": "Uno uno uno dos cuatro..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
+        "startSec": 3.67,
         "endSec": 7.5,
         "label": "Часть 2: All I have is only one pair of shoes",
         "lyricsSnippet": "All I have is only one pair of shoes..."
@@ -7587,14 +7587,14 @@
       {
         "id": 3,
         "startSec": 7.5,
-        "endSec": 11.25,
+        "endSec": 12.07,
         "label": "Часть 3: It's gonna be a night to remember",
         "lyricsSnippet": "It's gonna be a night to remember..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 12.07,
+        "endSec": 14.96,
         "label": "Часть 4: Are you ready",
         "lyricsSnippet": "Uno dos tres quatro!"
       }
@@ -7628,12 +7628,12 @@
     "artist": "Ваня Дмитриенко",
     "category": "memes",
     "year": "2020",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_venera_yupiter.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_venera_yupiter.mp4",
     "youtubeVideoId": "memes_venera_yupiter",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -7649,29 +7649,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 3.75,
         "label": "Часть 1: Ты Венера я Юпитер",
         "lyricsSnippet": "Ты Венера я Юпитер..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 3.75,
+        "endSec": 8.0,
         "label": "Часть 2: Ты Москва я Питер",
         "lyricsSnippet": "Ты Москва я Питер..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 8.0,
+        "endSec": 11.02,
         "label": "Часть 3: Люди помогите дышать",
         "lyricsSnippet": "Люди помогите дышать..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.02,
+        "endSec": 15.16,
         "label": "Часть 4: Ты Венера я Юпитер",
         "lyricsSnippet": "Ты Венера я Юпитер!"
       }
@@ -7705,12 +7705,12 @@
     "artist": "NILETTO",
     "category": "memes",
     "year": "2019",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_lyubimka.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_lyubimka.mp4",
     "youtubeVideoId": "memes_lyubimka",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -7726,29 +7726,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.67,
         "label": "Часть 1: Время пострелять между нами пальба",
         "lyricsSnippet": "Время пострелять между нами пальба..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.67,
+        "endSec": 7.37,
         "label": "Часть 2: Пау-пау па-па-па",
         "lyricsSnippet": "Пау-пау па-па-па..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.37,
+        "endSec": 11.14,
         "label": "Часть 3: Попадаешь в сердце остаешься там",
         "lyricsSnippet": "Попадаешь в сердце остаешься там..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.14,
+        "endSec": 14.96,
         "label": "Часть 4: Любимка",
         "lyricsSnippet": "Любимка!"
       }
@@ -7782,12 +7782,12 @@
     "artist": "Макс Корж",
     "category": "memes",
     "year": "2017",
-    "durationSec": 15.4,
+    "durationSec": 15.36,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_malinovy_zakat.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_malinovy_zakat.mp4",
     "youtubeVideoId": "memes_malinovy_zakat",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       62,
@@ -7803,29 +7803,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.85,
+        "startSec": 0.09,
+        "endSec": 3.5,
         "label": "Часть 1: Малиновый закат стекает по стене",
         "lyricsSnippet": "Малиновый закат стекает по стене..."
       },
       {
         "id": 2,
-        "startSec": 3.85,
-        "endSec": 7.7,
+        "startSec": 3.5,
+        "endSec": 7.77,
         "label": "Часть 2: И я опять один на этой стороне",
         "lyricsSnippet": "И я опять один на этой стороне..."
       },
       {
         "id": 3,
-        "startSec": 7.7,
-        "endSec": 11.55,
+        "startSec": 7.77,
+        "endSec": 11.77,
         "label": "Часть 3: Малиновый закат",
         "lyricsSnippet": "Малиновый закат..."
       },
       {
         "id": 4,
-        "startSec": 11.55,
-        "endSec": 15.4,
+        "startSec": 11.77,
+        "endSec": 15.36,
         "label": "Часть 4: Стекает по стене",
         "lyricsSnippet": "Стекает по стене!"
       }
@@ -7859,12 +7859,12 @@
     "artist": "ANNA ASTI",
     "category": "memes",
     "year": "2022",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_po_baram.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_po_baram.mp4",
     "youtubeVideoId": "memes_po_baram",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       65,
       69,
@@ -7880,29 +7880,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.47,
         "label": "Часть 1: По барам по барам",
         "lyricsSnippet": "По барам по барам..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.47,
+        "endSec": 7.4,
         "label": "Часть 2: Пьяная в дым угара",
         "lyricsSnippet": "Пьяная в дым угара..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.4,
+        "endSec": 11.59,
         "label": "Часть 3: Я так хотела забыть тебя",
         "lyricsSnippet": "Я так хотела забыть тебя..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.59,
+        "endSec": 14.96,
         "label": "Часть 4: Но не забыла",
         "lyricsSnippet": "По барам!"
       }
@@ -7936,12 +7936,12 @@
     "artist": "DEAD BLONDE",
     "category": "memes",
     "year": "2020",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_malchik_na_devyatke.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_malchik_na_devyatke.mp4",
     "youtubeVideoId": "memes_malchik_na_devyatke",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       65,
@@ -7957,29 +7957,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.7,
         "label": "Часть 1: Мальчик на девятке мчится по проспекту",
         "lyricsSnippet": "Мальчик на девятке мчится по проспекту..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.7,
+        "endSec": 7.2,
         "label": "Часть 2: Музыка в колонках глушит весь район",
         "lyricsSnippet": "Музыка в колонках глушит весь район..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.2,
+        "endSec": 11.14,
         "label": "Часть 3: Он такой крутой и смотрит на меня",
         "lyricsSnippet": "Он такой крутой и смотрит на меня..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.14,
+        "endSec": 14.96,
         "label": "Часть 4: Мальчик на девятке",
         "lyricsSnippet": "Мальчик на девятке!"
       }
@@ -8013,12 +8013,12 @@
     "artist": "PSY",
     "category": "memes",
     "year": "2012",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_gangnam_style.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_gangnam_style.mp4",
     "youtubeVideoId": "memes_gangnam_style",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       60,
@@ -8034,7 +8034,7 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
+        "startSec": 0.09,
         "endSec": 3.8,
         "label": "Часть 1: Oppan Gangnam Style",
         "lyricsSnippet": "Oppan Gangnam Style..."
@@ -8042,21 +8042,21 @@
       {
         "id": 2,
         "startSec": 3.8,
-        "endSec": 7.6,
+        "endSec": 6.8,
         "label": "Часть 2: Gangnam Style",
         "lyricsSnippet": "Gangnam Style..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 6.8,
+        "endSec": 11.19,
         "label": "Часть 3: Eh Sexy Lady",
         "lyricsSnippet": "Eh Sexy Lady..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 11.19,
+        "endSec": 15.16,
         "label": "Часть 4: Oppan Gangnam Style",
         "lyricsSnippet": "Op-op-op-op oppan Gangnam Style!"
       }
@@ -8090,12 +8090,12 @@
     "artist": "Crazy Frog",
     "category": "memes",
     "year": "2005",
-    "durationSec": 14.8,
+    "durationSec": 14.76,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_crazy_frog.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_crazy_frog.mp4",
     "youtubeVideoId": "memes_crazy_frog",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       62,
       65,
@@ -8111,29 +8111,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.7,
+        "startSec": 0.09,
+        "endSec": 3.27,
         "label": "Часть 1: Ring ding ding ding",
         "lyricsSnippet": "Ring ding ding ding baa aramba baa..."
       },
       {
         "id": 2,
-        "startSec": 3.7,
-        "endSec": 7.4,
+        "startSec": 3.27,
+        "endSec": 6.77,
         "label": "Часть 2: Bomba baa barooumba",
         "lyricsSnippet": "Bomba baa barooumba..."
       },
       {
         "id": 3,
-        "startSec": 7.4,
-        "endSec": 11.1,
+        "startSec": 6.77,
+        "endSec": 11.12,
         "label": "Часть 3: Wh-wh-what's going on-on",
         "lyricsSnippet": "Wh-wh-what's going on-on..."
       },
       {
         "id": 4,
-        "startSec": 11.1,
-        "endSec": 14.8,
+        "startSec": 11.12,
+        "endSec": 14.76,
         "label": "Часть 4: Ding ding ding",
         "lyricsSnippet": "Ding ding ding ding ding!"
       }
@@ -8167,12 +8167,12 @@
     "artist": "Cream Soda & ХЛЕБ",
     "category": "memes",
     "year": "2020",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_plachu_na_tehno.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_plachu_na_tehno.mp4",
     "youtubeVideoId": "memes_plachu_na_tehno",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -8188,29 +8188,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 4.02,
         "label": "Часть 1: Я плачу на техно",
         "lyricsSnippet": "Я плачу на техно..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 4.02,
+        "endSec": 7.37,
         "label": "Часть 2: Я плачу на техно",
         "lyricsSnippet": "Я плачу на техно..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.37,
+        "endSec": 11.37,
         "label": "Часть 3: Ты не со мной слезы текут на рейве",
         "lyricsSnippet": "Ты не со мной слезы текут на рейве..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.37,
+        "endSec": 14.96,
         "label": "Часть 4: Плачу на техно",
         "lyricsSnippet": "Плачу на техно!"
       }
@@ -8244,12 +8244,12 @@
     "artist": "Ирина Аллегрова",
     "category": "memes",
     "year": "1994",
-    "durationSec": 15.2,
+    "durationSec": 15.16,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_ugonschitsa.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_ugonschitsa.mp4",
     "youtubeVideoId": "memes_ugonschitsa",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       64,
       67,
@@ -8265,29 +8265,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.8,
+        "startSec": 0.09,
+        "endSec": 3.82,
         "label": "Часть 1: Угнала тебя угнала",
         "lyricsSnippet": "Угнала тебя угнала..."
       },
       {
         "id": 2,
-        "startSec": 3.8,
-        "endSec": 7.6,
+        "startSec": 3.82,
+        "endSec": 7.52,
         "label": "Часть 2: Ну и что же здесь криминального",
         "lyricsSnippet": "Ну и что же здесь криминального..."
       },
       {
         "id": 3,
-        "startSec": 7.6,
-        "endSec": 11.4,
+        "startSec": 7.52,
+        "endSec": 10.75,
         "label": "Часть 3: Я полюбила тебя на глазах у всех",
         "lyricsSnippet": "Я полюбила тебя на глазах у всех..."
       },
       {
         "id": 4,
-        "startSec": 11.4,
-        "endSec": 15.2,
+        "startSec": 10.75,
+        "endSec": 15.16,
         "label": "Часть 4: Угонщица",
         "lyricsSnippet": "Угонщица!"
       }
@@ -8321,12 +8321,12 @@
     "artist": "GAYAZOV$ BROTHER$",
     "category": "memes",
     "year": "2019",
-    "durationSec": 15.0,
+    "durationSec": 14.96,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_dip_haus.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_dip_haus.mp4",
     "youtubeVideoId": "memes_dip_haus",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       60,
       64,
@@ -8342,29 +8342,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 4.45,
         "label": "Часть 1: Увезите меня на Дип-хаус",
         "lyricsSnippet": "Увезите меня на Дип-хаус..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 4.45,
+        "endSec": 7.8,
         "label": "Часть 2: Я надену самый лучший костюм",
         "lyricsSnippet": "Я надену самый лучший костюм..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 7.8,
+        "endSec": 11.67,
         "label": "Часть 3: И пускай весь мир подождет",
         "lyricsSnippet": "И пускай весь мир подождет..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 11.67,
+        "endSec": 14.96,
         "label": "Часть 4: Увезите меня на Дип-хаус",
         "lyricsSnippet": "Увезите меня на Дип-хаус!"
       }
@@ -8398,12 +8398,12 @@
     "artist": "Сектор Газа (Юрий Хой)",
     "category": "memes",
     "year": "1993",
-    "durationSec": 14.5,
+    "durationSec": 14.46,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_chastushki_sektor.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_chastushki_sektor.mp4",
     "youtubeVideoId": "memes_chastushki_sektor",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       67,
       67,
@@ -8419,29 +8419,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.62,
+        "startSec": 0.09,
+        "endSec": 3.95,
         "label": "Часть 1: Эх гармошка заиграла",
         "lyricsSnippet": "Эх гармошка заиграла весело и звонко..."
       },
       {
         "id": 2,
-        "startSec": 3.62,
-        "endSec": 7.25,
+        "startSec": 3.95,
+        "endSec": 6.52,
         "label": "Часть 2: Выходи плясать народ",
         "lyricsSnippet": "Выходи плясать народ собирай девчонок..."
       },
       {
         "id": 3,
-        "startSec": 7.25,
-        "endSec": 10.88,
+        "startSec": 6.52,
+        "endSec": 10.77,
         "label": "Часть 3: Частушки запевай",
         "lyricsSnippet": "Частушки запевай..."
       },
       {
         "id": 4,
-        "startSec": 10.88,
-        "endSec": 14.5,
+        "startSec": 10.77,
+        "endSec": 14.46,
         "label": "Часть 4: Громче подпевай",
         "lyricsSnippet": "Громче подпевай!"
       }
@@ -8475,12 +8475,12 @@
     "artist": "Ицык Цыпер & Игорь Цыба",
     "category": "memes",
     "year": "2023",
-    "durationSec": 15.0,
+    "durationSec": 14.94,
     "audioUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/audio/memes_dymok.mp3",
     "clipUrl": "https://raw.githubusercontent.com/snakelair/SingItBack/main/clips/memes_dymok.mp4",
     "youtubeVideoId": "memes_dymok",
     "difficulty": "EASY",
-    "isApproved": true,
+    "isApproved": false,
     "melodyNotes": [
       57,
       60,
@@ -8496,29 +8496,29 @@
     "segments": [
       {
         "id": 1,
-        "startSec": 0.0,
-        "endSec": 3.75,
+        "startSec": 0.09,
+        "endSec": 3.37,
         "label": "Часть 1: Дымок пошел по комнате",
         "lyricsSnippet": "Дымок пошел по комнате..."
       },
       {
         "id": 2,
-        "startSec": 3.75,
-        "endSec": 7.5,
+        "startSec": 3.37,
+        "endSec": 6.97,
         "label": "Часть 2: Кругом туман и тишина",
         "lyricsSnippet": "Кругом туман и тишина..."
       },
       {
         "id": 3,
-        "startSec": 7.5,
-        "endSec": 11.25,
+        "startSec": 6.97,
+        "endSec": 10.55,
         "label": "Часть 3: А мы сидим вдвоем с тобой",
         "lyricsSnippet": "А мы сидим вдвоем с тобой..."
       },
       {
         "id": 4,
-        "startSec": 11.25,
-        "endSec": 15.0,
+        "startSec": 10.55,
+        "endSec": 14.94,
         "label": "Часть 4: Дымок",
         "lyricsSnippet": "Дымок!"
       }
