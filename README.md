@@ -1,4 +1,4 @@
-﻿# 🤖 Android Projects Hub & Media CDN — SnakeLair
+# 🤖 Android Projects Hub & Media CDN — SnakeLair
 
 Единый репозиторий для релизов, дистрибутивов APK, документации и облачного медиа-хостинга проектов для **Android TV, Google TV и Android Mobile**.
 
@@ -9,6 +9,7 @@
 | Проект | Описание | Версия | Платформа | Релиз (APK) | Медиа / Хостинг |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | [🎬 **Стоп-Кадр (StopFrame)**](./StopFrame) | Кино-викторина на память и внимательность для всей семьи | **v1.0.0** | Android TV / Google TV / Планшеты | [Скачать APK (14 MB)](./StopFrame/releases/StopFrame-v1.0.0-release.apk) | [Видео-хостинг (13 отрывков)](./StopFrame/videos) |
+| [🎵 **Tracker Music PRO**](./TrackerMusic) | Плеер трекерной музыки демосцены и кейгенов (WASM + 3D WebGL) | **v1.0.0** | Android TV / Google TV / Планшеты / Смартфоны | [Скачать APK (2.7 MB)](./TrackerMusic/releases/TrackerMusic-v1.0.0-release.apk) | [Веб-плеер 1,280+ треков](https://tracker.snakelair.ru/) |
 
 ---
 
@@ -17,12 +18,17 @@
 ```text
 Android/
 ├── README.md                      # Главный каталог проектов и руководство
-└── StopFrame/                     # Проект 1: Стоп-Кадр (Android TV)
-    ├── README.md                  # Полная документация, скриншоты, правила
+├── StopFrame/                     # Проект 1: Стоп-Кадр (Android TV)
+│   ├── README.md                  # Полная документация, скриншоты, правила
+│   ├── releases/                  # Подписанные Release APK
+│   │   └── StopFrame-v1.0.0-release.apk
+│   ├── screenshots/               # Скриншоты интерфейса и геймплея
+│   └── videos/                    # 1080p H.264 видеоклипы для прямого стриминга
+└── TrackerMusic/                  # Проект 2: Tracker Music PRO (Android & Android TV)
+    ├── README.md                  # Документация, QR-код, управление пультом TV
     ├── releases/                  # Подписанные Release APK
-    │   └── StopFrame-v1.0.0-release.apk
-    ├── screenshots/               # Скриншоты интерфейса и геймплея
-    └── videos/                    # 1080p H.264 видеоклипы для прямого стриминга
+    │   └── TrackerMusic-v1.0.0-release.apk
+    └── screenshots/               # TV баннер и QR-код для установки
 ```
 
 ---
